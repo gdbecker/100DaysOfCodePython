@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<!--
+	Astral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Astral by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}" />
+		<noscript><link rel="stylesheet" href="{{ url_for('static', filename='css/noscript.css') }}" /></noscript>
+	</head>
+
+	<body class="is-preload">
+
+		<!-- Wrapper-->
+			<div id="wrapper">
+
+				<!-- Nav -->
+					<nav id="nav">
+						{% if not current_user.is_authenticated %}
+						<a href="{{ url_for('home') }}" class="icon solid fa-home"><span>Home</span></a>
+          				<a href="{{ url_for('login') }}" class="icon solid fa-arrow-right"><span>Log In</span></a>
+						<a href="{{ url_for('register') }}" class="icon solid fa-pencil-alt"><span>Register</span></a>
+
+						{% elif current_user.is_authenticated and current_user.id == 1 %}
+						<a href="{{ url_for('items') }}" class="icon solid fa-home"><span>All Tasks</span></a>
+						<a href="{{ url_for('add_item') }}" class="icon solid fa-folder"><span>New Task</span></a>
+						<a href="{{ url_for('add_category') }}" class="icon solid fa-pen-alt"><span>New Group</span></a>
+						<a href="{{ url_for('logout') }}" class="icon solid fa-backward"><span>Log Out</span></a>
+
+						{% elif current_user.is_authenticated %}
+						<a href="{{ url_for('items') }}" class="icon solid fa-home"><span>All Tasks</span></a>
+						<a href="{{ url_for('add_item') }}" class="icon solid fa-folder"><span>New Task</span></a>
+						<a href="{{ url_for('logout') }}" class="icon solid fa-backward"><span>Log Out</span></a>
+
+          				{% endif %}
+					</nav>

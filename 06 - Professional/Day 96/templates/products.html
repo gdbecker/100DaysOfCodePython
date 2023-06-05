@@ -1,0 +1,43 @@
+{% extends "bootstrap/base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}Products{% endblock %}
+
+{% block content %}
+{% include "header.html" %}
+			<!-- Main -->
+				<article id="products">
+
+					<header class="special container">
+						<span class="icon solid fa-box-open"></span>
+						<h2>Products</h2>
+					</header>
+
+					<!-- Products -->
+						<section class="wrapper style4 special container medium">
+
+							<!-- area -->
+								<div class="content">
+									{% for c in categories %}
+									<h3>---------- {{ c.name }} ----------</h3>
+
+									<div class="row">
+									{% for i in items %}
+									{% if i.category_id == c.id %}
+										<div class="col-lg-3 product-details">
+											<a href="{{ url_for('view_item', item_id=i.id) }}">
+											<img class="product-image" src="/static/img/{{ i.img_url }}">
+											<h4>{{ i.name }}</h4>
+											<p>${{ i.price }}</p>
+											</a>
+										</div>
+									{% endif %}
+									{% endfor %}
+									</div>
+
+									{% endfor %}
+								</div>
+						</section>
+				</article>
+{% include "footer.html" %}
+{% endblock %}

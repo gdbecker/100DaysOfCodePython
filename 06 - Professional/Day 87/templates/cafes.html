@@ -1,0 +1,54 @@
+{% extends 'bootstrap/base.html' %}
+
+{% block styles %}
+{{super()}}
+<link rel="stylesheet"
+      href="{{ url_for('static', filename='css/styles.css') }}">
+{% endblock %}
+
+{% block title %}Restaurants{% endblock %}
+
+{% block content %}
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+
+      <h1>All Cafes</h1>
+
+	  <table class="table">
+          <thead>
+            {% for item in cafes[0] %}
+                <th>{{ item }}</th>
+            {% endfor %}
+          </thead>
+          <tbody>
+            {% for row in cafes[1:] %}
+                <tr>
+                    <td>{{ row[0] }}</td>
+                    <td><a href="{{ row[1] }}">Maps Link</a></td>
+                    <td><a href="{{ row[2] }}">Image Link</a></td>
+                    <td>{{ row[3] }}</td>
+                    <td>{{ row[4] }}</td>
+                    <td>{{ row[5] }}</td>
+                    <td>{{ row[6] }}</td>
+                    <td>{{ row[7] }}</td>
+                    <td>{{ row[8] }}</td>
+                    <td>{{ row[9] }}</td>
+                    <td>{{ row[10] }}</td>
+                    <td>{{ row[11] }}</td>
+                    <td>{{ row[12] }}</td>
+                    <td><a href="{{ url_for('delete_cafe', cafe_id=row[13]) }}">✘</a></td>
+                </tr>
+            {% endfor %}
+          </tbody>
+  	  </table>
+
+        <p><a href="{{ url_for('add_cafe') }}">Add a cafe</a></p>
+        <p><a href="{{ url_for('home') }}">Return to Home</a></p>
+
+    </div>
+  </div>
+</div>
+
+{% endblock %}

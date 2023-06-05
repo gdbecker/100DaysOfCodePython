@@ -1,0 +1,26 @@
+{% extends "bootstrap/base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}Log In{% endblock %}
+
+{% block content %}
+{% include "header.html" %}
+				<!-- Main -->
+				<article id="login">
+
+					<header class="special container">
+						<span class="icon solid fa-arrow-alt-circle-right"></span>
+						<h2>Log In</h2>
+					</header>
+
+					<!-- Login -->
+						<section class="wrapper style4 special container medium">
+
+							<!-- Form area -->
+								<div class="content">
+									{{ wtf.quick_form(form, novalidate=True, button_map={"submit": "primary"}) }}
+								</div>
+						</section>
+				</article>
+{% include "footer.html" %}
+{% endblock %}

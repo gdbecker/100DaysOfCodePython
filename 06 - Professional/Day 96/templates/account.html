@@ -1,0 +1,26 @@
+{% extends "bootstrap/base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}Account{% endblock %}
+
+{% block content %}
+{% include "header.html" %}
+			<!-- Main -->
+				<article id="account">
+
+					<header class="special container">
+						<span class="icon solid fa-id-card-alt"></span>
+						<h2>Account Details</h2>
+					</header>
+
+					<!-- Account -->
+						<section class="wrapper style4 special container medium">
+
+							<!-- Form area -->
+								<div class="content">
+									{{ wtf.quick_form(form, novalidate=True, button_map={"submit": "primary"}) }}
+								</div>
+						</section>
+				</article>
+{% include "footer.html" %}
+{% endblock %}

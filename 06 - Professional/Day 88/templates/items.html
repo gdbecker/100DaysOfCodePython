@@ -1,0 +1,53 @@
+{% extends 'bootstrap/base.html' %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}All Tasks{% endblock %}
+
+{% block content %}
+{% include "header.html" %}
+				<!-- Main -->
+					<div id="main">
+						<!-- Show all tasks -->
+						<article id="tasks" class="panel">
+							<header>
+								<h2>hello {{ current_user.name }}!</h2>
+								<p>here is your to-do list</p>
+							</header>
+
+							<table class="table">
+								<thead>
+									<th>Task</th>
+									<th>Category</th>
+									<th>Due Date</th>
+									<th>Completion Status</th>
+									<th>Complete?</th>
+									<th>Delete</th>
+								</thead>
+								<tbody>
+								{% for item in items %}
+								<tr>
+									<td>{{ item.text }}</td>
+									<td>{{ item.parent_category.name }}</td>
+									<td>{{ item.due_date }}</td>
+									<td>{{ item.status }}</td>
+
+									{% if item.status == False %}
+									<td><p><a href="{{ url_for('edit_item', item_id=item.id) }}">✔</a></p></td>
+									{% else %}
+									<td></td>
+									{% endif %}
+
+									<td><p><a href="{{ url_for('delete_item', item_id=item.id) }}">✘</a></p></td>
+								</tr>
+								{% endfor %}
+								</tbody>
+							</table>
+
+							<hr>
+							{{ wtf.quick_form(form, novalidate=True, button_map={"submit": "primary"}) }}
+							<hr>
+
+						</article>
+					</div>
+{% include "footer.html" %}
+{% endblock %}

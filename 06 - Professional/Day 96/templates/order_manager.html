@@ -1,0 +1,55 @@
+{% extends "bootstrap/base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}Order Manager{% endblock %}
+
+{% block content %}
+{% include "header.html" %}
+			<!-- Main -->
+				<article id="main">
+
+					<header class="special container">
+						<span class="icon solid fa-parachute-box"></span>
+						<h2>Order Manager</h2>
+					</header>
+
+					<!-- Order History -->
+						<section class="wrapper style4 special container medium">
+
+							<!-- Form area -->
+								<div class="content">
+									{% for i in ids %}
+									<h3>Order #{{ i }}</h3>
+									<table class="table">
+										<thead>
+											<th>Date</th>
+											<th>Product</th>
+											<th>Quantity</th>
+											<th>Price</th>
+											<th>Status</th>
+											<th></th>
+											<th></th>
+										</thead>
+										<tbody>
+										{% for o in order %}
+										{% if i == o.order_id %}
+										<tr>
+											<td>{{ o.date }}</td>
+											<td>{{ o.parent_item.name }}</td>
+											<td>{{ o.quantity }}</td>
+											<td>${{ o.parent_item.price }}</td>
+											<td>{{ o.status }}</td>
+											<td><p><a href="{{ url_for('update_order', row_id=o.id, option='✔') }}">✔</a></p></td>
+											<td><p><a href="{{ url_for('update_order', row_id=o.id, option='✘') }}">✘</a></p></td>
+										</tr>
+										{% endif %}
+										{% endfor %}
+										</tbody>
+									</table>
+									<hr>
+									{% endfor %}
+								</div>
+						</section>
+				</article>
+{% include "footer.html" %}
+{% endblock %}

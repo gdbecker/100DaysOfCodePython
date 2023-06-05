@@ -1,0 +1,45 @@
+{% extends "bootstrap/base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}Your Reviews{% endblock %}
+
+{% block content %}
+{% include "header.html" %}
+			<!-- Main -->
+				<article id="reviews">
+
+					<header class="special container">
+						<span class="icon solid fa-pencil-ruler"></span>
+						<h2>Your Reviews</h2>
+					</header>
+
+					<!-- Order History -->
+						<section class="wrapper style4 special container medium">
+
+							<!-- Form area -->
+								<div class="content">
+									<table class="table">
+										<thead>
+											<th>Date</th>
+											<th>Product</th>
+											<th></th>
+											<th>Rating</th>
+											<th>Review</th>
+										</thead>
+										<tbody>
+										{% for r in reviews %}
+										<tr>
+											<td>{{ r.date }}</td>
+											<td>{{ r.parent_item.name }}</td>
+											<td><img class="review-image" src="/static/img/{{ r.parent_item.img_url }}"></td>
+											<td>{{ r.rating }}</td>
+											<td>{{ r.text|safe() }}</td>
+										</tr>
+										{% endfor %}
+										</tbody>
+									</table>
+								</div>
+						</section>
+				</article>
+{% include "footer.html" %}
+{% endblock %}

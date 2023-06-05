@@ -1,0 +1,44 @@
+{% extends 'bootstrap/base.html' %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block content %}
+{% include "header.html" %}
+
+  <!-- Page Header -->
+  {% if is_new_post %}
+  <header class="masthead" style="background-image: url('static/img/home-bg.jpg')">
+  {% else %}
+  <header class="masthead" style="background-image: url('{{ post.img_url }}')">
+  {% endif %}
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+            {% if is_new_post %}
+              <h1>New Post</h1>
+              <span class="subheading">You're going to make a great blog post!</span>
+            {% else %}
+              <h1>Edit Post</h1>
+              <span class="subheading">Make some great changes!</span>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        
+          {{ wtf.quick_form(form, novalidate=True, button_map={"submit":"btn btn-primary text-uppercase"}) }}
+          {{ ckeditor.load() }}
+          {{ ckeditor.config(name='body') }}
+
+      </div>
+    </div>
+  </div>
+
+{% include "footer.html" %}
+{% endblock %}

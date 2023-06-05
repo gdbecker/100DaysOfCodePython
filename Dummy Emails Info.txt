@@ -1,0 +1,14 @@
+Dummy email accounts info:
+Gmail --
+garrettbeckerpython1@gmail.com
+Pats1982!!
+
+Yahoo --
+garrettbeckerpython1@yahoo.com
+Pats1982!!
+
+Site to get HTTP header info for request
+http://myhttpheader.com/
+
+Gmail: setting up new app passwords (new security rules for gmail accounts)
+https://myaccount.google.com/u/2/apppasswords?rapt=AEjHL4OFFZf-WvRC441dDBhBE8Blg2ue7Q9dVcWdZhj3GdS-5uMbmykjvBIS7p6dRzPkt8wkQFdCcjmcGskgmnoyYzIFTE-bQg

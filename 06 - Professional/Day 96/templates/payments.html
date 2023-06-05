@@ -1,0 +1,47 @@
+{% extends "bootstrap/base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}Payment Options{% endblock %}
+
+{% block content %}
+{% include "header.html" %}
+			<!-- Main -->
+				<article id="account">
+
+					<header class="special container">
+						<span class="icon solid fa-credit-card"></span>
+						<h2>Your Payment Methods</h2>
+					</header>
+
+					<!-- Payment Methods -->
+						<section class="wrapper style4 special container medium">
+							<!-- Form area -->
+								<div class="content">
+									<!-- Show current cards in user account -->
+									<div class="row card-section">
+										{% for c in cards %}
+										<div class="col-lg-4 card-overview">
+											<div class="row">
+												<div class="col-sm-2">
+													<p><a href="{{ url_for('delete_payment', card_id=c.id) }}">✘</a></p>
+												</div>
+												<div class="col-sm-10 card-details">
+													<p>{{ c.cardholder_name }}</p>
+													<p>{{ c.type }}</p>
+													<p>{{ c.card_number }}</p>
+													<p>Exp: {{ c.expiration_date }}</p>
+												</div>
+											</div>
+										</div>
+										{% endfor %}
+									</div>
+
+									<hr>
+
+									<h3>Add a New Card</h3>
+									{{ wtf.quick_form(form, novalidate=True, button_map={"submit": "primary"}) }}
+								</div>
+						</section>
+				</article>
+{% include "footer.html" %}
+{% endblock %}

@@ -1,0 +1,22 @@
+/*
+Color Palette:
+https://colorhunt.co/palette/5f71616d8b74efead8d0c9c0
+*/
+
+body {
+    background-color: #D0C9C0;
+}
+
+hr {
+    background-color: #D0C9C0;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #5F7161;
+    border-width: 5px;
+    width: 10%;
+}
+
+img {
+    border-radius: 100px;
+    width: 70%;
+}

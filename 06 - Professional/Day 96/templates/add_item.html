@@ -1,0 +1,29 @@
+{% extends "bootstrap/base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}Add Item{% endblock %}
+
+{% block content %}
+{% include "header.html" %}
+			<!-- Main -->
+				<article id="main">
+
+					<header class="special container">
+						<span class="icon solid fa-clipboard-list"></span>
+						<h2>Add New Item</h2>
+					</header>
+
+					<!-- Add Item -->
+						<section class="wrapper style4 special container medium">
+
+							<!-- Form area -->
+								<div class="content">
+									{{ wtf.quick_form(form, novalidate=True, button_map={"submit": "primary"}) }}
+									{{ ckeditor.load() }}
+                        			{{ ckeditor.config(name='description') }}
+									{{ text|safe() }}
+								</div>
+						</section>
+				</article>
+{% include "footer.html" %}
+{% endblock %}

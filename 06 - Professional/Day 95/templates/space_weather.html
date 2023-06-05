@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NASA API Service</title>
+</head>
+<body>
+    <h1>Space Weather Notifications</h1>
+
+    {% for entry in data %}
+
+    <h2>{{ entry['messageID'] }}</h2>
+    <h3>{{ entry['messageType'] }}</h3>
+    <h4>{{ entry['messageIssueTime'] }}</h4>
+    <p>{{ entry['messageBody'] }}</p>
+    <p>Message URL: {{ entry['messageURL'] }}</p>
+    <hr>
+
+    {% endfor %}
+</body>
+</html>

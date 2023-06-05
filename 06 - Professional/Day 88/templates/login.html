@@ -1,0 +1,19 @@
+{% extends 'bootstrap/base.html' %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}Log In{% endblock %}
+
+{% block content %}
+{% include "header.html" %}
+				<!-- Main -->
+					<div id="main">
+						<!-- Login -->
+						<article id="login" class="panel">
+							<header>
+								<h2>Log In</h2>
+							</header>
+							{{ wtf.quick_form(form, novalidate=True, button_map={"submit": "primary"}) }}
+						</article>
+					</div>
+{% include "footer.html" %}
+{% endblock %}

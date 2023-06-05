@@ -1,0 +1,4 @@
+# anything virtual environment
+.env*.local
+/env/
+/venv/

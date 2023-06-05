@@ -1,0 +1,91 @@
+{% extends "bootstrap/base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}Product Details{% endblock %}
+
+{% block content %}
+{% include "header.html" %}
+			<!-- Main -->
+				<article id="view-item">
+
+					<header class="special container">
+						<h2><strong>{{ item.name }}</strong></h2>
+					</header>
+
+					<!-- One -->
+						<section class="wrapper style4 container">
+
+							<div class="row gtr-150">
+								<div class="col-4 col-12-narrower">
+
+									<!-- Sidebar -->
+										<div class="sidebar">
+											<section>
+												<img class="product-image" src="/static/img/{{ item.img_url }}">
+												<p><strong>${{ item.price }}</strong></p>
+
+												<!-- ordering form -->
+												{% if item.status == "On Order" or item.status == "Restocking" %}
+												<p>There's most likely a shipping delay for this item.</p>
+												{% endif %}
+
+												{% if current_user.is_authenticated and item.status != "Sold Out" %}
+												{{ wtf.quick_form(add_item_form, novalidate=True, button_map={"submit": "primary"}) }}
+												{% elif item.status == "Sold Out" %}
+												<p>Item out of stock! <br>Please check back later.</p>
+												{% endif %}
+											</section>
+										</div>
+
+								</div>
+								<div class="col-8 col-12-narrower imp-narrower">
+
+									<!-- Content -->
+										<div class="content">
+											<section>
+												<header>
+													<h3>Description</h3>
+												</header>
+												{{ item.description|safe() }}
+											</section>
+										</div>
+
+								</div>
+							</div>
+						</section>
+
+					<!-- Two -->
+						<section class="wrapper style4 container">
+
+
+							{% if current_user.is_authenticated %}
+							{{ wtf.quick_form(add_review_form, novalidate=True, button_map={"submit": "primary"}) }}
+							{{ ckeditor.load() }}
+							{{ ckeditor.config(name='text') }}
+							{% endif %}
+							<hr>
+						</section>
+
+						<section class="wrapper style1 container special">
+							<div class="review-section">
+								<h2>Product Reviews</h2>
+								<div class="row">
+									{% for r in reviews %}
+									<div class="col-lg-3 product-details">
+										<div>
+											<img class="review-image" src="{{ r.shopper.email | gravatar }}"/>
+											<p>{{ r.shopper.first_name }} says:</p>
+										</div>
+										<p>{{ r.rating }}</p>
+										{{ r.text|safe() }}
+									</div>
+									{% endfor %}
+								</div>
+							</div>
+
+						</section>
+
+
+				</article>
+{% include "footer.html" %}
+{% endblock %}

@@ -1,0 +1,27 @@
+{% extends 'bootstrap/base.html' %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}Task Manager{% endblock %}
+
+{% block content %}
+{% include "header.html" %}
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Home Page General -->
+						<article id="home" class="panel intro">
+							<header>
+								<hr>
+								<h1>Task Manager</h1>
+								<h4>Your go-to place to manage all of your needs!</h4>
+								<p>Log in or register to get started.</p>
+								<hr>
+							</header>
+							<a href="{{ url_for('login') }}" class="jumplink pic">
+								<span class="arrow icon solid fa-chevron-right"><span>Log In</span></span>
+								<img src="{{ url_for('static', filename='img/home_2.jpg') }}" alt="" />
+							</a>
+						</article>
+					</div>
+{% include "footer.html" %}
+{% endblock %}

@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<!--
+	Twenty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Twenty by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}" />
+		<noscript><link rel="stylesheet" href="{{ url_for('static', filename='css/noscript.css') }}" /></noscript>
+	</head>
+
+	<body class="index is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<h1 id="logo"><a href="{{ url_for('home') }}">Build'N'Tech</a></h1>
+					<nav id="nav">
+						<ul>
+							<li><a href="{{ url_for('products') }}">Products</a></li>
+
+							{% if not current_user.is_authenticated %}
+							<li><a href="{{ url_for('login') }}" class="button primary">Log In</a></li>
+							<li><a href="{{ url_for('register') }}" class="button">Register</a></li>
+							{% endif %}
+
+							{% if current_user.is_authenticated and current_user.id == 1 %}
+							<li class="dropdown submenu">
+								<a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Admin
+								</a>
+
+								<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+									<a href="{{ url_for('add_category') }}" class="">Add Category</a>
+									<a href="{{ url_for('add_item') }}" class="">Add Item</a>
+									<a href="{{ url_for('catalog_manager') }}" class="">Catalog Manager</a>
+									<a href="{{ url_for('order_manager') }}" class="">Order Manager</a>
+							  	</div>
+							</li>
+							{% endif %}
+
+							{% if current_user.is_authenticated %}
+							<li class="dropdown submenu">
+								<a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Menu
+								</a>
+
+								<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+									<a href="{{ url_for('account') }}" class="">Account</a>
+									<a href="{{ url_for('payments') }}" class="">Payment Methods</a>
+									<a href="{{ url_for('order_history') }}" class="">Orders</a>
+									<a href="{{ url_for('review_history') }}" class="">Reviews</a>
+								  	<a href="{{ url_for('logout') }}" class="">Log Out</a>
+							  	</div>
+							</li>
+							<li><a href="{{ url_for('shopping_cart') }}" class="button primary"><span class="icon solid fa-shopping-cart"></span></a></li>
+							{% endif %}
+
+						</ul>
+					</nav>
+				</header>

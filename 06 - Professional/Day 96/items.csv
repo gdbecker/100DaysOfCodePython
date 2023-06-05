@@ -1,0 +1,16 @@
+id,name,price,img_url,status,category_id
+1,21325 Medieval Blacksmith,149.99,21325 Medieval Blacksmith.jpg,Available,2
+2,10297 Boutique Hotel,169.99,10297 Boutique Hotel.jpg,Available,2
+3,10305 Lion Knights' Castle,399.99,10305 Lion Knights' Castle.jpg,Available,2
+4,21336 The Office,119.99,21336 The Office.jpg,Available,2
+5,21035 Solomon R. Guggenheim Museum,89.99,21035 Solomon R. Guggenheim Museum.jpg,Available,2
+6,Floppy Disk,9.99,Floppy Disk.jpg,Sold Out,1
+7,iMac,999.99,iMac.jpg,Available,1
+8,iPod Classic,299.99,iPod Classic.jpg,Restocking,1
+9,Typewriter,199.99,Typewriter.jpg,On Order,1
+10,Motorola razr,149.99,Motorola razr.jpg,Available,1
+11,Power Drill,299.99,Power Drill.jpg,Available,3
+12,Hammer,59.99,Hammer.jpg,On Order,3
+13,Wrench,29.99,Wrench.jpg,Sold Out,3
+14,Washers,19.99,Washers.jpg,Available,3
+15,Screwdriver,14.99,Screwdriver.jpg,Available,3

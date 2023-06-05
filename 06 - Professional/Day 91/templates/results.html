@@ -1,0 +1,76 @@
+<!--
+	Eventually by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+
+{% extends 'bootstrap/base.html' %}
+
+{% block styles %}
+{{super()}}
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<link rel="stylesheet"
+      href="{{ url_for('.static', filename='css/styles.css') }}">
+{% endblock %}
+
+{% block scripts %}
+{{super()}}
+<script src="{{ url_for('.static', filename='js/main.js') }}"></script>
+{% endblock %}
+
+{% block title %}Palette Generator{% endblock %}
+
+{% block content %}
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<h1>Your Image Results!</h1>
+			</header>
+
+		<!-- Showing image and colors list here after upload -->
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5">
+					<img id="image_result" src="{{ url_for('static', filename='/uploads/' + filename) }}">
+				</div>
+				<div class="col-md-4">
+					<table class="table">
+					  <thead>
+					  	<th>Top 10 Colors</th>
+					  </thead>
+					  <tbody>
+						{% for c in colors %}
+							<tr>
+								<td>{{ c }}</td>
+							</tr>
+						{% endfor %}
+					  </tbody>
+				  </table>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-9"></div>
+				<div class="col-sm-3">
+					<form method="POST">
+						<input type="submit" value="New Upload" />
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<ul class="icons">
+					<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+					<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; Garrett Becker</li><li>Credits: <a href="http://html5up.net">HTML5 UP</a></li>
+				</ul>
+			</footer>
+	</body>
+{% endblock %}

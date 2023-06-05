@@ -1,0 +1,55 @@
+{% extends "bootstrap/base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}Catalog Manager{% endblock %}
+
+{% block content %}
+{% include "header.html" %}
+			<!-- Main -->
+				<article id="main">
+
+					<header class="special container">
+						<span class="icon solid fa-clipboard"></span>
+						<h2>Catalog Manager</h2>
+					</header>
+
+					<!-- Catalog Manager -->
+						<section class="wrapper style4 special container medium">
+
+							<!-- Form area -->
+								<div class="content">
+									{% for c in categories %}
+									<h3>{{ c.name }}</h3>
+									<table class="table">
+										<thead>
+											<th>Item Name</th>
+											<th>Price</th>
+											<th>Status</th>
+											<th>Edit</th>
+											<th>Delete</th>
+										</thead>
+										<tbody>
+										{% for i in items %}
+										{% if i.category_id == c.id %}
+										<tr>
+											<td>{{ i.name }}</td>
+											<td>{{ i.price }}</td>
+											<td>{{ i.status }}</td>
+
+											<td><p><a href="{{ url_for('edit_item', item_id=i.id) }}">Edit</a></p></td>
+											<td></td>
+
+											<td><p><a href="{{ url_for('delete_item', item_id=i.id) }}">Delete</a></p></td>
+										</tr>
+										{% endif %}
+										{% endfor %}
+										</tbody>
+									</table>
+
+									<hr>
+									{% endfor %}
+								</div>
+						</section>
+				</article>
+{% include "footer.html" %}
+{% endblock %}

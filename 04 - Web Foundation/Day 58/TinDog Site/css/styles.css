@@ -1,0 +1,172 @@
+/* TinDog Site */
+/*
+Used for:
+index.html
+*/
+
+/* Specific Elements */
+body {
+    font-family: "Montserrat";
+}
+
+p {
+    color: #8F8F8F;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat";
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+h3 {
+    font-weight: 700;
+}
+
+.big-heading {
+    font-family: "Montserrat";
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+/* Images */
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+}
+
+.title-image-container {
+    position: relative;
+}
+
+.testimonial-image {
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.press-image {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Title section */
+#title {
+    background-color: #FF4C68;
+    color: white;
+}
+
+.container-fluid {
+    padding: 3% 15% 8%;
+}
+
+/* Navigation Bar */
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 10px;
+}
+
+.nav-link {
+    font-family: "Montserrat";
+    font-size: 1.2rem;
+}
+
+/* Features section */
+#features {
+    background-color: white;
+    padding: 7% 15%;
+    position: relative;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.feature-icon {
+    color: #FF4C68;
+}
+
+.feature-icon:hover {
+    color: #8F8F8F;
+}
+
+/* Testimonials section */
+#testimonials {
+    background-color: #FF4C68;
+    color: white;
+    text-align: center;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* Testimonials section */
+#press {
+    background-color: #FF4C68;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+/* Pricing section */
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* Call to Action section */
+#cta {
+    background-color: #FF4C68;
+    color: white;
+    text-align:center;
+    padding: 6% 15%;
+}
+
+/* Footer section */
+#footer {
+    background-color: white;
+    text-align: center;
+    padding: 7% 10%;
+}
+
+.footer-icons {
+    padding: 3% 0.5%;
+}
+
+/* Download buttons */
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Media Queries for viewport size changes */
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0deg);
+    }
+}

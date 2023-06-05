@@ -1,0 +1,224 @@
+{
+	"info": {
+		"_postman_id": "fdcf06ed-8110-4cb2-9611-79e2a4663423",
+		"name": "100 Days of Code Python: Day 66",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21592178"
+	},
+	"item": [
+		{
+			"name": "Get all Cafes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/all",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"all"
+					]
+				},
+				"description": "Retrieve all cafes from the database."
+			},
+			"response": []
+		},
+		{
+			"name": "Get a Random Cafe",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/random",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"random"
+					]
+				},
+				"description": "Retrieve a random cafe from the database."
+			},
+			"response": []
+		},
+		{
+			"name": "Search Cafes by Location",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/search?loc=Whitechapel",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"search"
+					],
+					"query": [
+						{
+							"key": "loc",
+							"value": "Whitechapel"
+						}
+					]
+				},
+				"description": "Retrieve all cafes for a desired location."
+			},
+			"response": []
+		},
+		{
+			"name": "Post New Cafe",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Testing",
+							"type": "text"
+						},
+						{
+							"key": "map_url",
+							"value": "https://www.amazon.com/gp/product/B08CV3824Y/ref=ox_sc_act_image_1?smid=AWC1AT70P9ZLF&th=1&psc=1",
+							"type": "text"
+						},
+						{
+							"key": "img_url",
+							"value": "https://charlotterescuemission.org/wp-content/uploads/2019/05/Screen-Shot-2019-05-23-at-11.43.41-AM.png",
+							"type": "text"
+						},
+						{
+							"key": "location",
+							"value": "London",
+							"type": "text"
+						},
+						{
+							"key": "seats",
+							"value": "25",
+							"type": "text"
+						},
+						{
+							"key": "has_toilet",
+							"value": "0",
+							"type": "text"
+						},
+						{
+							"key": "has_wifi",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "has_sockets",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "can_take_calls",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "coffee_price",
+							"value": "$4.00",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/add",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"add"
+					]
+				},
+				"description": "Add a new cafe to the database. Include all cafe parameter values except for the unique id."
+			},
+			"response": []
+		},
+		{
+			"name": "Updated Coffee Price for a Cafe",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/update-price/22?new_price=$3.00",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"update-price",
+						"22"
+					],
+					"query": [
+						{
+							"key": "new_price",
+							"value": "$3.00"
+						}
+					]
+				},
+				"description": "Pass in a cafe id and new price to update the price of a black coffee at the desired cafe."
+			},
+			"response": []
+		},
+		{
+			"name": "Delete a Cafe by ID",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/report-closed/22?api-key=TopSecretAPIKey",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"",
+						"report-closed",
+						"22"
+					],
+					"query": [
+						{
+							"key": "api-key",
+							"value": "TopSecretAPIKey"
+						}
+					]
+				},
+				"description": "Pass in a cafe id and the correct api-key to delete a closed cafe from the database."
+			},
+			"response": []
+		}
+	]
+}

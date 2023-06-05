@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NASA API Service</title>
+</head>
+<body>
+    <h1>Asteroids Nearest to Earth</h1>
+    <h2>Date: {{ date }}</h2>
+
+    {% for entry in data %}
+
+    <h2>Name: {{ entry['name'] }}</h2>
+    <p>Estimated Diameter: Between {{ entry['estimated_diameter']['feet']['estimated_diameter_min'] }} & {{ entry['estimated_diameter']['feet']['estimated_diameter_max'] }} ft</p>
+    <p>Potentially Hazardous? {{ entry['is_potentially_hazardous_asteroid'] }}</p>
+    <p>Speed: {{ entry['close_approach_data'][0]['relative_velocity']['miles_per_hour'] }} mph</p>
+    <hr>
+
+    {% endfor %}
+</body>
+</html>
