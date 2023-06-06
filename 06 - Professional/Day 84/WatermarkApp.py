@@ -44,7 +44,7 @@ def save():
     file_basename = os.path.basename(filename)
     new_filename = "watermarked-" + file_basename
 
-    img_raw.save(f"img/{new_filename}")
+    img_raw.save(f"images/{new_filename}")
     status_label.config(text="Image saved!")
 
 # Function to reset the app
