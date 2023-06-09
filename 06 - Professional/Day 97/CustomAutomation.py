@@ -20,12 +20,13 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 import time
 import pandas
+import os
 
 # Constants
 SERV_WINDOWS = Service(r"/chromedriver_windows.exe")
 SERV_MAC = Service(r"/Volumes/GoogleDrive/My Drive/Jobs and Career/Udemy Courses/100 Days of Code Python Bootcamp/chromedriver_mac.exe")
-GOODREADS_EMAIL = "garrettdbecker@gmail.com"
-GOODREADS_PASSWORD = "dbldkr123!!"
+GOODREADS_EMAIL = os.environ['GOODREADS_EMAIL']
+GOODREADS_PASSWORD = os.environ['GOODREADS_PASSWORD']
 
 # Get list of books to add
 raw_data = pandas.read_csv("books_to_read.csv")
