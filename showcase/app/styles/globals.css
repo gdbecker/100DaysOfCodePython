@@ -21,6 +21,20 @@
   background-size: cover;
 }
 
+.bg-task-manager-django {
+  background-image: url(../../public/task-manager-django.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-tic-tac-toe {
+  background-image: url(../../public/tic-tac-toe-game.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 
 .bg-space-missions {
   background-image: url(../../public/Space\ Missions\ Analysis.jpg);
@@ -63,5 +77,90 @@
 }
 
 .link-shadow-scripting:hover::before {
+  transform: scaleX(1);
+}
+
+.link-shadow-webDev::before {
+  box-shadow: inset 0 -0.4em 0 0 hsla(30, 90%, 55%, 0.7);
+	bottom: 12px;
+	content: "";
+	display: block;
+	height: 0.3em;
+	left: 0;
+	position: absolute;
+	transform: scaleX(0);
+	transition: transform 0.25s ease;
+	width: 100%;
+}
+
+.link-shadow-webDev:hover::before {
+  transform: scaleX(1);
+}
+
+.link-shadow-gui::before {
+  box-shadow: inset 0 -0.4em 0 0 hsla(350, 83%, 55%, 0.7);
+	bottom: 12px;
+	content: "";
+	display: block;
+	height: 0.3em;
+	left: 0;
+	position: absolute;
+	transform: scaleX(0);
+	transition: transform 0.25s ease;
+	width: 100%;
+}
+
+.link-shadow-gui:hover::before {
+  transform: scaleX(1);
+}
+
+.link-shadow-game::before {
+  box-shadow: inset 0 -0.4em 0 0 hsla(196, 79%, 56%, 0.7);
+	bottom: 12px;
+	content: "";
+	display: block;
+	height: 0.3em;
+	left: 0;
+	position: absolute;
+	transform: scaleX(0);
+	transition: transform 0.25s ease;
+	width: 100%;
+}
+
+.link-shadow-game:hover::before {
+  transform: scaleX(1);
+}
+
+.link-shadow-dataScience::before {
+  box-shadow: inset 0 -0.4em 0 0 hsla(44, 97%, 49%, 0.7);
+	bottom: 12px;
+	content: "";
+	display: block;
+	height: 0.3em;
+	left: 0;
+	position: absolute;
+	transform: scaleX(0);
+	transition: transform 0.25s ease;
+	width: 100%;
+}
+
+.link-shadow-dataScience:hover::before {
+  transform: scaleX(1);
+}
+
+.link-shadow-api::before {
+  box-shadow: inset 0 -0.4em 0 0 hsla(79, 66%, 59%, 0.7);
+	bottom: 12px;
+	content: "";
+	display: block;
+	height: 0.3em;
+	left: 0;
+	position: absolute;
+	transform: scaleX(0);
+	transition: transform 0.25s ease;
+	width: 100%;
+}
+
+.link-shadow-api:hover::before {
   transform: scaleX(1);
 }
