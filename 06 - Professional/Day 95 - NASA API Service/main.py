@@ -1,8 +1,7 @@
 # 100 Days of Code: Python
 # August 13, 2022
-# RESTful API service using a public recipe API
+# RESTful API service using public NASA API
 # Source: https://api.nasa.gov/index.html
-# API documentation is in Postman
 
 # Import modules
 from flask import Flask, jsonify, render_template, request
@@ -27,12 +26,13 @@ def home():
 # GET: Astronomy picture of the day
 @app.route("/astro", methods=["GET"])
 def astro():
-    url_astro = "https://api.nasa.gov/planetary/apod/"
+    url_astro = "https://api.nasa.gov/planetary/apod"
     parameters_astro = {
         "api_key": API_KEY
     }
     response = requests.get(url=url_astro, params=parameters_astro)
     data = response.json()
+    print(data)
     return render_template("astro.html", data=data)
 
 # GET: Mars weather data

@@ -77,4 +77,4 @@ for n in range(len(address_list)):
     time.sleep(random.randint(2,4))
 
 # Link to final Google Sheet with results
-# https://docs.google.com/spreadsheets/d/1rnMr7qeuSRhTWpF8JPB15X95Dy0dNhgWsFYsiXqMKJU/edit?resourcekey#gid=1822230812
+# https://docs.google.com/spreadsheets/d/1rnMr7qeuSRhTWpF8JPB15X95Dy0dNhgWsFYsiXqMKJU/edit?usp=sharing
