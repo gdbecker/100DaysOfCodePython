@@ -21,6 +21,28 @@
   background-size: cover;
 }
 
+
+.bg-space-missions {
+  background-image: url(../../public/Space\ Missions\ Analysis.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-fatal-force {
+  background-image: url(../../public/Fatal\ Force\ Analysis.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-determinants-earnings {
+  background-image: url(../../public/Determinants\ of\ Earnings\ Analysis.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /* Link Underline Animation */
 .project-link {
   position: relative;
@@ -28,7 +50,7 @@
 }
 
 .link-shadow-scripting::before {
-  box-shadow: inset 0 -0.4em 0 0 #b5bedd;
+  box-shadow: inset 0 -0.4em 0 0 hsla(227, 37%, 79%, 0.7);
 	bottom: 12px;
 	content: "";
 	display: block;
