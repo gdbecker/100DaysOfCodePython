@@ -3,12 +3,13 @@ import ProjectCard from './components/ProjectCard';
 
  function Home() {
   return (
-    <main className="flex flex-col gap-7 w-full p-10 items-center justify-between bg-grayishBlue md:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+    <main className="flex flex-col gap-7 w-full p-10 items-center justify-between bg-lightGray md:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:px-52">
       <ProjectCard 
-        img_bg="bg-3-column-card"
-        title="3-Column Preview Card Component"
-        demo_url="https://3-column-card-gdbecker.netlify.app"
-        code_url="https://www.frontendmentor.io/solutions/3column-card-with-nextjs-sass-voBV4ThwSG"
+        img_bg="bg-morse-code"
+        title="Morse Code Translator"
+        demo_url="https://replit.com/@gdbecker/MorseCodeTranslator?embed=true"
+        code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/06%20-%20Professional/Day%2081"
+        type="scripting"
       />
 
     </main>
