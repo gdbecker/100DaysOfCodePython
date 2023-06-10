@@ -70,10 +70,34 @@ import ProjectCard from './components/ProjectCard';
         <h1 className="px-2 h-full text-level1 max-w-fit ring-level1 ring-2 rounded-sm font-sourceSansProBold text-sm overflow-hidden">01 - BEGINNER</h1>
         <div className="flex flex-col pt-5 pb-10 gap-7 md:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           <ProjectCard 
-            img_bg="bg-001-band-name-generator"
+            img_bg="bg-001-band-name-generator bg-project"
             title="Band Name Generator"
             demo_url="https://replit.com/@gdbecker/001-Band-Name-Generator?embed=true"
-            code_url=""
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/01%20-%20Beginner/Day%20001%20-%20Band%20Name%20Generator"
+            type="scripting"
+          />
+
+          <ProjectCard 
+            img_bg="bg-002-band-name-generator bg-project"
+            title="Tip Calculator"
+            demo_url="https://replit.com/@gdbecker/002-Tip-Calculator?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/01%20-%20Beginner/Day%20002%20-%20Tip%20Calculator"
+            type="scripting"
+          />
+
+          <ProjectCard 
+            img_bg="bg-003-treasure-island-game bg-project"
+            title="Treasure Island Game"
+            demo_url="https://replit.com/@gdbecker/003-Treasure-Island-Game?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/01%20-%20Beginner/Day%20003%20-%20Treasure%20Island%20Game"
+            type="scripting"
+          />
+
+          <ProjectCard 
+            img_bg="bg-004-rock-paper-scissors bg-project"
+            title="Rock - Paper - Scissors"
+            demo_url="https://replit.com/@gdbecker/004-Rock-Paper-Scissors?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/01%20-%20Beginner/Day%20004%20-%20Rock%20Paper%20Scissors"
             type="scripting"
           />
         </div>

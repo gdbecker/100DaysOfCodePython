@@ -14,56 +14,54 @@
 }
 
 /* Project backgrounds */
-/* 06 - Professional */
-.bg-morse-code {
-  background-image: url(../../public/morse-code-translator.jpg);
+/* All Sections */
+.bg-project {
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+/* 06 - Professional */
+.bg-morse-code {
+  background-image: url(../../public/morse-code-translator.jpg);
 }
 
 .bg-task-manager-django {
   background-image: url(../../public/task-manager-django.jpg);
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .bg-tic-tac-toe {
   background-image: url(../../public/tic-tac-toe-game.jpg);
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 
 .bg-space-missions {
   background-image: url(../../public/Space\ Missions\ Analysis.jpg);
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .bg-fatal-force {
   background-image: url(../../public/Fatal\ Force\ Analysis.jpg);
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .bg-determinants-earnings {
   background-image: url(../../public/Determinants\ of\ Earnings\ Analysis.jpg);
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 /* 01 - Beginner */
 .bg-001-band-name-generator {
   background-image: url(../../public/001-band-name-generator.jpg);
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: cover;
+}
+
+.bg-002-tip-calculator {
+  background-image: url(../../public/002-tip-calculator.jpg);
+}
+
+.bg-003-treasure-island-game {
+  background-image: url(../../public/003-treasure-island-game.jpg);
+}
+
+.bg-004-rock-paper-scissors {
+  background-image: url(../../public/004-rock-paper-scissors.jpg);
 }
 
 /* Link Underline Animation */
