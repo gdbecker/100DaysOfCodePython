@@ -14,6 +14,7 @@
 }
 
 /* Project backgrounds */
+/* 06 - Professional */
 .bg-morse-code {
   background-image: url(../../public/morse-code-translator.jpg);
   background-position: top center;
@@ -52,6 +53,14 @@
 
 .bg-determinants-earnings {
   background-image: url(../../public/Determinants\ of\ Earnings\ Analysis.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* 01 - Beginner */
+.bg-001-band-name-generator {
+  background-image: url(../../public/001-band-name-generator.jpg);
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;

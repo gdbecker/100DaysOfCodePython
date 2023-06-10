@@ -5,15 +5,16 @@
 # Import modules
 import requests
 from twilio.rest import Client
+from decouple import config
 
 # Info
 # OpenWeather API key
-api_key = "1b097d58f77c78ab34d2e237c8d98729"
-twilio_account_sid = "ACf99c4a24825bb34ae964b5e605cbbcb0"
-twilio_auth_token = "be435f26191a3a0ca4b9be0cebb51dc9"
+api_key = config("api_key")
+twilio_account_sid = config("twilio_account_sid")
+twilio_auth_token = config("twilio_auth_token")
 
 # Getting data from OpenWeather one call api
-url = "https://api.openweathermap.org/data/2.5/onecall"
+url = "https://api.openweathermap.org/data/3.0/onecall"
 my_lat = 35.227085
 my_long = -80.843124
 my_exclude = "current,minutely,daily"
@@ -30,6 +31,7 @@ response.raise_for_status()
 weather_data = response.json()["hourly"]
 
 # Go through the first 12 hours and check for rain
+will_rain = False
 for index in range(0,12):
     hour_data = weather_data[index]
     condition_code = hour_data["weather"][0]["id"]

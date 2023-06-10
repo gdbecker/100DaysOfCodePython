@@ -13,7 +13,7 @@ module.exports = {
       "blueTransparent": "hsla(207, 52%, 64%, 0.7)",
       "yellow": "hsl(47, 100%, 62%)",
       "yellowTransparent": "hsla(47, 100%, 62%, 0.7)",
-      "lightGray": "hsl(0, 0%, 81%)",
+      "lightGray": "hsl(0, 0%, 96%)",
       "grayishBlue": "hsl(217, 19%, 35%)",
       "scripting": "hsl(227, 37%, 79%)",
       "scriptingTransparent": "hsla(227, 37%, 79%, 0.7)",
@@ -27,6 +27,12 @@ module.exports = {
       "dataScienceTransparent": "hsla(44, 97%, 49%, 0.7)",
       "api": "hsl(79, 66%, 59%)", 
       "apiTransparent": "hsla(79, 66%, 59%, 0.7)",
+      "level1": "#00735D",
+      "level2": "#008B52",
+      "level3": "#23A244",
+      "level4": "#78B736",
+      "level5": "#BBC830",
+      "level6": "#FFD53D",
     },
     extend: {
       fontFamily: {

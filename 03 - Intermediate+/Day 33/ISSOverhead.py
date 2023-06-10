@@ -7,26 +7,25 @@
 Dummy email accounts info:
 Gmail --
 garrettbeckerpython1@gmail.com
-Pats1982!!
 
 Yahoo --
 garrettbeckerpython1@yahoo.com
-Pats1982!!
 '''
-
-# Email info
-smtp_gmail = "smtp.gmail.com"
-email_gmail = "garrettbeckerpython1@gmail.com"
-password_gmail = "Pats1982!!"
-
-smtp_yahoo = "smtp.mail.yahoo.com"
-email_yahoo = "garrettbeckerpython1@yahoo.com"
-password_yahoo = "manbmqmvtzykfvgt!!"
 
 # Import modules
 import requests
 from datetime import datetime as dt, timezone
 import smtplib
+from decouple import config
+
+# Email info
+smtp_gmail = config("smtp_gmail")
+email_gmail = config("email_gmail")
+password_gmail = config("password_gmail")
+
+smtp_yahoo = config("smtp_yahoo")
+email_yahoo = config("email_yahoo")
+password_yahoo = config("password_yahoo")
 
 # My location
 LAT = 35.118279

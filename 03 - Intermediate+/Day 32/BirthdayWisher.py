@@ -6,11 +6,13 @@
 Dummy email accounts info:
 Gmail --
 garrettbeckerpython1@gmail.com
-Pats1982!!
 
 Yahoo --
 garrettbeckerpython1@yahoo.com
-Pats1982!!
+'''
+
+'''
+Note: Make sure that the birthdays in .csv file are set to today in order to see the birthday message!
 '''
 
 # Import modules
@@ -18,15 +20,16 @@ import smtplib
 import random
 import datetime as dt
 import pandas
+from decouple import config
 
 # SMTP info
-smtp_gmail = "smtp.gmail.com"
-email_gmail = "garrettbeckerpython1@gmail.com"
-password_gmail = "Pats1982!!"
+smtp_gmail = config("smtp_gmail")
+email_gmail = config("email_gmail")
+password_gmail = config("password_gmail")
 
-smtp_yahoo = "smtp.mail.yahoo.com"
-email_yahoo = "garrettbeckerpython1@yahoo.com"
-password_yahoo = "manbmqmvtzykfvgt!!"
+smtp_yahoo = config("smtp_yahoo")
+email_yahoo = config("email_yahoo")
+password_yahoo = config("password_yahoo")
 
 # Import a random latter template
 letter_num = random.randint(1,3)
