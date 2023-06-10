@@ -17,6 +17,10 @@ function ProjectCard({ img_bg, title, demo_url, code_url, type }) {
       return "flex w-full max-h-fit flex-col rounded-md overflow-hidden bg-white shadow-dataScience shadow-[0_0px_4px]";
     } else if (type == "api") {
       return "flex w-full max-h-fit flex-col rounded-md overflow-hidden bg-white shadow-api shadow-[0_0px_4px]";
+    } else if (type == "auto") {
+      return "flex w-full max-h-fit flex-col rounded-md overflow-hidden bg-white shadow-auto shadow-[0_0px_4px]";
+    } else if (type == "debugging") {
+      return "flex w-full max-h-fit flex-col rounded-md overflow-hidden bg-white shadow-debugging shadow-[0_0px_4px]";
     }
   }
 
@@ -45,6 +49,14 @@ function ProjectCard({ img_bg, title, demo_url, code_url, type }) {
       return (
         <p className="px-2 h-full text-api w-fit my-1 ring-api ring-2 rounded-sm font-sourceSansProBold text-sm overflow-hidden lg:text-[0.75rem]">API</p>
       );
+    } else if (type == "auto") {
+      return (
+        <p className="px-2 h-full text-auto w-fit my-1 ring-auto ring-2 rounded-sm font-sourceSansProBold text-sm overflow-hidden lg:text-[0.75rem]">AUTOMATION</p>
+      );
+    } else if (type == "debugging") {
+      return (
+        <p className="px-2 h-full text-debugging w-fit my-1 ring-debugging ring-2 rounded-sm font-sourceSansProBold text-sm overflow-hidden lg:text-[0.75rem]">DEBUGGING</p>
+      );
     }
   }
 
@@ -61,6 +73,10 @@ function ProjectCard({ img_bg, title, demo_url, code_url, type }) {
       return "link-shadow-dataScience";
     } else if (type == "api") {
       return "link-shadow-api";
+    } else if (type == "auto") {
+      return "link-shadow-auto";
+    } else if (type == "debugging") {
+      return "link-shadow-debugging";
     }
   }
 
@@ -77,6 +93,10 @@ function ProjectCard({ img_bg, title, demo_url, code_url, type }) {
       return "flex flex-row project-link text-lg hover:text-dataScience";
     } else if (type == "api") {
       return "flex flex-row project-link text-lg hover:text-api";
+    } else if (type == "auto") {
+      return "flex flex-row project-link text-lg hover:text-auto";
+    } else if (type == "debugging") {
+      return "flex flex-row project-link text-lg hover:text-debugging";
     }
   }
 

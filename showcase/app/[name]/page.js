@@ -16,6 +16,10 @@ import { IoChevronBack } from 'react-icons/io5';
       return "flex flex-row hover:text-dataScience";
     } else if (type == "api") {
       return "flex flex-row hover:text-api";
+    } else if (type == "auto") {
+      return "flex flex-row hover:text-auto";
+    } else if (type == "debugging") {
+      return "flex flex-row hover:text-debugging";
     }
   }
 
@@ -32,11 +36,15 @@ import { IoChevronBack } from 'react-icons/io5';
       return "flex w-full min-h-screen rounded-md shadow-dataScience shadow-[0_0px_2px]";
     } else if (type == "api") {
       return "flex w-full min-h-screen rounded-md shadow-api shadow-[0_0px_2px]";
+    } else if (type == "auto") {
+      return "flex w-full min-h-screen rounded-md shadow-auto shadow-[0_0px_2px]";
+    } else if (type == "debugging") {
+      return "flex w-full min-h-screen rounded-md shadow-debugging shadow-[0_0px_2px]";
     }
   }
 
   return (
-    <main className="flex flex-col w-full min-h-screen p-10 justify-center bg-lightGray xl:px-52">
+    <main className="flex flex-col w-full min-h-screen p-10 justify-center bg-lightGray 2xl:px-52">
       <div className="grid grid-cols-2 pb-3 items-end justify-between text-grayishBlue text-lg font-sourceSansProRegular">
         <a href="/" className={getHoverClass(searchParams.type)}><span className="pt-1 pr-2"><IoChevronBack /></span> Back</a>
         <h1 className="font-sourceSansProBold text-right">{searchParams.title}</h1>

@@ -22,29 +22,30 @@
 }
 
 /* 06 - Professional */
-.bg-morse-code {
-  background-image: url(../../public/morse-code-translator.jpg);
+.bg-081-morse-code-translator {
+  background-image: url(../../public/081-morse-code-translator.jpg);
 }
 
-.bg-task-manager-django {
-  background-image: url(../../public/task-manager-django.jpg);
+.bg-082-task-manager-django {
+  background-image: url(../../public/082-task-manager-django.jpg);
 }
 
-.bg-tic-tac-toe {
-  background-image: url(../../public/tic-tac-toe-game.jpg);
+.bg-083-tic-tac-toe-game {
+  background-image: url(../../public/083-tic-tac-toe-game.jpg);
 }
 
 
-.bg-space-missions {
-  background-image: url(../../public/Space\ Missions\ Analysis.jpg);
+
+.bg-098-space-missions-analysis {
+  background-image: url(../../public/098-space-missions-analysis.jpg);
 }
 
-.bg-fatal-force {
-  background-image: url(../../public/Fatal\ Force\ Analysis.jpg);
+.bg-099-fatal-force-analysis {
+  background-image: url(../../public/099-fatal-force-analysis.jpg);
 }
 
-.bg-determinants-earnings {
-  background-image: url(../../public/Determinants\ of\ Earnings\ Analysis.jpg);
+.bg-100-determinants-of-earnings-analysis {
+  background-image: url(../../public/100-determinants-of-earnings-analysis.jpg);
 }
 
 /* 01 - Beginner */
@@ -62,6 +63,46 @@
 
 .bg-004-rock-paper-scissors {
   background-image: url(../../public/004-rock-paper-scissors.jpg);
+}
+
+.bg-005-password-generator {
+  background-image: url(../../public/005-password-generator.jpg);
+}
+
+.bg-006-escape-maze-problem {
+  background-image: url(../../public/006-escape-maze-problem.jpg);
+}
+
+.bg-007-hangman-game {
+  background-image: url(../../public/007-hangman-game.jpg);
+}
+
+.bg-008-caesar-cipher {
+  background-image: url(../../public/008-caesar-cipher.jpg);
+}
+
+.bg-009-secret-auction {
+  background-image: url(../../public/009-secret-auction.jpg);
+}
+
+.bg-010-calculator {
+  background-image: url(../../public/010-calculator.jpg);
+}
+
+.bg-011-blackjack-game {
+  background-image: url(../../public/011-blackjack-game.jpg);
+}
+
+.bg-012-number-guess-game {
+  background-image: url(../../public/012-number-guess-game.jpg);
+}
+
+.bg-013-debugging-practice {
+  background-image: url(../../public/013-debugging-practice.jpg);
+}
+
+.bg-014-higher-lower-game {
+  background-image: url(../../public/014-higher-lower-game.jpg);
 }
 
 /* Link Underline Animation */
@@ -169,5 +210,39 @@
 }
 
 .link-shadow-api:hover::before {
+  transform: scaleX(1);
+}
+
+.link-shadow-auto::before {
+  box-shadow: inset 0 -0.4em 0 0 hsla(227, 45%, 44%, 0.7);
+	bottom: 12px;
+	content: "";
+	display: block;
+	height: 0.3em;
+	left: 0;
+	position: absolute;
+	transform: scaleX(0);
+	transition: transform 0.25s ease;
+	width: 100%;
+}
+
+.link-shadow-auto:hover::before {
+  transform: scaleX(1);
+}
+
+.link-shadow-debugging::before {
+  box-shadow: inset 0 -0.4em 0 0 hsla(240, 10%, 16%, 0.3);
+	bottom: 12px;
+	content: "";
+	display: block;
+	height: 0.3em;
+	left: 0;
+	position: absolute;
+	transform: scaleX(0);
+	transition: transform 0.25s ease;
+	width: 100%;
+}
+
+.link-shadow-debugging:hover::before {
   transform: scaleX(1);
 }
