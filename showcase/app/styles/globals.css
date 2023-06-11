@@ -48,6 +48,23 @@
   background-image: url(../../public/100-determinants-of-earnings-analysis.jpg);
 }
 
+/* 02 - Intermediate */
+.bg-015-coffee-machine-basic {
+  background-image: url(../../public/015-coffee-machine-basic.jpg);
+}
+
+.bg-016-coffee-machine-oop {
+  background-image: url(../../public/016-coffee-machine-oop.jpg);
+}
+
+.bg-017-quizbrain {
+  background-image: url(../../public/017-quizbrain.jpg);
+}
+
+.bg-018-dot-painting-app {
+  background-image: url(../../public/018-dot-painting-app.jpg);
+}
+
 /* 01 - Beginner */
 .bg-001-band-name-generator {
   background-image: url(../../public/001-band-name-generator.jpg);

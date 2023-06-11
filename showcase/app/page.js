@@ -72,6 +72,43 @@ import ProjectCard from './components/ProjectCard';
         </div>
       </section>
 
+      <section id="2" className="pt-4 w-full items-center justify-center">
+        <h1 className="px-2 h-full text-level2 max-w-fit ring-level2 ring-2 rounded-sm font-sourceSansProBold text-sm overflow-hidden">02 - INTERMEDIATE</h1>
+        <div className="flex flex-col pt-5 pb-10 gap-7 md:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+          <ProjectCard 
+            img_bg="bg-015-coffee-machine-basic bg-project"
+            title="Coffee Machine - Basic"
+            demo_url="https://replit.com/@gdbecker/015-Coffee-Machine-Basic?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/02%20-%20Intermediate/Day%20015%20-%20Coffee%20Machine%20(Basic)"
+            type="scripting"
+          />
+
+          <ProjectCard 
+            img_bg="bg-016-coffee-machine-oop bg-project"
+            title="Coffee Machine - OOP"
+            demo_url="https://replit.com/@gdbecker/016-Coffee-Machine-OOP?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/02%20-%20Intermediate/Day%20016%20-%20Coffee%20Machine%20(OOP)"
+            type="scripting"
+          />
+
+          <ProjectCard 
+            img_bg="bg-017-quizbrain bg-project"
+            title="QuizBrain"
+            demo_url="https://replit.com/@gdbecker/017-QuizBrain?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/02%20-%20Intermediate/Day%20017%20-%20QuizBrain"
+            type="scripting"
+          />
+
+          <ProjectCard 
+            img_bg="bg-018-dot-painting-app bg-project"
+            title="Dot Painting App"
+            demo_url="https://replit.com/@gdbecker/018-Dot-Painting-App?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/02%20-%20Intermediate/Day%20018%20-%20Dot%20Painting%20App"
+            type="gui"
+          />
+        </div>
+      </section>
+
       <section id="1" className="pt-4 w-full items-center justify-center">
         <h1 className="px-2 h-full text-level1 max-w-fit ring-level1 ring-2 rounded-sm font-sourceSansProBold text-sm overflow-hidden">01 - BEGINNER</h1>
         <div className="flex flex-col pt-5 pb-10 gap-7 md:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
