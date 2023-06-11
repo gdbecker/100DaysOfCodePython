@@ -106,6 +106,22 @@ import ProjectCard from './components/ProjectCard';
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/02%20-%20Intermediate/Day%20018%20-%20Dot%20Painting%20App"
             type="gui"
           />
+
+          <ProjectCard 
+            img_bg="bg-019-etch-a-sketch-app bg-project"
+            title="Etch-a-Sketch App"
+            demo_url="https://replit.com/@gdbecker/019-Etch-a-Sketch-App?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/02%20-%20Intermediate/Day%20019%20-%20Etch-a-Sketch%20App"
+            type="gui"
+          />
+
+          <ProjectCard 
+            img_bg="bg-019-turtle-race-game bg-project"
+            title="Turtle Race Game"
+            demo_url="https://replit.com/@gdbecker/019-Turtle-Race-Game?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/02%20-%20Intermediate/Day%20019%20-%20Turtle%20Race%20Game"
+            type="game"
+          />
         </div>
       </section>
 

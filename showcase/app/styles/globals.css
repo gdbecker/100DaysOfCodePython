@@ -65,6 +65,14 @@
   background-image: url(../../public/018-dot-painting-app.jpg);
 }
 
+.bg-019-etch-a-sketch-app {
+  background-image: url(../../public/019-etch-a-sketch-app.jpg);
+}
+
+.bg-019-turtle-race-game {
+  background-image: url(../../public/019-turtle-race-game.jpg);
+}
+
 /* 01 - Beginner */
 .bg-001-band-name-generator {
   background-image: url(../../public/001-band-name-generator.jpg);
