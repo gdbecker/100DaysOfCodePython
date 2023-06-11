@@ -73,6 +73,50 @@
   background-image: url(../../public/019-turtle-race-game.jpg);
 }
 
+.bg-020-021-snake-game-v1 {
+  background-image: url(../../public/020-021-snake-game-v1.jpg);
+}
+
+.bg-024-snake-game-v2 {
+  background-image: url(../../public/024-snake-game-v2.jpg);
+}
+
+.bg-022-pong-game {
+  background-image: url(../../public/022-pong-game.jpg);
+}
+
+.bg-023-turtle-crossing-game {
+  background-image: url(../../public/023-turtle-crossing-game.jpg);
+}
+
+.bg-024-mail-merge-app {
+  background-image: url(../../public/024-mail-merge-app.jpg);
+}
+
+.bg-025-us-states-game {
+  background-image: url(../../public/025-us-states-game.jpg);
+}
+
+.bg-026-nato-phonetic-alphabet {
+  background-image: url(../../public/026-nato-phonetic-alphabet.jpg);
+}
+
+.bg-027-mi-to-km-converter {
+  background-image: url(../../public/027-mi-to-km-converter.jpg);
+}
+
+.bg-028-pomodoro-app {
+  background-image: url(../../public/028-pomodoro-app.jpg);
+}
+
+.bg-029-030-password-manager {
+  background-image: url(../../public/029-030-password-manager.jpg);
+}
+
+.bg-031-flash-card-app {
+  background-image: url(../../public/031-flash-card-app.jpg);
+}
+
 /* 01 - Beginner */
 .bg-001-band-name-generator {
   background-image: url(../../public/001-band-name-generator.jpg);

@@ -122,6 +122,94 @@ import ProjectCard from './components/ProjectCard';
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/02%20-%20Intermediate/Day%20019%20-%20Turtle%20Race%20Game"
             type="game"
           />
+
+          <ProjectCard 
+            img_bg="bg-020-021-snake-game-v1 bg-project"
+            title="Snake Game V1"
+            demo_url="https://replit.com/@gdbecker/020-021-Snake-Game-V1?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/02%20-%20Intermediate/Day%20020-021%20-%20Snake%20Game%20V1"
+            type="game"
+          />
+
+          <ProjectCard 
+            img_bg="bg-024-snake-game-v2 bg-project"
+            title="Snake Game V2"
+            demo_url="https://replit.com/@gdbecker/024-Snake-Game-V2?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/02%20-%20Intermediate/Day%20024%20-%20Snake%20Game%20V2"
+            type="game"
+          />
+
+          <ProjectCard 
+            img_bg="bg-022-pong-game bg-project"
+            title="Pong Game"
+            demo_url="https://replit.com/@gdbecker/022-Pong-Game?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/02%20-%20Intermediate/Day%20022%20-%20Pong%20Game"
+            type="game"
+          />
+
+          <ProjectCard 
+            img_bg="bg-023-turtle-crossing-game bg-project"
+            title="Turtle Crossing Game"
+            demo_url="https://replit.com/@gdbecker/023-Turtle-Crossing-Game?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/02%20-%20Intermediate/Day%20023%20-%20Turtle%20Crossing%20Game"
+            type="game"
+          />
+
+          <ProjectCard 
+            img_bg="bg-024-mail-merge-app bg-project"
+            title="Mail Merge App"
+            demo_url="https://replit.com/@gdbecker/024-Mail-Merge-App?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/02%20-%20Intermediate/Day%20024%20-%20Mail%20Merge%20App"
+            type="scripting"
+          />
+
+          <ProjectCard 
+            img_bg="bg-025-us-states-game bg-project"
+            title="US States Game"
+            demo_url="https://replit.com/@gdbecker/025-US-States-Game?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/02%20-%20Intermediate/Day%20025%20-%20US%20States%20Game"
+            type="game"
+          />
+
+          <ProjectCard 
+            img_bg="bg-026-nato-phonetic-alphabet bg-project"
+            title="NATO Phonetic Alphabet"
+            demo_url="https://replit.com/@gdbecker/026-NATO-Phonetic-Alphabet?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/02%20-%20Intermediate/Day%20026%20-%20NATO%20Phonetic%20Alphabet"
+            type="scripting"
+          />
+
+          <ProjectCard 
+            img_bg="bg-027-mi-to-km-converter bg-project"
+            title="MI to KM Converter"
+            demo_url="https://replit.com/@gdbecker/027-MI-to-KM-Converter?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/02%20-%20Intermediate/Day%20027%20-%20MI%20to%20KM%20Converter"
+            type="gui"
+          />
+
+          <ProjectCard 
+            img_bg="bg-028-pomodoro-app bg-project"
+            title="Pomodoro App"
+            demo_url="https://replit.com/@gdbecker/028-Pomodoro-App?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/02%20-%20Intermediate/Day%20028%20-%20Pomodoro%20App"
+            type="gui"
+          />
+
+          <ProjectCard 
+            img_bg="bg-029-030-password-manager bg-project"
+            title="Password Manager"
+            demo_url="https://replit.com/@gdbecker/029-030-Password-Manager?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/02%20-%20Intermediate/Day%20029-030%20-%20Password%20Manager"
+            type="gui"
+          />
+
+          <ProjectCard 
+            img_bg="bg-031-flash-card-app bg-project"
+            title="Flash Card App"
+            demo_url="https://replit.com/@gdbecker/031-Flash-Card-App?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/02%20-%20Intermediate/Day%20031%20-%20Flash%20Card%20App"
+            type="gui"
+          />
         </div>
       </section>
 
