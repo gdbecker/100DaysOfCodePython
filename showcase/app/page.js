@@ -116,14 +116,6 @@ import ProjectCard from './components/ProjectCard';
           />
 
           <ProjectCard 
-            img_bg="bg-036-stock-text-alert bg-project"
-            title="Stock Text Alert"
-            demo_url="https://replit.com/@gdbecker/036-Stock-Text-Alert?embed=true"
-            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/03%20-%20Intermediate%2B/Day%20036%20-%20Stock%20Text%20Alert"
-            type="auto"
-          />
-
-          <ProjectCard 
             img_bg="bg-037-habit-tracker bg-project"
             title="Habit Tracker"
             demo_url="https://replit.com/@gdbecker/037-Habit-Tracker?embed=true"
