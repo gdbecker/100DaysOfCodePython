@@ -14,10 +14,11 @@ https://pixe.la/v1/users/gdbecker/graphs/graph1.html
 # Import modules
 import requests
 from datetime import datetime
+from decouple import config
 
-USERNAME = "gdbecker"
-TOKEN = "$4#YD4t-5s<,67h"
-GRAPH_ID = "graph1"
+USERNAME = config("USERNAME")
+TOKEN = config("TOKEN")
+GRAPH_ID = config("GRAPH_ID")
 
 # Step 1: make user profile -> username/token
 pixela_endpoint = "https://pixe.la/v1/users"
@@ -65,3 +66,6 @@ edit_config = {
 }
 response = requests.put(url=edit_endpoint, json=edit_config, headers=headers)
 print(response.text)
+
+# Heads up
+print("Go to https://pixe.la/v1/users/gdbecker/graphs/graph1.html to see the result!")

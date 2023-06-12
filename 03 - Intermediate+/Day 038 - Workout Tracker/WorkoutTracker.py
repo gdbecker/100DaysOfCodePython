@@ -5,6 +5,7 @@
 # Import modules
 import requests
 from datetime import datetime
+from decouple import config
 
 # Today date/time info
 now = datetime.now()
@@ -12,9 +13,9 @@ today = now.strftime("%m/%d/%Y")
 time = now.strftime("%H:%M:%S")
 
 # NutritionIX info
-USERNAME = "gdbecker"
-APP_ID = "cb1cca12"
-NIX_KEY = "78c451aa36be1553effd4eda381eb795"
+USERNAME = config("USERNAME")
+APP_ID = config("APP_ID")
+NIX_KEY = config("NIX_KEY")
 
 nix_headers = {
     "x-app-id": APP_ID,
@@ -30,7 +31,7 @@ nix_parameters = {
     "gender": "male",
     "weight_kg": 72.57,
     "height_cm": 173,
-    "age": 26
+    "age": 27
 }
 response = requests.post(url=exercise_post_endpoint, data=nix_parameters, headers=nix_headers)
 exercise_data = response.json()["exercises"][0]
@@ -40,7 +41,7 @@ calories = str(exercise_data["nf_calories"])
 
 # Post exercise info to Google Sheets via Sheety
 sheety_headers = {
-    "Authorization": "Bearer 04M-#=Ec90Q%,6F5#Yx5=m3wb#53\#4F>>+UR6c$4!o97"
+    "Authorization": config("BEARER")
 }
 sheety_post_endpoint = "https://api.sheety.co/7f8e7cb4219a99c4897c416248a725ef/workoutTracker/workouts"
 sheety_parameters = {
@@ -54,3 +55,6 @@ sheety_parameters = {
 }
 response = requests.post(url=sheety_post_endpoint, json=sheety_parameters, headers=sheety_headers)
 print(response.text)
+
+# Heads up
+print("Visit https://docs.google.com/spreadsheets/d/1X8gW7bUnNfDUSbygMfEZL8mr0GAslHDSh3j2dlN9zHg/edit#gid=0 to see the results!")

@@ -7,6 +7,7 @@
 import requests
 from datetime import datetime
 from twilio.rest import Client
+from decouple import config
 
 # Sheety info
 sheety_get_endpoint = "https://api.sheety.co/7f8e7cb4219a99c4897c416248a725ef/flightFinder/flights"
@@ -23,12 +24,12 @@ sheety_headers =  {
 # }
 
 # AviationStack flight finder info (I couldn't get Tequila/Kiwi to work so I found this one)
-as_key = "a5f9853de00d8cfe9d72599f1957a59f"
-as_endpoint = "http://api.aviationstack.com/v1/flights"
+as_key = config("as_key")
+as_endpoint = config("as_endpoint")
 
 # Twilio info
-twilio_account_sid = "ACf99c4a24825bb34ae964b5e605cbbcb0"
-twilio_auth_token = "be435f26191a3a0ca4b9be0cebb51dc9"
+twilio_account_sid = config("twilio_account_sid")
+twilio_auth_token = config("twilio_auth_token")
 
 # ONE: get data from Google Sheets with desired flights
 response = requests.get(url=sheety_get_endpoint, headers=sheety_headers)

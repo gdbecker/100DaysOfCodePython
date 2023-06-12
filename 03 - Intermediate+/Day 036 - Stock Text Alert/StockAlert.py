@@ -7,31 +7,38 @@ from datetime import datetime
 from datetime import timedelta
 import requests
 from twilio.rest import Client
+from decouple import config
 
 # Alpha Vantage stocks API info
-av_key = "EL6JGHFO1DS94OX8"
+av_key = config("av_key")
 
 # News API info
-news_key = "5213708c56dd4e45b6691f433ed6efc3"
+news_key = config("news_key")
 
 # Twilio info
-twilio_account_sid = "ACf99c4a24825bb34ae964b5e605cbbcb0"
-twilio_auth_token = "be435f26191a3a0ca4b9be0cebb51dc9"
+twilio_account_sid = config("twilio_account_sid")
+twilio_auth_token = config("twilio_auth_token")
 
 # Get day info
 now = datetime.today()
 now_year = now.year
 now_month = now.month
 now_day = now.day
+now_day_of_week = now.weekday()
 today = f"{now_year}-{now_month:02d}-{now_day:02d}"
 
-yesterday_datetime = now - timedelta(days=1)
+if now_day_of_week == 0:
+    yesterday_datetime = now - timedelta(days=4)
+    day_before_datetime = now - timedelta(days=5)
+else:
+    yesterday_datetime = now - timedelta(days=1)
+    day_before_datetime = now - timedelta(days=2)
+
 yesterday_year = yesterday_datetime.year
 yesterday_month = yesterday_datetime.month
 yesterday_day = yesterday_datetime.day
 yesterday = f"{yesterday_year}-{yesterday_month:02d}-{yesterday_day:02d}"
 
-day_before_datetime = now - timedelta(days=2)
 day_before_year = day_before_datetime.year
 day_before_month = day_before_datetime.month
 day_before_day = day_before_datetime.day
@@ -50,8 +57,8 @@ response = requests.get(av_url, params=av_parameters)
 response.raise_for_status()
 stock_data = response.json()["Time Series (60min)"]
 
-yesterday_data = stock_data[f"{yesterday} 20:00:00"]
-day_before_data = stock_data[f"{day_before} 20:00:00"]
+yesterday_data = stock_data[f"{yesterday} 19:00:00"]
+day_before_data = stock_data[f"{day_before} 19:00:00"]
 
 yesterday_close = round(float(yesterday_data["4. close"]),2)
 day_before_close = round(float(day_before_data["4. close"]),2)
@@ -73,6 +80,7 @@ news_parameters = {
 response = requests.get(news_url, params=news_parameters)
 response.raise_for_status()
 news_data = response.json()["articles"]
+print(news_data)
 
 most_recent_date = day_before_datetime
 for article in news_data:
@@ -94,6 +102,6 @@ client = Client(twilio_account_sid, twilio_auth_token)
 message = client.messages \
     .create(
     body=article_body,
-    from_="+19785413241",
+    from_="+18775409717",
     to="+19198961843"
 )

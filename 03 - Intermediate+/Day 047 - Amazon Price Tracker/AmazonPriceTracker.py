@@ -6,21 +6,17 @@
 from bs4 import BeautifulSoup
 import requests
 import smtplib
+from decouple import config
 
 '''
-Dummy email accounts info:
-Gmail --
-garrettbeckerpython1@gmail.com
-Pats1982!!
-
 Site to get HTTP header info for request
 http://myhttpheader.com/
 '''
 
 # Email info
-smtp_gmail = "smtp.gmail.com"
-email_gmail = "garrettbeckerpython1@gmail.com"
-password_gmail = "Pats1982!!"
+smtp_gmail = config("smtp_gmail")
+email_gmail = config("email_gmail")
+password_gmail = config("password_gmail")
 
 # Webscrape to get the current price on Amazon
 amazon_url = "https://www.amazon.com/LEGO-Starship-Building-Awesome-Pieces/dp/B08YP8HGLV/ref=sr_1_8?keywords=lego+dark+trooper+attack&qid=1654191957&s=toys-and-games&sprefix=lego+dark+%2Ctoys-and-games%2C176&sr=1-8"

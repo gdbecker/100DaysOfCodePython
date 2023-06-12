@@ -72,6 +72,27 @@ import ProjectCard from './components/ProjectCard';
         </div>
       </section>
 
+      <section id="3" className="pt-4 w-full items-center justify-center">
+        <h1 className="px-2 h-full text-level3 max-w-fit ring-level3 ring-2 rounded-sm font-sourceSansProBold text-sm overflow-hidden">03 - INTERMEDIATE +</h1>
+        <div className="flex flex-col pt-5 pb-10 gap-7 md:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+          <ProjectCard 
+            img_bg="bg-032-birthday-email-automation bg-project"
+            title="Birthday Email Automation"
+            demo_url="https://replit.com/@gdbecker/032-Birthday-Email-Automation?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/03%20-%20Intermediate%2B/Day%20032%20-%20Birthday%20Email%20Automation"
+            type="auto"
+          />
+
+          <ProjectCard 
+            img_bg="bg-033-iss-email-notifications bg-project"
+            title="ISS Email Notifications"
+            demo_url="https://replit.com/@gdbecker/033-ISS-Email-Notifications?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/03%20-%20Intermediate%2B/Day%20033%20-%20ISS%20Email%20Notifications"
+            type="auto"
+          />
+        </div>
+      </section>
+
       <section id="2" className="pt-4 w-full items-center justify-center">
         <h1 className="px-2 h-full text-level2 max-w-fit ring-level2 ring-2 rounded-sm font-sourceSansProBold text-sm overflow-hidden">02 - INTERMEDIATE</h1>
         <div className="flex flex-col pt-5 pb-10 gap-7 md:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
