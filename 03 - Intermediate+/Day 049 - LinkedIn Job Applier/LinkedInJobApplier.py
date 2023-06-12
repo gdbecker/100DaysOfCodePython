@@ -24,9 +24,9 @@ sign_in_button.click()
 time.sleep(5)
 
 email = driver.find_element(By.CSS_SELECTOR, "#username")
-email.send_keys("garrettdbecker@gmail.com")
+email.send_keys("")
 password = driver.find_element(By.CSS_SELECTOR, "#password")
-password.send_keys("Pats1982!")
+password.send_keys("")
 
 # For some reason it doesn't want to click on the final button to sign in :(
 # sign_in_btn = driver.find_element(By.LINK_TEXT, "Sign in")

@@ -21,6 +21,8 @@ function ProjectCard({ img_bg, title, demo_url, code_url, type }) {
       return "flex w-full max-h-fit flex-col rounded-md overflow-hidden bg-white shadow-auto shadow-[0_0px_4px]";
     } else if (type == "debugging") {
       return "flex w-full max-h-fit flex-col rounded-md overflow-hidden bg-white shadow-debugging shadow-[0_0px_4px]";
+    } else if (type == "webScraping") {
+      return "flex w-full max-h-fit flex-col rounded-md overflow-hidden bg-white shadow-webScraping shadow-[0_0px_4px]";
     }
   }
 
@@ -57,6 +59,10 @@ function ProjectCard({ img_bg, title, demo_url, code_url, type }) {
       return (
         <p className="px-2 h-full text-debugging w-fit my-1 ring-debugging ring-2 rounded-sm font-sourceSansProBold text-sm overflow-hidden lg:text-[0.75rem]">DEBUGGING</p>
       );
+    } else if (type == "webScraping") {
+      return (
+        <p className="px-2 h-full text-webScraping w-fit my-1 ring-webScraping ring-2 rounded-sm font-sourceSansProBold text-sm overflow-hidden lg:text-[0.75rem]">WEB SCRAPING</p>
+      );
     }
   }
 
@@ -77,6 +83,8 @@ function ProjectCard({ img_bg, title, demo_url, code_url, type }) {
       return "link-shadow-auto";
     } else if (type == "debugging") {
       return "link-shadow-debugging";
+    } else if (type == "webScraping") {
+      return "link-shadow-webScraping";
     }
   }
 
@@ -97,6 +105,8 @@ function ProjectCard({ img_bg, title, demo_url, code_url, type }) {
       return "flex flex-row project-link text-lg hover:text-auto";
     } else if (type == "debugging") {
       return "flex flex-row project-link text-lg hover:text-debugging";
+    } else if (type == "webScraping") {
+      return "flex flex-row project-link text-lg hover:text-webScraping";
     }
   }
 

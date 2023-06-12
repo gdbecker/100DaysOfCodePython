@@ -20,6 +20,8 @@ import { IoChevronBack } from 'react-icons/io5';
       return "flex flex-row hover:text-auto";
     } else if (type == "debugging") {
       return "flex flex-row hover:text-debugging";
+    } else if (type == "webScraping") {
+      return "flex flex-row hover:text-webScraping";
     }
   }
 
@@ -40,6 +42,8 @@ import { IoChevronBack } from 'react-icons/io5';
       return "flex w-full min-h-screen rounded-md shadow-auto shadow-[0_0px_2px]";
     } else if (type == "debugging") {
       return "flex w-full min-h-screen rounded-md shadow-debugging shadow-[0_0px_2px]";
+    } else if (type == "webScraping") {
+      return "flex w-full min-h-screen rounded-md shadow-webScraping shadow-[0_0px_2px]";
     }
   }
 

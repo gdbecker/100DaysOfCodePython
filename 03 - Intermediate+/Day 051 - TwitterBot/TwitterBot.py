@@ -11,15 +11,16 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 import time
+from decouple import config
 
 # Constants
 PROMISED_DOWN = 150
 PROMISED_UP = 10
 SERV_WINDOWS = Service(r"/chromedriver_windows.exe")
 SERV_MAC = Service(r"/Volumes/GoogleDrive/My Drive/Jobs and Career/Udemy Courses/100 Days of Code Python Bootcamp/chromedriver_mac.exe")
-TWITTER_HANDLE = "gbpython11"
-TWITTER_EMAIL = "garrettbeckerpython1@yahoo.com"
-TWITTER_PASSWORD = "Pats1982!!"
+TWITTER_HANDLE = config("TWITTER_HANDLE")
+TWITTER_EMAIL = config("TWITTER_EMAIL")
+TWITTER_PASSWORD = config("TWITTER_PASSWORD")
 
 # Set up driver
 driver = webdriver.Chrome(service=SERV_WINDOWS)

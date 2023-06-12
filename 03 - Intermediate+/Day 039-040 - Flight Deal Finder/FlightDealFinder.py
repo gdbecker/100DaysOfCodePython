@@ -15,14 +15,6 @@ sheety_headers =  {
     "Authorization": "Basic bnVsbDpudWxs"
 }
 
-# # Amadeus flight finder info (I couldn't get Tequila/Kiwi to work so I found this one)
-# a_key = "BBNWrtGnsYGwEMqBYH8DWQl2ELlfuRSg"
-# a_secret = "rRGXCqaIfpXAb5wB"
-# a_endpoint = "https://test.api.amadeus.com/v1/shopping/flight-destinations"
-# a_headers = {
-#     "authorization": "Bearer qeAzQLwgEn6AdDRDlvVoiVSOmMGD"
-# }
-
 # AviationStack flight finder info (I couldn't get Tequila/Kiwi to work so I found this one)
 as_key = config("as_key")
 as_endpoint = config("as_endpoint")

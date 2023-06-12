@@ -90,6 +90,78 @@ import ProjectCard from './components/ProjectCard';
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/03%20-%20Intermediate%2B/Day%20033%20-%20ISS%20Email%20Notifications"
             type="auto"
           />
+
+          <ProjectCard 
+            img_bg="bg-034-quizzler-app bg-project"
+            title="Quizzler App"
+            demo_url="https://replit.com/@gdbecker/034-Quizzler-App?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/03%20-%20Intermediate%2B/Day%20034%20-%20Quizzler%20App"
+            type="gui"
+          />
+
+          <ProjectCard 
+            img_bg="bg-035-rain-text-alert bg-project"
+            title="Rain Text Alert"
+            demo_url="https://replit.com/@gdbecker/035-Rain-Text-Alert?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/03%20-%20Intermediate%2B/Day%20035%20-%20Rain%20Text%20Alert"
+            type="auto"
+          />
+
+          <ProjectCard 
+            img_bg="bg-036-stock-text-alert bg-project"
+            title="Stock Text Alert"
+            demo_url="https://replit.com/@gdbecker/036-Stock-Text-Alert?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/03%20-%20Intermediate%2B/Day%20036%20-%20Stock%20Text%20Alert"
+            type="auto"
+          />
+
+          <ProjectCard 
+            img_bg="bg-036-stock-text-alert bg-project"
+            title="Stock Text Alert"
+            demo_url="https://replit.com/@gdbecker/036-Stock-Text-Alert?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/03%20-%20Intermediate%2B/Day%20036%20-%20Stock%20Text%20Alert"
+            type="auto"
+          />
+
+          <ProjectCard 
+            img_bg="bg-037-habit-tracker bg-project"
+            title="Habit Tracker"
+            demo_url="https://replit.com/@gdbecker/037-Habit-Tracker?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/03%20-%20Intermediate%2B/Day%20037%20-%20Habit%20Tracker"
+            type="auto"
+          />
+
+          <ProjectCard 
+            img_bg="bg-038-workout-tracker bg-project"
+            title="Workout Tracker"
+            demo_url="https://replit.com/@gdbecker/038-Workout-Tracker?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/03%20-%20Intermediate%2B/Day%20038%20-%20Workout%20Tracker"
+            type="auto"
+          />
+
+          <ProjectCard 
+            img_bg="bg-045-movies-web-scraper bg-project"
+            title="Movies Web Scraper"
+            demo_url="https://replit.com/@gdbecker/045-Movies-Web-Scraper?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/03%20-%20Intermediate%2B/Day%20045%20-%20Movies%20Web%20Scraper"
+            type="webScraping"
+          />
+
+          <ProjectCard 
+            img_bg="bg-047-amazon-price-tracker bg-project"
+            title="Amazon Price Tracker"
+            demo_url="https://replit.com/@gdbecker/047-Amazon-Price-Tracker?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/03%20-%20Intermediate%2B/Day%20047%20-%20Amazon%20Price%20Tracker"
+            type="webScraping"
+          />
+
+          <ProjectCard 
+            img_bg="bg-053-zillow-research bg-project"
+            title="Zillow Research Automation"
+            demo_url="https://replit.com/@gdbecker/053-Zillow-Research?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/03%20-%20Intermediate%2B/Day%20053%20-%20Zillow%20Research%20Automation"
+            type="webScraping"
+          />
         </div>
       </section>
 

@@ -8,6 +8,7 @@ from bs4 import BeautifulSoup
 import requests
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials, SpotifyOAuth
+from decouple import config
 
 # Get year input from user
 date_input = input("What year would you like to musically time travel to? Input in format YYYY-MM-DD: ")
@@ -29,10 +30,10 @@ temp = [a.getText().strip() for a in artists_list]
 artists_names = temp[0:100]
 
 # Spotify info and authentication
-REDIRECT_URL = "http://example.com"
-SCOPE = "playlist-modify-private"
-CLIENT_ID = "26e786edc5b04d79a3cb7e29592c35ca"
-CLIENT_SECRET = "b31c2fd01e9f44509a7f5c001ab0e05f"
+REDIRECT_URL = config("REDIRECT_URL")
+SCOPE = config("SCOPE")
+CLIENT_ID = config("CLIENT_ID")
+CLIENT_SECRET = config("CLIENT_SECRET")
 
 sp = spotipy.Spotify(
     auth_manager=SpotifyOAuth(

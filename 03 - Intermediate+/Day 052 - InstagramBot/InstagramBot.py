@@ -11,13 +11,14 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 import time
+from decouple import config
 
 # Constants
 SERV_WINDOWS = Service(r"/chromedriver_windows.exe")
 SERV_MAC = Service(r"/Volumes/GoogleDrive/My Drive/Jobs and Career/Udemy Courses/100 Days of Code Python Bootcamp/chromedriver_mac.exe")
-INSTA_EMAIL = "garrettbeckerpython1@gmail.com"
-INSTA_PASSWORD = "Pats1982!!"
-INSTA_HANDLE = "gbpython1"
+INSTA_EMAIL = config("INSTA_EMAIL")
+INSTA_PASSWORD = config("INSTA_PASSWORD")
+INSTA_HANDLE = config("INSTA_HANDLE")
 ACCOUNT = "nasaearth"
 LOGIN_URL = "https://www.instagram.com"
 ACCOUNT_URL = f"{LOGIN_URL}/{ACCOUNT}/following/"
