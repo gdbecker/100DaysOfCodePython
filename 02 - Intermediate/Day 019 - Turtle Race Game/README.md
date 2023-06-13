@@ -1,34 +1,35 @@
-# 015 - Coffee Machine (Basic)
+# 019 - Turtle Race Game
 
-Digital version of a coffee machine! Order and make drinks, print status, give change (without OOP structure)
+Make your guess: which turtle will cross the finish line first?
 
 ### Project Type
 
-Scripting
+Game
 
 ### Demo View
 
-![](./015-coffee-machine-basic.jpg)
+![](./019-turtle-race-game.jpg)
 
 ### Links
 
-- [Live Demo](https://replit.com/@gdbecker/015-Coffee-Machine-Basic)
+- [Live Demo](https://replit.com/@gdbecker/019-Turtle-Race-Game)
 
 ### Tools & Packages
 
 - [Python](https://www.python.org)
+- turtle
+- random
 - [VS Code](https://code.visualstudio.com)
 
 ### Skills Used
 
-- Print statements
-- User input
-- While loops
-- If statements
-- f strings
-- Integer casting
+- Turtle class UI
+- Lists
 - Methods
-- Dictionaries
+- For loops
+- User input
+- If statements
+- Print statements
 
 ## Author
 

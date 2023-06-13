@@ -19,6 +19,8 @@ Scripting
 - [Python](https://www.python.org)
 - random
 - os
+- turtle
+- colorgram
 - [VS Code](https://code.visualstudio.com)
 
 ### Skills Used Throughout the Course
@@ -35,6 +37,8 @@ Scripting
 - Lists
 - Dictionaries
 - Debugging code
+- OOP
+- Turtle class UI
 
 ## Author
 

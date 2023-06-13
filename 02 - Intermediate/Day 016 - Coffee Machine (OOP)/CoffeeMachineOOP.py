@@ -1,6 +1,6 @@
 # 100 Days of Code: Python
 # May 12, 2022
-# Digital version of a coffee machine! Order and make drinks, print status, give change
+# Digital version of a coffee machine! Order and make drinks, print status, give change (with OOP structure)
 # OOP version of Day 15's project
 
 import menu

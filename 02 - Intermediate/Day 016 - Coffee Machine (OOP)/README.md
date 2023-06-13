@@ -1,6 +1,6 @@
-# 015 - Coffee Machine (Basic)
+# 016 - Coffee Machine (OOP)
 
-Digital version of a coffee machine! Order and make drinks, print status, give change (without OOP structure)
+Digital version of a coffee machine! Order and make drinks, print status, give change (with OOP structure)
 
 ### Project Type
 
@@ -8,11 +8,11 @@ Scripting
 
 ### Demo View
 
-![](./015-coffee-machine-basic.jpg)
+![](./016-coffee-machine-oop.jpg)
 
 ### Links
 
-- [Live Demo](https://replit.com/@gdbecker/015-Coffee-Machine-Basic)
+- [Live Demo](https://replit.com/@gdbecker/016-Coffee-Machine-OOP)
 
 ### Tools & Packages
 
@@ -21,8 +21,10 @@ Scripting
 
 ### Skills Used
 
+- OOP
 - Print statements
 - User input
+- For loops
 - While loops
 - If statements
 - f strings

@@ -1,6 +1,6 @@
-# 015 - Coffee Machine (Basic)
+# 017 - QuizBrain
 
-Digital version of a coffee machine! Order and make drinks, print status, give change (without OOP structure)
+True/False quiz game with OOP
 
 ### Project Type
 
@@ -8,11 +8,11 @@ Scripting
 
 ### Demo View
 
-![](./015-coffee-machine-basic.jpg)
+![](./017-quizbrain.jpg)
 
 ### Links
 
-- [Live Demo](https://replit.com/@gdbecker/015-Coffee-Machine-Basic)
+- [Live Demo](https://replit.com/@gdbecker/017-QuizBrain)
 
 ### Tools & Packages
 
@@ -21,13 +21,14 @@ Scripting
 
 ### Skills Used
 
+- OOP
 - Print statements
 - User input
 - While loops
 - If statements
 - f strings
-- Integer casting
 - Methods
+- Lists
 - Dictionaries
 
 ## Author
