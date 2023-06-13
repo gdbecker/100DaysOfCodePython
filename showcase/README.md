@@ -19,8 +19,13 @@ Scripting
 - [Python](https://www.python.org)
 - random
 - os
+- math
 - turtle
+- tkinter
 - colorgram
+- time
+- pandas
+- csv
 - [VS Code](https://code.visualstudio.com)
 
 ### Skills Used Throughout the Course
@@ -29,16 +34,23 @@ Scripting
 - User input
 - f strings
 - If statements
+- try/except
 - For loops
 - While loops
 - Integer casting
 - Float casting
 - Methods
+- List comprehension
 - Lists
+- Dictionary comprehension
 - Dictionaries
+- Tuples
 - Debugging code
 - OOP
 - Turtle class UI
+- tkinter class UI
+- File handling
+- Pandas dataframes
 
 ## Author
 
