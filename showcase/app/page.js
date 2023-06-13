@@ -24,7 +24,7 @@ import ProjectCard from './components/ProjectCard';
             title="Morse Code Translator"
             demo_url="https://replit.com/@gdbecker/MorseCodeTranslator?embed=true"
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/06%20-%20Professional/Day%20081%20-%20Morse%20Code%20Translator"
-            type="scripting"
+            type={["scripting"]}
           />
 
           <ProjectCard 
@@ -33,7 +33,7 @@ import ProjectCard from './components/ProjectCard';
             // demo_url="https://taskmanager-gdbecker.up.railway.app"
             demo_url="https://replit.com/@gdbecker/Task-Manager-Web-App-Django?embed=true"
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/06%20-%20Professional/Day%20082%20-%20Task%20Manager%20App%20(Django)"
-            type="webDev"
+            type={["webDev", "api"]}
           />
 
           <ProjectCard 
@@ -41,7 +41,7 @@ import ProjectCard from './components/ProjectCard';
             title="Tic Tac Toe Game"
             demo_url="https://replit.com/@gdbecker/Tic-Tac-Toe-Game?embed=true"
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/06%20-%20Professional/Day%20083%20-%20Tic%20Tac%20Toe"
-            type="scripting"
+            type={["scripting"]}
           />
 
 
@@ -51,7 +51,7 @@ import ProjectCard from './components/ProjectCard';
             title="Space Missions Analysis"
             demo_url="https://www.kaggle.com/embed/garrettbecker/space-missions-analysis?kernelSessionId=132508838"
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/06%20-%20Professional/Day%20098%20-%20Space%20Missions%20Analysis"
-            type="dataScience"
+            type={["dataScience"]}
           />
 
           <ProjectCard 
@@ -59,7 +59,7 @@ import ProjectCard from './components/ProjectCard';
             title="Fatal Force Analysis"
             demo_url="https://www.kaggle.com/embed/garrettbecker/fatal-force-analysis?kernelSessionId=132688822"
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/06%20-%20Professional/Day%20099%20-%20Fatal%20Force%20Analysis"
-            type="dataScience"
+            type={["dataScience"]}
           />
 
           <ProjectCard 
@@ -67,7 +67,7 @@ import ProjectCard from './components/ProjectCard';
             title="Determinants of Earnings Analysis"
             demo_url="https://www.kaggle.com/embed/garrettbecker/determinants-of-earnings-analysis?kernelSessionId=132695898"
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/06%20-%20Professional/Day%20100%20-%20Determinants%20of%20Earnings%20Analysis"
-            type="dataScience"
+            type={["dataScience"]}
           />
         </div>
       </section>
@@ -80,7 +80,7 @@ import ProjectCard from './components/ProjectCard';
             title="Birthday Email Automation"
             demo_url="https://replit.com/@gdbecker/032-Birthday-Email-Automation?embed=true"
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/03%20-%20Intermediate%2B/Day%20032%20-%20Birthday%20Email%20Automation"
-            type="auto"
+            type={["auto"]}
           />
 
           <ProjectCard 
@@ -88,7 +88,7 @@ import ProjectCard from './components/ProjectCard';
             title="ISS Email Notifications"
             demo_url="https://replit.com/@gdbecker/033-ISS-Email-Notifications?embed=true"
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/03%20-%20Intermediate%2B/Day%20033%20-%20ISS%20Email%20Notifications"
-            type="auto"
+            type={["auto"]}
           />
 
           <ProjectCard 
@@ -96,7 +96,7 @@ import ProjectCard from './components/ProjectCard';
             title="Quizzler App"
             demo_url="https://replit.com/@gdbecker/034-Quizzler-App?embed=true"
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/03%20-%20Intermediate%2B/Day%20034%20-%20Quizzler%20App"
-            type="gui"
+            type={["gui"]}
           />
 
           <ProjectCard 
@@ -104,7 +104,7 @@ import ProjectCard from './components/ProjectCard';
             title="Rain Text Alert"
             demo_url="https://replit.com/@gdbecker/035-Rain-Text-Alert?embed=true"
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/03%20-%20Intermediate%2B/Day%20035%20-%20Rain%20Text%20Alert"
-            type="auto"
+            type={["api", "auto"]}
           />
 
           <ProjectCard 
@@ -112,7 +112,7 @@ import ProjectCard from './components/ProjectCard';
             title="Stock Text Alert"
             demo_url="https://replit.com/@gdbecker/036-Stock-Text-Alert?embed=true"
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/03%20-%20Intermediate%2B/Day%20036%20-%20Stock%20Text%20Alert"
-            type="auto"
+            type={["api", "auto"]}
           />
 
           <ProjectCard 
@@ -120,7 +120,7 @@ import ProjectCard from './components/ProjectCard';
             title="Habit Tracker"
             demo_url="https://replit.com/@gdbecker/037-Habit-Tracker?embed=true"
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/03%20-%20Intermediate%2B/Day%20037%20-%20Habit%20Tracker"
-            type="auto"
+            type={["api", "auto"]}
           />
 
           <ProjectCard 
@@ -128,7 +128,7 @@ import ProjectCard from './components/ProjectCard';
             title="Workout Tracker"
             demo_url="https://replit.com/@gdbecker/038-Workout-Tracker?embed=true"
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/03%20-%20Intermediate%2B/Day%20038%20-%20Workout%20Tracker"
-            type="auto"
+            type={["api", "auto"]}
           />
 
           <ProjectCard 
@@ -136,7 +136,7 @@ import ProjectCard from './components/ProjectCard';
             title="Movies Web Scraper"
             demo_url="https://replit.com/@gdbecker/045-Movies-Web-Scraper?embed=true"
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/03%20-%20Intermediate%2B/Day%20045%20-%20Movies%20Web%20Scraper"
-            type="webScraping"
+            type={["webScraping"]}
           />
 
           <ProjectCard 
@@ -144,7 +144,7 @@ import ProjectCard from './components/ProjectCard';
             title="Amazon Price Tracker"
             demo_url="https://replit.com/@gdbecker/047-Amazon-Price-Tracker?embed=true"
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/03%20-%20Intermediate%2B/Day%20047%20-%20Amazon%20Price%20Tracker"
-            type="webScraping"
+            type={["webScraping", "api"]}
           />
 
           <ProjectCard 
@@ -152,7 +152,7 @@ import ProjectCard from './components/ProjectCard';
             title="Zillow Research Automation"
             demo_url="https://replit.com/@gdbecker/053-Zillow-Research?embed=true"
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/03%20-%20Intermediate%2B/Day%20053%20-%20Zillow%20Research%20Automation"
-            type="webScraping"
+            type={["webScraping", "api"]}
           />
         </div>
       </section>
@@ -165,7 +165,7 @@ import ProjectCard from './components/ProjectCard';
             title="Coffee Machine - Basic"
             demo_url="https://replit.com/@gdbecker/015-Coffee-Machine-Basic?embed=true"
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/02%20-%20Intermediate/Day%20015%20-%20Coffee%20Machine%20(Basic)"
-            type="scripting"
+            type={["scripting"]}
           />
 
           <ProjectCard 
@@ -173,7 +173,7 @@ import ProjectCard from './components/ProjectCard';
             title="Coffee Machine - OOP"
             demo_url="https://replit.com/@gdbecker/016-Coffee-Machine-OOP?embed=true"
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/02%20-%20Intermediate/Day%20016%20-%20Coffee%20Machine%20(OOP)"
-            type="scripting"
+            type={["scripting"]}
           />
 
           <ProjectCard 
@@ -181,7 +181,7 @@ import ProjectCard from './components/ProjectCard';
             title="QuizBrain"
             demo_url="https://replit.com/@gdbecker/017-QuizBrain?embed=true"
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/02%20-%20Intermediate/Day%20017%20-%20QuizBrain"
-            type="scripting"
+            type={["scripting"]}
           />
 
           <ProjectCard 
@@ -189,7 +189,7 @@ import ProjectCard from './components/ProjectCard';
             title="Dot Painting App"
             demo_url="https://replit.com/@gdbecker/018-Dot-Painting-App?embed=true"
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/02%20-%20Intermediate/Day%20018%20-%20Dot%20Painting%20App"
-            type="gui"
+            type={["gui"]}
           />
 
           <ProjectCard 
@@ -197,7 +197,7 @@ import ProjectCard from './components/ProjectCard';
             title="Etch-a-Sketch App"
             demo_url="https://replit.com/@gdbecker/019-Etch-a-Sketch-App?embed=true"
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/02%20-%20Intermediate/Day%20019%20-%20Etch-a-Sketch%20App"
-            type="gui"
+            type={["gui"]}
           />
 
           <ProjectCard 
@@ -205,7 +205,7 @@ import ProjectCard from './components/ProjectCard';
             title="Turtle Race Game"
             demo_url="https://replit.com/@gdbecker/019-Turtle-Race-Game?embed=true"
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/02%20-%20Intermediate/Day%20019%20-%20Turtle%20Race%20Game"
-            type="game"
+            type={["game"]}
           />
 
           <ProjectCard 
@@ -213,7 +213,7 @@ import ProjectCard from './components/ProjectCard';
             title="Snake Game V1"
             demo_url="https://replit.com/@gdbecker/020-021-Snake-Game-V1?embed=true"
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/02%20-%20Intermediate/Day%20020-021%20-%20Snake%20Game%20V1"
-            type="game"
+            type={["game"]}
           />
 
           <ProjectCard 
@@ -221,7 +221,7 @@ import ProjectCard from './components/ProjectCard';
             title="Snake Game V2"
             demo_url="https://replit.com/@gdbecker/024-Snake-Game-V2?embed=true"
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/02%20-%20Intermediate/Day%20024%20-%20Snake%20Game%20V2"
-            type="game"
+            type={["game"]}
           />
 
           <ProjectCard 
@@ -229,7 +229,7 @@ import ProjectCard from './components/ProjectCard';
             title="Pong Game"
             demo_url="https://replit.com/@gdbecker/022-Pong-Game?embed=true"
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/02%20-%20Intermediate/Day%20022%20-%20Pong%20Game"
-            type="game"
+            type={["game"]}
           />
 
           <ProjectCard 
@@ -237,7 +237,7 @@ import ProjectCard from './components/ProjectCard';
             title="Turtle Crossing Game"
             demo_url="https://replit.com/@gdbecker/023-Turtle-Crossing-Game?embed=true"
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/02%20-%20Intermediate/Day%20023%20-%20Turtle%20Crossing%20Game"
-            type="game"
+            type={["game"]}
           />
 
           <ProjectCard 
@@ -245,7 +245,7 @@ import ProjectCard from './components/ProjectCard';
             title="Mail Merge App"
             demo_url="https://replit.com/@gdbecker/024-Mail-Merge-App?embed=true"
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/02%20-%20Intermediate/Day%20024%20-%20Mail%20Merge%20App"
-            type="scripting"
+            type={["scripting"]}
           />
 
           <ProjectCard 
@@ -253,7 +253,7 @@ import ProjectCard from './components/ProjectCard';
             title="US States Game"
             demo_url="https://replit.com/@gdbecker/025-US-States-Game?embed=true"
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/02%20-%20Intermediate/Day%20025%20-%20US%20States%20Game"
-            type="game"
+            type={["game"]}
           />
 
           <ProjectCard 
@@ -261,7 +261,7 @@ import ProjectCard from './components/ProjectCard';
             title="NATO Phonetic Alphabet"
             demo_url="https://replit.com/@gdbecker/026-NATO-Phonetic-Alphabet?embed=true"
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/02%20-%20Intermediate/Day%20026%20-%20NATO%20Phonetic%20Alphabet"
-            type="scripting"
+            type={["scripting"]}
           />
 
           <ProjectCard 
@@ -269,7 +269,7 @@ import ProjectCard from './components/ProjectCard';
             title="MI to KM Converter"
             demo_url="https://replit.com/@gdbecker/027-MI-to-KM-Converter?embed=true"
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/02%20-%20Intermediate/Day%20027%20-%20MI%20to%20KM%20Converter"
-            type="gui"
+            type={["gui"]}
           />
 
           <ProjectCard 
@@ -277,7 +277,7 @@ import ProjectCard from './components/ProjectCard';
             title="Pomodoro App"
             demo_url="https://replit.com/@gdbecker/028-Pomodoro-App?embed=true"
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/02%20-%20Intermediate/Day%20028%20-%20Pomodoro%20App"
-            type="gui"
+            type={["gui"]}
           />
 
           <ProjectCard 
@@ -285,7 +285,7 @@ import ProjectCard from './components/ProjectCard';
             title="Password Manager"
             demo_url="https://replit.com/@gdbecker/029-030-Password-Manager?embed=true"
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/02%20-%20Intermediate/Day%20029-030%20-%20Password%20Manager"
-            type="gui"
+            type={["gui"]}
           />
 
           <ProjectCard 
@@ -293,7 +293,7 @@ import ProjectCard from './components/ProjectCard';
             title="Flash Card App"
             demo_url="https://replit.com/@gdbecker/031-Flash-Card-App?embed=true"
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/02%20-%20Intermediate/Day%20031%20-%20Flash%20Card%20App"
-            type="gui"
+            type={["gui"]}
           />
         </div>
       </section>
@@ -306,7 +306,7 @@ import ProjectCard from './components/ProjectCard';
             title="Band Name Generator"
             demo_url="https://replit.com/@gdbecker/001-Band-Name-Generator?embed=true"
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/01%20-%20Beginner/Day%20001%20-%20Band%20Name%20Generator"
-            type="scripting"
+            type={["scripting"]}
           />
 
           <ProjectCard 
@@ -314,7 +314,7 @@ import ProjectCard from './components/ProjectCard';
             title="Tip Calculator"
             demo_url="https://replit.com/@gdbecker/002-Tip-Calculator?embed=true"
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/01%20-%20Beginner/Day%20002%20-%20Tip%20Calculator"
-            type="scripting"
+            type={["scripting"]}
           />
 
           <ProjectCard 
@@ -322,7 +322,7 @@ import ProjectCard from './components/ProjectCard';
             title="Treasure Island Game"
             demo_url="https://replit.com/@gdbecker/003-Treasure-Island-Game?embed=true"
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/01%20-%20Beginner/Day%20003%20-%20Treasure%20Island%20Game"
-            type="scripting"
+            type={["scripting"]}
           />
 
           <ProjectCard 
@@ -330,7 +330,7 @@ import ProjectCard from './components/ProjectCard';
             title="Rock - Paper - Scissors"
             demo_url="https://replit.com/@gdbecker/004-Rock-Paper-Scissors?embed=true"
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/01%20-%20Beginner/Day%20004%20-%20Rock%20Paper%20Scissors"
-            type="scripting"
+            type={["scripting"]}
           />
 
           <ProjectCard 
@@ -338,7 +338,7 @@ import ProjectCard from './components/ProjectCard';
             title="Password Generator"
             demo_url="https://replit.com/@gdbecker/005-Password-Generator?embed=true"
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/01%20-%20Beginner/Day%20005%20-%20Password%20Generator"
-            type="scripting"
+            type={["scripting"]}
           />
 
           <ProjectCard 
@@ -346,7 +346,7 @@ import ProjectCard from './components/ProjectCard';
             title="Reeborg's World: Escape Maze Problem"
             demo_url="https://replit.com/@gdbecker/006-Escape-Maze-Problem?embed=true"
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/01%20-%20Beginner/Day%20006%20-%20Escape%20Maze%20Problem"
-            type="scripting"
+            type={["scripting"]}
           />
 
           <ProjectCard 
@@ -354,7 +354,7 @@ import ProjectCard from './components/ProjectCard';
             title="Hangman Game"
             demo_url="https://replit.com/@gdbecker/007-Hangman-Game?embed=true"
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/01%20-%20Beginner/Day%20007%20-%20Hangman%20Game"
-            type="scripting"
+            type={["scripting"]}
           />
 
           <ProjectCard 
@@ -362,7 +362,7 @@ import ProjectCard from './components/ProjectCard';
             title="Caesar Cipher"
             demo_url="https://replit.com/@gdbecker/008-Caesar-Cipher?embed=true"
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/01%20-%20Beginner/Day%20008%20-%20Caesar%20Cipher"
-            type="scripting"
+            type={["scripting"]}
           />
 
           <ProjectCard 
@@ -370,7 +370,7 @@ import ProjectCard from './components/ProjectCard';
             title="Secret Auction"
             demo_url="https://replit.com/@gdbecker/009-Secret-Auction?embed=true"
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/01%20-%20Beginner/Day%20009%20-%20Secret%20Auction"
-            type="scripting"
+            type={["scripting"]}
           />
 
           <ProjectCard 
@@ -378,7 +378,7 @@ import ProjectCard from './components/ProjectCard';
             title="Calculator"
             demo_url="https://replit.com/@gdbecker/010-Calculator?embed=true"
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/01%20-%20Beginner/Day%20010%20-%20Calculator"
-            type="scripting"
+            type={["scripting"]}
           />
 
           <ProjectCard 
@@ -386,7 +386,7 @@ import ProjectCard from './components/ProjectCard';
             title="Blackjack Game"
             demo_url="https://replit.com/@gdbecker/011-Blackjack-Game?embed=true"
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/01%20-%20Beginner/Day%20011%20-%20Blackjack%20Game"
-            type="scripting"
+            type={["scripting"]}
           />
 
           <ProjectCard 
@@ -394,7 +394,7 @@ import ProjectCard from './components/ProjectCard';
             title="Number Guess Game"
             demo_url="https://replit.com/@gdbecker/012-Number-Guess-Game?embed=true"
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/01%20-%20Beginner/Day%20012%20-%20Number%20Guess%20Game"
-            type="scripting"
+            type={["scripting"]}
           />
 
           <ProjectCard 
@@ -402,7 +402,7 @@ import ProjectCard from './components/ProjectCard';
             title="Debugging Practice"
             demo_url="https://replit.com/@gdbecker/013-Debugging-Practice?embed=true"
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/01%20-%20Beginner/Day%20013%20-%20Debugging%20Practice"
-            type="debugging"
+            type={["scripting"]}
           />
 
           <ProjectCard 
@@ -410,7 +410,7 @@ import ProjectCard from './components/ProjectCard';
             title="Higher Lower Game"
             demo_url="https://replit.com/@gdbecker/014-Higher-Lower-Game?embed=true"
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/01%20-%20Beginner/Day%20014%20-%20Higher%20Lower%20Game"
-            type="scripting"
+            type={["scripting"]}
           />
         </div>
       </section>

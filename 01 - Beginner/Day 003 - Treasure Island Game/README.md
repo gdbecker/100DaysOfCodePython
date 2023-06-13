@@ -1,33 +1,29 @@
-# 100 Days of Code: Python Showcase
+# 003 - Treasure Island Game
 
-Showcase site displaying projects I created via the [100 Days of Code: Python course from Angela Yu](https://www.udemy.com/course/100-days-of-code/)
+Treasure hunt "choose your own adventure" game
 
-### Project Types
+### Project Type
 
 Scripting
 
-### Showcase View
+### Demo View
 
-![](./insert)
+![](./003-treasure-island-game.jpg)
 
 ### Links
 
-- [Live Showcase](insert)
+- [Live Demo](https://replit.com/@gdbecker/003-Treasure-Island-Game)
 
 ### Tools & Packages
 
 - [Python](https://www.python.org)
-- random
 - [VS Code](https://code.visualstudio.com)
 
-### Skills Used Throughout the Course
+### Skills Used
 
 - Print statements
 - User input
-- f strings
 - If statements
-- For loops
-- Integer casting
 
 ## Author
 

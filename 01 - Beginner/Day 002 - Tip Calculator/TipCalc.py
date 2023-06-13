@@ -1,6 +1,6 @@
 # 100 Days of Code: Python
 # May 3, 2022
-# Calculate how much each person pays for dinner, tip included
+# Calculate how much each person pays for dinner, with tip included.
 
 # Grab info
 print("Welcome to the tip calculator!")

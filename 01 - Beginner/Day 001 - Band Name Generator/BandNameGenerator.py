@@ -1,6 +1,6 @@
 # 100 Days of Code: Python
 # May 2, 2022
-# Generate a band name based on input
+# Takes user input for a city name and pet name to generate an awesome band name.
 
 print("Welcome to the Band Name Generator!")
 

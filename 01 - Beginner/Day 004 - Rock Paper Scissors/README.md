@@ -1,33 +1,29 @@
-# 100 Days of Code: Python Showcase
+# 004 - Rock - Paper - Scissors
 
-Showcase site displaying projects I created via the [100 Days of Code: Python course from Angela Yu](https://www.udemy.com/course/100-days-of-code/)
+Play Rock, Paper, Scissors against the computer
 
-### Project Types
+### Project Type
 
 Scripting
 
-### Showcase View
+### Demo View
 
-![](./insert)
+![](./004-rock-paper-scissors.jpg)
 
 ### Links
 
-- [Live Showcase](insert)
+- [Live Demo](https://replit.com/@gdbecker/004-Rock-Paper-Scissors)
 
 ### Tools & Packages
 
 - [Python](https://www.python.org)
-- random
 - [VS Code](https://code.visualstudio.com)
 
-### Skills Used Throughout the Course
+### Skills Used
 
 - Print statements
 - User input
-- f strings
 - If statements
-- For loops
-- Integer casting
 
 ## Author
 

@@ -120,7 +120,7 @@ function ProjectCard({ img_bg, title, demo_url, code_url, type }) {
           query: {
             demo_url: `${demo_url}`,
             title: `${title}`,
-            type: `${type}`,
+            type: `${type[0]}`,
           }
         }
       );
@@ -128,19 +128,21 @@ function ProjectCard({ img_bg, title, demo_url, code_url, type }) {
   }
 
   return (
-    <div className={getOutlineClass(type)}>
+    <div className={getOutlineClass(type[0])}>
       <div className={`flex flex-row h-44 ${ img_bg }`}></div>
       <div className="px-5 py-3 pb-1 text-gray">
         <div className="flex flex-row items-center justify-between">
           <Link 
             href={getLinkHref(demo_url)}
             target="_blank"
-            className="py-2 text-xl font-sourceSansProBold relative no-underline lg:text-md"><span className={getShadowClass(type)}>{title}</span></Link>
+            className="py-2 text-xl font-sourceSansProBold relative no-underline lg:text-md"><span className={getShadowClass(type[0])}>{title}</span></Link>
         </div>
         <div className="grid grid-cols-2 items-center justify-between py-3 font-sourceSansProRegular text-md lg:text-sm">
-          <Link href={code_url} target="_blank" className={getHoverClass(type)}><FaGithub /> <p className="text-sm pl-2">Learn More</p></Link>
+          <Link href={code_url} target="_blank" className={getHoverClass(type[0])}><FaGithub /> <p className="text-sm pl-2">Learn More</p></Link>
           <div className="flex flex-col items-end justify-end">
-            {getLabel(type)}
+            <div className="flex flex-col items-end">
+              {type.map((t) => getLabel(t))}
+            </div>
           </div>
         </div>
       </div>
