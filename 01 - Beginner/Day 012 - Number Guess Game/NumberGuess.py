@@ -1,6 +1,6 @@
 # 100 Days of Code: Python
 # May 10, 2022
-# Number guessing game with the computer, easy/hard difficulty levels
+# Number guessing game with the computer with easy/hard difficulty levels
 
 import random
 import os

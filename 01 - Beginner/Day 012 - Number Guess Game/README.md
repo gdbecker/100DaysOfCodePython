@@ -1,6 +1,6 @@
-# 005 - Password Generator
+# 012 - Number Guess Game
 
-Generate a random password based on number of letters, symbols, and numbers needed
+Number guessing game with the computer with easy/hard difficulty levels
 
 ### Project Type
 
@@ -8,26 +8,26 @@ Scripting
 
 ### Demo View
 
-![](./005-password-generator.jpg)
+![](./012-number-guess-game.jpg)
 
 ### Links
 
-- [Live Demo](https://replit.com/@gdbecker/005-Password-Generator)
+- [Live Demo](https://replit.com/@gdbecker/012-Number-Guess-Game)
 
 ### Tools & Packages
 
 - [Python](https://www.python.org)
 - random
+- os
 - [VS Code](https://code.visualstudio.com)
 
 ### Skills Used
 
 - Print statements
 - User input
-- For loops
-- Integer casting
+- While loops
+- If statements
 - f strings
-- Lists 
 
 ## Author
 

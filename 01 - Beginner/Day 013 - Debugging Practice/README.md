@@ -1,33 +1,27 @@
-# 005 - Password Generator
+# 013 - Debugging Practice
 
-Generate a random password based on number of letters, symbols, and numbers needed
+Three practice problems for debugging Python code. Features the broken code before and then my solutions after.
 
 ### Project Type
 
-Scripting
+Debugging
 
 ### Demo View
 
-![](./005-password-generator.jpg)
+![](./013-debugging-practice.jpg)
 
 ### Links
 
-- [Live Demo](https://replit.com/@gdbecker/005-Password-Generator)
+- [Live Demo](https://replit.com/@gdbecker/013-Debugging-Practice)
 
 ### Tools & Packages
 
 - [Python](https://www.python.org)
-- random
 - [VS Code](https://code.visualstudio.com)
 
 ### Skills Used
 
-- Print statements
-- User input
-- For loops
-- Integer casting
-- f strings
-- Lists 
+- Debugging code
 
 ## Author
 

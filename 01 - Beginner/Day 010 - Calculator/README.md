@@ -1,6 +1,6 @@
-# 005 - Password Generator
+# 010 - Calculator
 
-Generate a random password based on number of letters, symbols, and numbers needed
+Calculator app with four main operations to select from
 
 ### Project Type
 
@@ -8,26 +8,26 @@ Scripting
 
 ### Demo View
 
-![](./005-password-generator.jpg)
+![](./010-calculator.jpg)
 
 ### Links
 
-- [Live Demo](https://replit.com/@gdbecker/005-Password-Generator)
+- [Live Demo](https://replit.com/@gdbecker/010-Calculator)
 
 ### Tools & Packages
 
 - [Python](https://www.python.org)
-- random
 - [VS Code](https://code.visualstudio.com)
 
 ### Skills Used
 
 - Print statements
 - User input
-- For loops
-- Integer casting
+- While loops
+- Methods
+- If statements
 - f strings
-- Lists 
+- Float casting
 
 ## Author
 

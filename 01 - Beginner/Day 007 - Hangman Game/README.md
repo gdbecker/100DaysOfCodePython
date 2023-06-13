@@ -1,6 +1,6 @@
-# 005 - Password Generator
+# 007 - Hangman Game
 
-Generate a random password based on number of letters, symbols, and numbers needed
+Play Hangman with the computer
 
 ### Project Type
 
@@ -8,16 +8,17 @@ Scripting
 
 ### Demo View
 
-![](./005-password-generator.jpg)
+![](./007-hangman-game.jpg)
 
 ### Links
 
-- [Live Demo](https://replit.com/@gdbecker/005-Password-Generator)
+- [Live Demo](https://replit.com/@gdbecker/007-Hangman-Game)
 
 ### Tools & Packages
 
 - [Python](https://www.python.org)
 - random
+- os
 - [VS Code](https://code.visualstudio.com)
 
 ### Skills Used
@@ -25,9 +26,10 @@ Scripting
 - Print statements
 - User input
 - For loops
-- Integer casting
+- Methods
+- If statements
 - f strings
-- Lists 
+- Lists
 
 ## Author
 

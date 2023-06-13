@@ -1,6 +1,6 @@
 # 100 Days of Code: Python
 # May 10, 2022
-# Higher/Lower comparison game, see how many you can guess right!
+# Higher/Lower comparison game with the computer. See how many you can guess right!
 # Ex: http://www.higherlowergame.com/
 
 import random

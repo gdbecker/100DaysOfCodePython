@@ -1,6 +1,6 @@
-# 005 - Password Generator
+# 014 - Higher Lower Game
 
-Generate a random password based on number of letters, symbols, and numbers needed
+Higher/Lower comparison game with the computer. See how many you can guess right!
 
 ### Project Type
 
@@ -8,26 +8,28 @@ Scripting
 
 ### Demo View
 
-![](./005-password-generator.jpg)
+![](./014-higher-lower-game.jpg)
 
 ### Links
 
-- [Live Demo](https://replit.com/@gdbecker/005-Password-Generator)
+- [Live Demo](https://replit.com/@gdbecker/014-Higher-Lower-Game)
 
 ### Tools & Packages
 
 - [Python](https://www.python.org)
 - random
+- os
 - [VS Code](https://code.visualstudio.com)
 
 ### Skills Used
 
 - Print statements
 - User input
-- For loops
-- Integer casting
+- While loops
+- If statements
 - f strings
-- Lists 
+- Lists
+- Dictionaries
 
 ## Author
 

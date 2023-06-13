@@ -18,6 +18,7 @@ Scripting
 
 - [Python](https://www.python.org)
 - random
+- os
 - [VS Code](https://code.visualstudio.com)
 
 ### Skills Used Throughout the Course
@@ -27,7 +28,13 @@ Scripting
 - f strings
 - If statements
 - For loops
+- While loops
 - Integer casting
+- Float casting
+- Methods
+- Lists
+- Dictionaries
+- Debugging code
 
 ## Author
 

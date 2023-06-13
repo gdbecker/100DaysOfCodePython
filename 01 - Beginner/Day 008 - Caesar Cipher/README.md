@@ -1,6 +1,6 @@
-# 005 - Password Generator
+# 008 - Caesar Cipher
 
-Generate a random password based on number of letters, symbols, and numbers needed
+Encrypt and decrypt based on user input
 
 ### Project Type
 
@@ -8,16 +8,15 @@ Scripting
 
 ### Demo View
 
-![](./005-password-generator.jpg)
+![](./008-caesar-cipher.jpg)
 
 ### Links
 
-- [Live Demo](https://replit.com/@gdbecker/005-Password-Generator)
+- [Live Demo](https://replit.com/@gdbecker/008-Caesar-Cipher)
 
 ### Tools & Packages
 
 - [Python](https://www.python.org)
-- random
 - [VS Code](https://code.visualstudio.com)
 
 ### Skills Used
@@ -25,9 +24,11 @@ Scripting
 - Print statements
 - User input
 - For loops
-- Integer casting
+- While loops
+- Methods
+- If statements
 - f strings
-- Lists 
+- Lists
 
 ## Author
 

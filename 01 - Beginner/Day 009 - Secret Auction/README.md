@@ -1,6 +1,6 @@
-# 005 - Password Generator
+# 009 - Secret Auction
 
-Generate a random password based on number of letters, symbols, and numbers needed
+Multiple people input bids, and the program prints out who won the auction
 
 ### Project Type
 
@@ -8,16 +8,16 @@ Scripting
 
 ### Demo View
 
-![](./005-password-generator.jpg)
+![](./009-secret-auction.jpg)
 
 ### Links
 
-- [Live Demo](https://replit.com/@gdbecker/005-Password-Generator)
+- [Live Demo](https://replit.com/@gdbecker/009-Secret-Auction)
 
 ### Tools & Packages
 
 - [Python](https://www.python.org)
-- random
+- os
 - [VS Code](https://code.visualstudio.com)
 
 ### Skills Used
@@ -25,9 +25,12 @@ Scripting
 - Print statements
 - User input
 - For loops
-- Integer casting
+- While loops
+- Methods
+- If statements
 - f strings
-- Lists 
+- Dictionaries
+- Integer casting
 
 ## Author
 

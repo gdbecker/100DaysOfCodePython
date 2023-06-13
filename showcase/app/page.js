@@ -402,7 +402,7 @@ import ProjectCard from './components/ProjectCard';
             title="Debugging Practice"
             demo_url="https://replit.com/@gdbecker/013-Debugging-Practice?embed=true"
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/01%20-%20Beginner/Day%20013%20-%20Debugging%20Practice"
-            type={["scripting"]}
+            type={["debugging"]}
           />
 
           <ProjectCard 

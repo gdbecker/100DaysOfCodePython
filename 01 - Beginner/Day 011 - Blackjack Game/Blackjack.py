@@ -1,6 +1,7 @@
 # 100 Days of Code: Python
 # May 9, 2022
 # Blackjack capstone project
+# Play Blackjack with the computer
 
 import random
 import os
