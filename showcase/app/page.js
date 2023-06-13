@@ -33,7 +33,7 @@ import ProjectCard from './components/ProjectCard';
             // demo_url="https://taskmanager-gdbecker.up.railway.app"
             demo_url="https://replit.com/@gdbecker/Task-Manager-Web-App-Django?embed=true"
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/06%20-%20Professional/Day%20082%20-%20Task%20Manager%20App%20(Django)"
-            type={["webDev", "api"]}
+            type={["webDev"]}
           />
 
           <ProjectCard 
@@ -143,6 +143,14 @@ import ProjectCard from './components/ProjectCard';
             img_bg="bg-047-amazon-price-tracker bg-project"
             title="Amazon Price Tracker"
             demo_url="https://replit.com/@gdbecker/047-Amazon-Price-Tracker?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/03%20-%20Intermediate%2B/Day%20047%20-%20Amazon%20Price%20Tracker"
+            type={["auto", "webScraping"]}
+          />
+
+          <ProjectCard 
+            img_bg="bg-049-great-teacher bg-project"
+            title="Great Teacher"
+            demo_url="https://replit.com/@gdbecker/049-Great-Teacher#main.py?embed=true"
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/03%20-%20Intermediate%2B/Day%20047%20-%20Amazon%20Price%20Tracker"
             type={["auto", "webScraping"]}
           />
