@@ -132,6 +132,14 @@ import ProjectCard from './components/ProjectCard';
           />
 
           <ProjectCard 
+            img_bg="bg-046-spotify-playlist-automation bg-project"
+            title="Spotify Playlist Automation"
+            demo_url=""
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/03%20-%20Intermediate%2B/Day%20046%20-%20Spotify%20Playlist%20Automation"
+            type={["api", "auto", "webScraping"]}
+          />
+
+          <ProjectCard 
             img_bg="bg-045-movies-web-scraper bg-project"
             title="Movies Web Scraper"
             demo_url="https://replit.com/@gdbecker/045-Movies-Web-Scraper?embed=true"
@@ -150,8 +158,16 @@ import ProjectCard from './components/ProjectCard';
           <ProjectCard 
             img_bg="bg-049-great-teacher bg-project"
             title="Great Teacher"
-            demo_url="https://replit.com/@gdbecker/049-Great-Teacher#main.py?embed=true"
-            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/03%20-%20Intermediate%2B/Day%20047%20-%20Amazon%20Price%20Tracker"
+            demo_url="https://replit.com/@gdbecker/049-Great-Teacher?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/03%20-%20Intermediate%2B/Day%20049%20-%20Great%20Teacher"
+            type={["auto", "webScraping"]}
+          />
+
+          <ProjectCard 
+            img_bg="bg-050-photo-collector bg-project"
+            title="Photo Collector"
+            demo_url="https://replit.com/@gdbecker/050-Photo-Collector?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/03%20-%20Intermediate%2B/Day%20050%20-%20Photo%20Collector"
             type={["auto", "webScraping"]}
           />
 

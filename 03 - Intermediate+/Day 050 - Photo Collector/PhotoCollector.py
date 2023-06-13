@@ -32,7 +32,7 @@ driver.implicitly_wait(10)
 time.sleep(random.randint(2, 4))
 
 # Input search into Unplash
-input_field = driver.find_element(By.CSS_SELECTOR, "#app > div > header > nav > div.hzGh7 > form > div.ejG8W.kypwe > input")
+input_field = driver.find_element(By.CSS_SELECTOR, "#app > div > header > nav > div.ceaSi > form > div > input")
 input_field.send_keys(search)
 input_field.send_keys(Keys.ENTER)
 
@@ -43,7 +43,7 @@ time.sleep(random.randint(2, 4))
 response = requests.get(str(driver.current_url), headers=HEADERS)
 wp = response.text
 soup = BeautifulSoup(wp, "html.parser")
-images = soup.findAll(name="img", class_="YVj9w", itemprop="thumbnailUrl")[:5]
+images = soup.findAll(name="img", class_="tB6UZ", itemprop="thumbnailUrl")[:5]
 images_urls = []
 
 for i in images:

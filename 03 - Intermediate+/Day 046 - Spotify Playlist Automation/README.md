@@ -12,7 +12,7 @@ API, Automation, Web Scraping
 
 ### Links
 
-- [Live Demo]()
+- No live demo available due to sensitive info
 
 ### Tools & Packages
 
