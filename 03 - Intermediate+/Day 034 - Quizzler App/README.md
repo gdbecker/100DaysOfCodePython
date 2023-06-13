@@ -1,36 +1,34 @@
-# 031 - Flash Card App
+# 034 - Quizzler App
 
-Flashcard app with tkinter
+Quiz GUI app with data from API source
 
 ### Project Type
 
-GUI
+API, GUI
 
 ### Demo View
 
-![](./031-flash-card-app.jpg)
+![](./034-quizzler-app.jpg)
 
 ### Links
 
-- [Live Demo](https://replit.com/@gdbecker/031-Flash-Card-App)
+- [Live Demo](https://replit.com/@gdbecker/034-Quizzler-App)
 
 ### Tools & Packages
 
 - [Python](https://www.python.org)
 - tkinter
-- random
-- pandas
-- csv
+- requests
+- html
 - [VS Code](https://code.visualstudio.com)
 
 ### Skills Used
 
-- tkinter class UI
+- OOP
+- API connectivity
 - Methods
-- try/except
 - If statements
-- For loops
-- Lists
+- Dictionaries
 
 ## Author
 

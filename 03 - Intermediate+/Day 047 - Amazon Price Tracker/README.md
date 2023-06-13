@@ -1,36 +1,33 @@
-# 031 - Flash Card App
+# 047 - Amazon Price Tracker
 
-Flashcard app with tkinter
+Get notifications when an Amazon item gets cheaper
 
 ### Project Type
 
-GUI
+Automation, Web Scraping
 
 ### Demo View
 
-![](./031-flash-card-app.jpg)
+![](./047-amazon-price-tracker.jpg)
 
 ### Links
 
-- [Live Demo](https://replit.com/@gdbecker/031-Flash-Card-App)
+- [Live Demo](https://replit.com/@gdbecker/047-Amazon-Price-Tracker)
 
 ### Tools & Packages
 
 - [Python](https://www.python.org)
-- tkinter
-- random
-- pandas
-- csv
+- requests
+- bs4
+- smtplib
+- os
 - [VS Code](https://code.visualstudio.com)
 
 ### Skills Used
 
-- tkinter class UI
-- Methods
-- try/except
 - If statements
-- For loops
-- Lists
+- smtp email auth
+- Print statements
 
 ## Author
 

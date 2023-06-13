@@ -1,36 +1,34 @@
-# 031 - Flash Card App
+# 035 - Rain Text Alert
 
-Flashcard app with tkinter
+App to send SMS alert if it's going to be raining today
 
 ### Project Type
 
-GUI
+API, Automation
 
 ### Demo View
 
-![](./031-flash-card-app.jpg)
+![](./035-rain-text-alert.jpg)
 
 ### Links
 
-- [Live Demo](https://replit.com/@gdbecker/031-Flash-Card-App)
+- [Live Demo](https://replit.com/@gdbecker/035-Rain-Text-Alert)
 
 ### Tools & Packages
 
 - [Python](https://www.python.org)
-- tkinter
-- random
-- pandas
-- csv
+- requests
+- twilio
+- os
 - [VS Code](https://code.visualstudio.com)
 
 ### Skills Used
 
-- tkinter class UI
-- Methods
-- try/except
-- If statements
+- Twilio text messaging library
+- API connectivity
+- Dictionaries
 - For loops
-- Lists
+- If statements
 
 ## Author
 

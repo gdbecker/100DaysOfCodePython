@@ -1,36 +1,37 @@
-# 031 - Flash Card App
+# 053 - Zillow Research
 
-Flashcard app with tkinter
+Research apartments for rent in SF and record what you find using Selenium webdriver, BeautifulSoup, Google Forms
 
 ### Project Type
 
-GUI
+API, Automation, Web Scraping
 
 ### Demo View
 
-![](./031-flash-card-app.jpg)
+![](./053-zillow-research.jpg)
 
 ### Links
 
-- [Live Demo](https://replit.com/@gdbecker/031-Flash-Card-App)
+- [Live Demo](https://replit.com/@gdbecker/053-Zillow-Research)
 
 ### Tools & Packages
 
 - [Python](https://www.python.org)
-- tkinter
+- requests
+- bs4
 - random
-- pandas
-- csv
+- selenium
+- time
 - [VS Code](https://code.visualstudio.com)
 
 ### Skills Used
 
-- tkinter class UI
-- Methods
-- try/except
+- Selenium web driver
+- API connectivity
 - If statements
 - For loops
 - Lists
+- Dictionaries
 
 ## Author
 

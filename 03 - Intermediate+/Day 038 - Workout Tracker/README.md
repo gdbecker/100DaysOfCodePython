@@ -1,36 +1,33 @@
-# 031 - Flash Card App
+# 038 - Workout Tracker
 
-Flashcard app with tkinter
+Keep track of workouts with Google Sheets
 
 ### Project Type
 
-GUI
+API, Automation
 
 ### Demo View
 
-![](./031-flash-card-app.jpg)
+![](./038-workout-tracker.jpg)
 
 ### Links
 
-- [Live Demo](https://replit.com/@gdbecker/031-Flash-Card-App)
+- [Live Demo](https://replit.com/@gdbecker/038-Workout-Tracker)
 
 ### Tools & Packages
 
 - [Python](https://www.python.org)
-- tkinter
-- random
-- pandas
-- csv
+- requests
+- os
+- datetime
 - [VS Code](https://code.visualstudio.com)
 
 ### Skills Used
 
-- tkinter class UI
-- Methods
-- try/except
-- If statements
-- For loops
-- Lists
+- API connectivity
+- Dictionaries
+- Print statements
+- Environment variables
 
 ## Author
 

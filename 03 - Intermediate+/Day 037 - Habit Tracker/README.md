@@ -1,36 +1,32 @@
-# 031 - Flash Card App
+# 037 - Habit Tracker
 
-Flashcard app with tkinter
+Keep track of habits with Pixela
 
 ### Project Type
 
-GUI
+API, Automation
 
 ### Demo View
 
-![](./031-flash-card-app.jpg)
+![](./037-habit-tracker.jpg)
 
 ### Links
 
-- [Live Demo](https://replit.com/@gdbecker/031-Flash-Card-App)
+- [Live Demo](https://replit.com/@gdbecker/037-Habit-Tracker)
 
 ### Tools & Packages
 
 - [Python](https://www.python.org)
-- tkinter
-- random
-- pandas
-- csv
+- requests
+- os
+- datetime
 - [VS Code](https://code.visualstudio.com)
 
 ### Skills Used
 
-- tkinter class UI
-- Methods
-- try/except
-- If statements
-- For loops
-- Lists
+- API connectivity
+- Dictionaries
+- Environment variables
 
 ## Author
 

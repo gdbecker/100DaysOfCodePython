@@ -1,36 +1,31 @@
-# 031 - Flash Card App
+# 045 - Movies Web Scraper
 
-Flashcard app with tkinter
+Webscraping the top 100 movies of all time
 
 ### Project Type
 
-GUI
+Web Scraping
 
 ### Demo View
 
-![](./031-flash-card-app.jpg)
+![](./045-movies-web-scraper.jpg)
 
 ### Links
 
-- [Live Demo](https://replit.com/@gdbecker/031-Flash-Card-App)
+- [Live Demo](https://replit.com/@gdbecker/045-Movies-Web-Scraper)
 
 ### Tools & Packages
 
 - [Python](https://www.python.org)
-- tkinter
-- random
-- pandas
-- csv
+- requests
+- bs4
 - [VS Code](https://code.visualstudio.com)
 
 ### Skills Used
 
-- tkinter class UI
-- Methods
-- try/except
-- If statements
+- Dictionaries
+- Print statements
 - For loops
-- Lists
 
 ## Author
 

@@ -22,10 +22,20 @@ Scripting
 - math
 - turtle
 - tkinter
+- twilio
 - colorgram
 - time
 - pandas
 - csv
+- smtplib
+- datetime
+- requests
+- bs4
+- html
+- spotipy
+- decouple
+- selenium
+- time
 - [VS Code](https://code.visualstudio.com)
 
 ### Skills Used Throughout the Course
@@ -49,8 +59,14 @@ Scripting
 - OOP
 - Turtle class UI
 - tkinter class UI
+- Twilio text messaging library
 - File handling
 - Pandas dataframes
+- smtp email auth
+- API connectivity
+- Environment variables
+- Spotify & Python connection
+- Selenium web driver
 
 ## Author
 

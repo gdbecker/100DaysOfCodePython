@@ -88,7 +88,7 @@ import ProjectCard from './components/ProjectCard';
             title="ISS Email Notifications"
             demo_url="https://replit.com/@gdbecker/033-ISS-Email-Notifications?embed=true"
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/03%20-%20Intermediate%2B/Day%20033%20-%20ISS%20Email%20Notifications"
-            type={["auto"]}
+            type={["api", "auto"]}
           />
 
           <ProjectCard 
@@ -96,7 +96,7 @@ import ProjectCard from './components/ProjectCard';
             title="Quizzler App"
             demo_url="https://replit.com/@gdbecker/034-Quizzler-App?embed=true"
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/03%20-%20Intermediate%2B/Day%20034%20-%20Quizzler%20App"
-            type={["gui"]}
+            type={["api", "gui"]}
           />
 
           <ProjectCard 
@@ -144,7 +144,7 @@ import ProjectCard from './components/ProjectCard';
             title="Amazon Price Tracker"
             demo_url="https://replit.com/@gdbecker/047-Amazon-Price-Tracker?embed=true"
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/03%20-%20Intermediate%2B/Day%20047%20-%20Amazon%20Price%20Tracker"
-            type={["webScraping", "api"]}
+            type={["auto", "webScraping"]}
           />
 
           <ProjectCard 
@@ -152,7 +152,7 @@ import ProjectCard from './components/ProjectCard';
             title="Zillow Research Automation"
             demo_url="https://replit.com/@gdbecker/053-Zillow-Research?embed=true"
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/03%20-%20Intermediate%2B/Day%20053%20-%20Zillow%20Research%20Automation"
-            type={["webScraping", "api"]}
+            type={["api", "auto", "webScraping"]}
           />
         </div>
       </section>

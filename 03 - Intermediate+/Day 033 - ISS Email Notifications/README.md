@@ -1,36 +1,37 @@
-# 031 - Flash Card App
+# 033 - ISS Email Notifications
 
-Flashcard app with tkinter
+Get an email notification if the ISS is above you
 
 ### Project Type
 
-GUI
+API, Automation
 
 ### Demo View
 
-![](./031-flash-card-app.jpg)
+![](./033-iss-email-notifications.jpg)
 
 ### Links
 
-- [Live Demo](https://replit.com/@gdbecker/031-Flash-Card-App)
+- [Live Demo](https://replit.com/@gdbecker/033-ISS-Email-Notifications)
 
 ### Tools & Packages
 
 - [Python](https://www.python.org)
-- tkinter
-- random
-- pandas
-- csv
+- smtplib
+- os
+- requests
+- datetime
 - [VS Code](https://code.visualstudio.com)
 
 ### Skills Used
 
-- tkinter class UI
-- Methods
-- try/except
+- API connectivity
 - If statements
 - For loops
 - Lists
+- Print statements
+- f strings
+- smtp email auth
 
 ## Author
 

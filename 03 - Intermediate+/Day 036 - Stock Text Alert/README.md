@@ -1,36 +1,36 @@
-# 031 - Flash Card App
+# 036 - Stock Text Alert
 
-Flashcard app with tkinter
+Send stock alerts and news articles for specific stocks
 
 ### Project Type
 
-GUI
+API, Automation
 
 ### Demo View
 
-![](./031-flash-card-app.jpg)
+![](./036-stock-text-alert.jpg)
 
 ### Links
 
-- [Live Demo](https://replit.com/@gdbecker/031-Flash-Card-App)
+- [Live Demo](https://replit.com/@gdbecker/036-Stock-Text-Alert)
 
 ### Tools & Packages
 
 - [Python](https://www.python.org)
-- tkinter
-- random
-- pandas
-- csv
+- requests
+- twilio
+- os
+- datetime
 - [VS Code](https://code.visualstudio.com)
 
 ### Skills Used
 
-- tkinter class UI
-- Methods
-- try/except
-- If statements
+- Twilio text messaging library
+- API connectivity
+- Dictionaries
 - For loops
-- Lists
+- If statements
+- Environment variables
 
 ## Author
 

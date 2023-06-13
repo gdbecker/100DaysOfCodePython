@@ -1,36 +1,37 @@
-# 031 - Flash Card App
+# 032 - Birthday Email Automation
 
-Flashcard app with tkinter
+Automate sending bday emails with python
 
 ### Project Type
 
-GUI
+Automation
 
 ### Demo View
 
-![](./031-flash-card-app.jpg)
+![](./032-birthday-email-automation.jpg)
 
 ### Links
 
-- [Live Demo](https://replit.com/@gdbecker/031-Flash-Card-App)
+- [Live Demo](https://replit.com/@gdbecker/032-Birthday-Email-Automation)
 
 ### Tools & Packages
 
 - [Python](https://www.python.org)
-- tkinter
+- smtplib
 - random
+- datetime
 - pandas
-- csv
+- os
 - [VS Code](https://code.visualstudio.com)
 
 ### Skills Used
 
-- tkinter class UI
-- Methods
-- try/except
 - If statements
 - For loops
 - Lists
+- Print statements
+- f strings
+- smtp email auth
 
 ## Author
 
