@@ -72,6 +72,27 @@ import ProjectCard from './components/ProjectCard';
         </div>
       </section>
 
+      <section id="4" className="pt-4 w-full items-center justify-center">
+        <h1 className="px-2 h-full text-level4 max-w-fit ring-level4 ring-2 rounded-sm font-sourceSansProBold text-sm overflow-hidden">04 - WEB FOUNDATION +</h1>
+        <div className="flex flex-col pt-5 pb-10 gap-7 md:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+          <ProjectCard 
+            img_bg="bg-041-044-personal-site-html bg-project"
+            title="Personal Site - HTML"
+            demo_url="https://replit.com/@gdbecker/041-044-Personal-Site-HTML?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/04%20-%20Web%20Foundation/Day%20041-044%20-%20Personal%20Site"
+            type={["webDev"]}
+          />
+
+          <ProjectCard 
+            img_bg="bg-041-044-personal-site-css bg-project"
+            title="Personal Site - CSS"
+            demo_url="https://replit.com/@gdbecker/041-044-Personal-Site-CSS?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/04%20-%20Web%20Foundation/Day%20041-044%20-%20Personal%20Site"
+            type={["webDev"]}
+          />
+        </div>
+      </section>
+
       <section id="3" className="pt-4 w-full items-center justify-center">
         <h1 className="px-2 h-full text-level3 max-w-fit ring-level3 ring-2 rounded-sm font-sourceSansProBold text-sm overflow-hidden">03 - INTERMEDIATE +</h1>
         <div className="flex flex-col pt-5 pb-10 gap-7 md:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
