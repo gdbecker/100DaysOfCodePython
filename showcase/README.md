@@ -17,6 +17,9 @@ Scripting
 ### Tools & Packages
 
 - [Python](https://www.python.org)
+- HTML
+- CSS
+- Flask
 - random
 - os
 - math
@@ -67,6 +70,9 @@ Scripting
 - Environment variables
 - Spotify & Python connection
 - Selenium web driver
+- Front-end web design
+- Flask web development framework
+- Decorators
 
 ## Author
 

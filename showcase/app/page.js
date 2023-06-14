@@ -90,6 +90,22 @@ import ProjectCard from './components/ProjectCard';
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/04%20-%20Web%20Foundation/Day%20041-044%20-%20Personal%20Site"
             type={["webDev"]}
           />
+
+          <ProjectCard 
+            img_bg="bg-054-intro-to-flask bg-project"
+            title="Intro to Flask"
+            demo_url="https://replit.com/@gdbecker/054-Intro-to-Flask?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/04%20-%20Web%20Foundation/Day%20054%20-%20Intro%20to%20Flask"
+            type={["webDev"]}
+          />
+
+          <ProjectCard 
+            img_bg="bg-055-guess-the-number bg-project"
+            title="Guess the Number"
+            demo_url="https://replit.com/@gdbecker/055-Guess-the-Number?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/04%20-%20Web%20Foundation/Day%20055%20-%20Guess%20the%20Number"
+            type={["webDev"]}
+          />
         </div>
       </section>
 

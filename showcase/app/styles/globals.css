@@ -57,6 +57,14 @@
   background-image: url(../../public/041-044-personal-site-css.jpg);
 }
 
+.bg-054-intro-to-flask {
+  background-image: url(../../public/054-intro-to-flask.jpg);
+}
+
+.bg-055-guess-the-number {
+  background-image: url(../../public/055-guess-the-number.jpg);
+}
+
 /* 03 - Intermediate + */
 .bg-032-birthday-email-automation {
   background-image: url(../../public/032-birthday-email-automation.jpg);
