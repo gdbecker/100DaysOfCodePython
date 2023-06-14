@@ -21,6 +21,10 @@ Scripting
 - CSS
 - Bootstrap
 - Flask
+- flask-wtf
+- wtforms
+- flask-sqlalchemy
+- sqlite3
 - random
 - os
 - math
@@ -75,6 +79,7 @@ Scripting
 - Bootstrap framework
 - Flask web development framework
 - Decorators
+- Databases
 
 ## Author
 

@@ -1,6 +1,6 @@
-# 059-060 - Blog Web App V2
+# 061 - Flask Login
 
-Blog site project made with Flask. Updated from Day 057 V1 with new design, additional pages, and contact form.
+Practicing making a login form with Flask
 
 ### Project Type
 
@@ -8,19 +8,19 @@ Web Development
 
 ### Demo View
 
-![](./059-060-blog-web-app-v2.jpg)
+![](./061-flask-login.jpg)
 
 ### Links
 
-- [Live Demo](https://replit.com/@gdbecker/059-060-Blog-Web-App-V2)
+- [Live Demo](https://replit.com/@gdbecker/061-Flask-Login)
 
 ### Tools & Packages
 
 - [Python](https://www.python.org)
 - Flask
-- requests
-- datetime
-- smtplib
+- flask-wtf
+- wtforms
+- Bootstrap
 - HTML
 - CSS
 - [VS Code](https://code.visualstudio.com)
@@ -28,12 +28,11 @@ Web Development
 ### Skills Used
 
 - Flask web development framework
+- Bootstrap framework
 - Methods
 - Decorators
-- For loops
 - If statements
 - Dictionaries
-- smtp email auth
 - Front-end web design
 
 ## Author

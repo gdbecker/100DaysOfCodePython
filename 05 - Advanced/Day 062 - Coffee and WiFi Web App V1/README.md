@@ -1,6 +1,6 @@
-# 059-060 - Blog Web App V2
+# 062 - Coffee and WiFi Web App V1
 
-Blog site project made with Flask. Updated from Day 057 V1 with new design, additional pages, and contact form.
+Practicing Flask: web app to keep track of local cafes and their power and WiFi ratings
 
 ### Project Type
 
@@ -8,19 +8,20 @@ Web Development
 
 ### Demo View
 
-![](./059-060-blog-web-app-v2.jpg)
+![](./062-coffee-and-wifi-web-app-v1.jpg)
 
 ### Links
 
-- [Live Demo](https://replit.com/@gdbecker/059-060-Blog-Web-App-V2)
+- [Live Demo](https://replit.com/@gdbecker/062-Coffee-and-WiFi-Web-App-V1)
 
 ### Tools & Packages
 
 - [Python](https://www.python.org)
 - Flask
-- requests
-- datetime
-- smtplib
+- flask-wtf
+- wtforms
+- Bootstrap
+- csv
 - HTML
 - CSS
 - [VS Code](https://code.visualstudio.com)
@@ -28,12 +29,12 @@ Web Development
 ### Skills Used
 
 - Flask web development framework
+- Bootstrap framework
 - Methods
 - Decorators
-- For loops
 - If statements
 - Dictionaries
-- smtp email auth
+- File handling
 - Front-end web design
 
 ## Author

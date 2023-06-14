@@ -76,11 +76,35 @@ import ProjectCard from './components/ProjectCard';
         <h1 className="px-2 h-full text-level5 max-w-fit ring-level5 ring-2 rounded-sm font-sourceSansProBold text-sm overflow-hidden">05 - ADVANCED</h1>
         <div className="flex flex-col pt-5 pb-10 gap-7 md:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           <ProjectCard 
-            img_bg="bg-081-morse-code-translator bg-project"
-            title="Morse Code Translator"
-            demo_url="https://replit.com/@gdbecker/MorseCodeTranslator?embed=true"
-            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/06%20-%20Professional/Day%20081%20-%20Morse%20Code%20Translator"
-            type={["scripting"]}
+            img_bg="bg-059-060-blog-web-app-v2 bg-project"
+            title="Blog Web App V2"
+            demo_url="https://replit.com/@gdbecker/059-060-Blog-Web-App-V2?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/05%20-%20Advanced/Day%20059-060%20-%20Blog%20Web%20App%20V2"
+            type={["webDev"]}
+          />
+
+          <ProjectCard 
+            img_bg="bg-061-flask-login bg-project"
+            title="Flask Login"
+            demo_url="https://replit.com/@gdbecker/061-Flask-Login?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/05%20-%20Advanced/Day%20061%20-%20Flask%20Login"
+            type={["webDev"]}
+          />
+
+          <ProjectCard 
+            img_bg="bg-062-coffee-and-wifi-web-app-v1 bg-project"
+            title="Coffee and WiFi Web App V1"
+            demo_url="https://replit.com/@gdbecker/062-Coffee-and-WiFi-Web-App-V1?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/05%20-%20Advanced/Day%20062%20-%20Coffee%20and%20WiFi%20Web%20App%20V1"
+            type={["webDev"]}
+          />
+
+          <ProjectCard 
+            img_bg="bg-063-virtual-bookshelf-web-app bg-project"
+            title="Virtual Bookshelf Web App"
+            demo_url="https://replit.com/@gdbecker/063-Virtual-Bookshelf-Web-App?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/05%20-%20Advanced/Day%20063%20-%20Virtual%20Bookshelf%20Web%20App"
+            type={["webDev"]}
           />
         </div>
       </section>

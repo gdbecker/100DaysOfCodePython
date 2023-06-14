@@ -1,6 +1,6 @@
-# 059-060 - Blog Web App V2
+# 063 - Virtual Bookshelf Web App
 
-Blog site project made with Flask. Updated from Day 057 V1 with new design, additional pages, and contact form.
+Practicing Flask: web app for managing virtual books
 
 ### Project Type
 
@@ -8,19 +8,22 @@ Web Development
 
 ### Demo View
 
-![](./059-060-blog-web-app-v2.jpg)
+![](./063-virtual-bookshelf-web-app.jpg)
 
 ### Links
 
-- [Live Demo](https://replit.com/@gdbecker/059-060-Blog-Web-App-V2)
+- [Live Demo](https://replit.com/@gdbecker/063-Virtual-Bookshelf-Web-App)
 
 ### Tools & Packages
 
 - [Python](https://www.python.org)
 - Flask
-- requests
-- datetime
-- smtplib
+- flask-wtf
+- wtforms
+- flask-sqlalchemy
+- sqlite3
+- Bootstrap
+- csv
 - HTML
 - CSS
 - [VS Code](https://code.visualstudio.com)
@@ -28,12 +31,13 @@ Web Development
 ### Skills Used
 
 - Flask web development framework
+- Bootstrap framework
 - Methods
 - Decorators
-- For loops
 - If statements
+- For loops
 - Dictionaries
-- smtp email auth
+- Databases
 - Front-end web design
 
 ## Author
