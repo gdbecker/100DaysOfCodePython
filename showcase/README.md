@@ -19,6 +19,7 @@ Scripting
 - [Python](https://www.python.org)
 - HTML
 - CSS
+- Bootstrap
 - Flask
 - random
 - os
@@ -71,6 +72,7 @@ Scripting
 - Spotify & Python connection
 - Selenium web driver
 - Front-end web design
+- Bootstrap framework
 - Flask web development framework
 - Decorators
 

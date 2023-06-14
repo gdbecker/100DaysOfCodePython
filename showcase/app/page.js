@@ -106,6 +106,38 @@ import ProjectCard from './components/ProjectCard';
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/04%20-%20Web%20Foundation/Day%20055%20-%20Guess%20the%20Number"
             type={["webDev"]}
           />
+
+          <ProjectCard 
+            img_bg="bg-056-name-card-project bg-project"
+            title="Name Card Project"
+            demo_url="https://replit.com/@gdbecker/056-Name-Card-Project?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/04%20-%20Web%20Foundation/Day%20056%20-%20Name%20Card%20Project"
+            type={["webDev"]}
+          />
+
+          <ProjectCard 
+            img_bg="bg-056-personal-site-practice-with-flask bg-project"
+            title="Personal Site Practice with Flask"
+            demo_url="https://replit.com/@gdbecker/056-Personal-Site-Practice-with-Flask?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/04%20-%20Web%20Foundation/Day%20056%20-%20Personal%20Site%20Practice%20with%20Flask"
+            type={["webDev"]}
+          />
+
+          <ProjectCard 
+            img_bg="bg-057-blog-web-app-v1 bg-project"
+            title="Blog Web App V1"
+            demo_url="https://replit.com/@gdbecker/057-Blog-Web-App-V1?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/04%20-%20Web%20Foundation/Day%20057%20-%20Blog%20Web%20App%20V1"
+            type={["webDev"]}
+          />
+
+          <ProjectCard 
+            img_bg="bg-058-tindog-website bg-project"
+            title="TinDog Website"
+            demo_url="https://replit.com/@gdbecker/058-TinDog-Website?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/04%20-%20Web%20Foundation/Day%20058%20-%20TinDog%20Website"
+            type={["webDev"]}
+          />
         </div>
       </section>
 
