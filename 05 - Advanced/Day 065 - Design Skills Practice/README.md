@@ -18,7 +18,7 @@ Design
 
 ### Tools & Packages
 
-- [Canva](Practicing design skills on canva)
+- [Canva](https://www.canva.com)
 
 ### Skills Used
 
