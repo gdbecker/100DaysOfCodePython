@@ -106,6 +106,30 @@ import ProjectCard from './components/ProjectCard';
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/05%20-%20Advanced/Day%20063%20-%20Virtual%20Bookshelf%20Web%20App"
             type={["webDev"]}
           />
+
+          <ProjectCard 
+            img_bg="bg-064-top-10-movies-web-app bg-project"
+            title="Top 10 Movies Web App"
+            demo_url="https://replit.com/@gdbecker/064-Top-10-Movies-Web-App?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/05%20-%20Advanced/Day%20064%20-%20Top%2010%20Movies%20Web%20App"
+            type={["api", "webDev"]}
+          />
+
+          <ProjectCard 
+            img_bg="bg-065-design-skills-practice bg-project"
+            title="Design Skills Practice"
+            demo_url=""
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/05%20-%20Advanced/Day%20065%20-%20Design%20Skills%20Practice"
+            type={["design"]}
+          />
+
+          <ProjectCard 
+            img_bg="bg-066-coffee-and-wifi-rest-api bg-project"
+            title="Coffee and WiFi REST API"
+            demo_url="https://replit.com/@gdbecker/066-Coffee-and-WiFi-REST-API?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/05%20-%20Advanced/Day%20066%20-%20Coffee%20and%20WiFi%20REST%20API"
+            type={["api", "webDev"]}
+          />
         </div>
       </section>
 

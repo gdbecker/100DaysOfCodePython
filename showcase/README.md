@@ -45,6 +45,7 @@ Scripting
 - selenium
 - time
 - [VS Code](https://code.visualstudio.com)
+- [Canva](Practicing design skills on canva)
 
 ### Skills Used Throughout the Course
 
@@ -80,6 +81,7 @@ Scripting
 - Flask web development framework
 - Decorators
 - Databases
+- UX design
 
 ## Author
 

@@ -33,6 +33,8 @@ module.exports = {
       "debuggingTransparent": "hsla(240, 10%, 16%, 0.3)",
       "webScraping": "hsl(303, 66%, 61%)",
       "webScrapingTransparent": "hsla(303, 66%, 61%, 0.7)",
+      "design": "hsl(174, 66%, 39%)",
+      "designTransparent": "hsla(174, 66%, 39%, 0.7)",
       "level1": "#00735D",
       "level2": "#008B52",
       "level3": "#23A244",

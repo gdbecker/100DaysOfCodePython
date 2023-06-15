@@ -11,9 +11,10 @@ from flask_wtf import FlaskForm
 from wtforms import StringField, FloatField, SubmitField
 from wtforms.validators import DataRequired
 import requests
+from decouple import config
 
 # TMDB Info
-API_KEY = "81c491bbbc3ebfcf3e8caebb08ef74f5"
+API_KEY = config("API_KEY")
 SEARCH_MOVIES_URL = "https://api.themoviedb.org/3/search/movie"
 MOVIE_DETAILS_URL = "https://api.themoviedb.org/3/movie/"
 

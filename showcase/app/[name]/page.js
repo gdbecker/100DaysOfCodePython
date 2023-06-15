@@ -22,6 +22,8 @@ import { IoChevronBack } from 'react-icons/io5';
       return "flex flex-row hover:text-debugging";
     } else if (type == "webScraping") {
       return "flex flex-row hover:text-webScraping";
+    } else if (type == "design") {
+      return "flex flex-row hover:text-design";
     }
   }
 
@@ -44,6 +46,8 @@ import { IoChevronBack } from 'react-icons/io5';
       return "flex w-full min-h-screen rounded-md shadow-debugging shadow-[0_0px_2px]";
     } else if (type == "webScraping") {
       return "flex w-full min-h-screen rounded-md shadow-webScraping shadow-[0_0px_2px]";
+    } else if (type == "design") {
+      return "flex w-full min-h-screen rounded-md shadow-design shadow-[0_0px_2px]";
     }
   }
 

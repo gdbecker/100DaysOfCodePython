@@ -23,6 +23,8 @@ function ProjectCard({ img_bg, title, demo_url, code_url, type }) {
       return "flex w-full max-h-fit flex-col rounded-md overflow-hidden bg-white shadow-debugging shadow-[0_0px_4px]";
     } else if (type == "webScraping") {
       return "flex w-full max-h-fit flex-col rounded-md overflow-hidden bg-white shadow-webScraping shadow-[0_0px_4px]";
+    } else if (type == "design") {
+      return "flex w-full max-h-fit flex-col rounded-md overflow-hidden bg-white shadow-design shadow-[0_0px_4px]";
     }
   }
 
@@ -63,6 +65,10 @@ function ProjectCard({ img_bg, title, demo_url, code_url, type }) {
       return (
         <p className="px-2 h-full text-webScraping w-fit my-1 ring-webScraping ring-2 rounded-sm font-sourceSansProBold text-sm overflow-hidden lg:text-[0.75rem]">WEB SCRAPING</p>
       );
+    } else if (type == "design") {
+      return (
+        <p className="px-2 h-full text-design w-fit my-1 ring-design ring-2 rounded-sm font-sourceSansProBold text-sm overflow-hidden lg:text-[0.75rem]">DESIGN</p>
+      );
     }
   }
 
@@ -85,6 +91,8 @@ function ProjectCard({ img_bg, title, demo_url, code_url, type }) {
       return "link-shadow-debugging";
     } else if (type == "webScraping") {
       return "link-shadow-webScraping";
+    } else if (type == "design") {
+      return "link-shadow-design";
     }
   }
 
@@ -107,6 +115,8 @@ function ProjectCard({ img_bg, title, demo_url, code_url, type }) {
       return "flex flex-row project-link text-lg hover:text-debugging";
     } else if (type == "webScraping") {
       return "flex flex-row project-link text-lg hover:text-webScraping";
+    } else if (type == "design") {
+      return "flex flex-row project-link text-lg hover:text-design";
     }
   }
 
