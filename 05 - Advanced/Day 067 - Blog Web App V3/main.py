@@ -15,16 +15,17 @@ from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField
 from wtforms.validators import DataRequired, URL
 from flask_ckeditor import CKEditor, CKEditorField
+from decouple import config
 
 # Email info
 smtp_gmail = "smtp.gmail.com"
-email_gmail = "garrettbeckerpython1@gmail.com"
-app_password_gmail = "mznjpioosjdjxcaz" # had to get because of new security settings
-password_gmail = "Pats1982!!"
+email_gmail = config("email_gmail")
+app_password_gmail = config("app_password_gmail") # had to get because of new security settings
+password_gmail = config("password_gmail")
 
-smtp_yahoo = "smtp.mail.yahoo.com"
-email_yahoo = "garrettbeckerpython1@yahoo.com"
-password_yahoo = "manbmqmvtzykfvgt!!"
+smtp_yahoo = config("smtp_yahoo")
+email_yahoo = config("email_yahoo")
+password_yahoo = config("password_yahoo")
 
 # Set up Flask app
 app = Flask(__name__)

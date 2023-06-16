@@ -1,6 +1,6 @@
 # 067 - Blog Web App V3
 
-Blog site project made with Flask. Updated from Day 059-060 V2 with new design, additional pages, and contact form.
+Blog site project made with Flask. Updated from Day 059-060 V2 with additional REST functions like creating, editing, and deleting new blog posts.
 
 ### Project Type
 
@@ -8,11 +8,11 @@ Web Development
 
 ### Demo View
 
-![](./)
+![](./067-blog-web-app-v3.jpg)
 
 ### Links
 
-- [Live Demo]()
+- [Live Demo](https://replit.com/@gdbecker/067-Blog-Web-App-V3)
 
 ### Tools & Packages
 
@@ -21,6 +21,11 @@ Web Development
 - requests
 - datetime
 - smtplib
+- Bootstrap
+- flask-sqlalchemy
+- flask-wtf
+- wtforms
+- flask-ckeditor
 - HTML
 - CSS
 - [VS Code](https://code.visualstudio.com)
@@ -35,6 +40,7 @@ Web Development
 - Dictionaries
 - smtp email auth
 - Front-end web design
+- REST architecture
 
 ## Author
 

@@ -1,6 +1,6 @@
-# 069-070 - Blog Web App V4
+# 068 - Flask Authentication
 
-Blog site project made with Flask. Updated from Day 067 V3 with Flask authentication for user login and registration.
+Mini project to learn authentication with Flask
 
 ### Project Type
 
@@ -8,26 +8,19 @@ Web Development
 
 ### Demo View
 
-![](./069-070-blog-web-app-v4.jpg)
+![](./068-flask-authentication.jpg)
 
 ### Links
 
-- [Live Demo](https://replit.com/@gdbecker/069-070-Blog-Web-App-V4)
+- [Live Demo](https://replit.com/@gdbecker/068-Flask-Authentication)
 
 ### Tools & Packages
 
 - [Python](https://www.python.org)
 - Flask
-- requests
-- datetime
-- smtplib
-- Bootstrap
 - flask-sqlalchemy
-- flask-wtf
-- wtforms
-- flask-ckeditor
+- werkzeug
 - flask-login
-- flask-gravatar
 - HTML
 - CSS
 - [VS Code](https://code.visualstudio.com)
@@ -37,12 +30,9 @@ Web Development
 - Flask web development framework
 - Methods
 - Decorators
-- For loops
 - If statements
 - Dictionaries
-- smtp email auth
 - Front-end web design
-- REST architecture
 - Authentication
 
 ## Author

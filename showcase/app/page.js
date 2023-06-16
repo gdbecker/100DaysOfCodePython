@@ -130,6 +130,38 @@ import ProjectCard from './components/ProjectCard';
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/05%20-%20Advanced/Day%20066%20-%20Coffee%20and%20WiFi%20REST%20API"
             type={["api", "webDev"]}
           />
+
+          <ProjectCard 
+            img_bg="bg-067-blog-web-app-v3 bg-project"
+            title="Blog Web App V3"
+            demo_url="https://replit.com/@gdbecker/067-Blog-Web-App-V3?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/05%20-%20Advanced/Day%20067%20-%20Blog%20Web%20App%20V3"
+            type={["webDev"]}
+          />
+
+          <ProjectCard 
+            img_bg="bg-068-flask-authentication bg-project"
+            title="Flask Authentication"
+            demo_url="https://replit.com/@gdbecker/068-Flask-Authentication?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/05%20-%20Advanced/Day%20068%20-%20Flask%20Authentication"
+            type={["webDev"]}
+          />
+
+          <ProjectCard 
+            img_bg="bg-069-070-blog-web-app-v4 bg-project"
+            title="Blog Web App V4"
+            demo_url="https://replit.com/@gdbecker/069-070-Blog-Web-App-V4?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/05%20-%20Advanced/Day%20069-070%20-%20Blog%20Web%20App%20V4"
+            type={["webDev"]}
+          />
+
+          <ProjectCard 
+            img_bg="bg-071-salaries-by-college-major-analysis bg-project"
+            title="Salaries by College Major Analysis"
+            demo_url="https://www.kaggle.com/embed/garrettbecker/salaries-by-college-major-analysis?kernelSessionId=133821205"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/05%20-%20Advanced/Day%20071%20-%20Salaries%20by%20College%20Major%20Analysis"
+            type={["dataScience"]}
+          />
         </div>
       </section>
 

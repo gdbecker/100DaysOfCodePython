@@ -19,7 +19,10 @@ Scripting, Web Development, GUI, Games, APIs, Automation, Design, Web Scraping, 
 - Flask
 - flask-wtf
 - wtforms
+- flask-ckeditor
 - flask-sqlalchemy
+- flask-login
+- flask-gravatar
 - sqlite3
 - random
 - os
@@ -78,6 +81,8 @@ Scripting, Web Development, GUI, Games, APIs, Automation, Design, Web Scraping, 
 - Decorators
 - Databases
 - UX design
+- REST architecture
+- Authentication
 
 ## Author
 
