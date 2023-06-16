@@ -1,6 +1,6 @@
 # 067 - Blog Web App V3
 
-Blog site project made with Flask. Updated from Day 057 V1 with new design, additional pages, and contact form.
+Blog site project made with Flask. Updated from Day 059-060 V2 with new design, additional pages, and contact form.
 
 ### Project Type
 

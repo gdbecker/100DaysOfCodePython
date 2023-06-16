@@ -1,18 +1,14 @@
 # 100 Days of Code: Python Showcase
 
-Showcase site displaying projects I created via the [100 Days of Code: Python course from Angela Yu](https://www.udemy.com/course/100-days-of-code/)
+Showcase site displaying projects I created via the [100 Days of Code: Python course from Angela Yu](https://www.udemy.com/course/100-days-of-code/). Take a look and explore!
 
 ### Project Types
 
-Scripting
-
-### Showcase View
-
-![](./insert)
+Scripting, Web Development, GUI, Games, APIs, Automation, Design, Web Scraping, Data Science, & Debugging
 
 ### Links
 
-- [Live Showcase](insert)
+- [Live URL](insert)
 
 ### Tools & Packages
 
@@ -45,7 +41,7 @@ Scripting
 - selenium
 - time
 - [VS Code](https://code.visualstudio.com)
-- [Canva](Practicing design skills on canva)
+- [Canva](https://www.canva.com)
 
 ### Skills Used Throughout the Course
 
