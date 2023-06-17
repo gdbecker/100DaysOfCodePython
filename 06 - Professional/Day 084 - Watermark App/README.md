@@ -1,32 +1,30 @@
-# 034 - Quizzler App
+# 084 - Watermark App
 
-Quiz GUI app with data from API source
+GUI app to add a watermark on a selected image
 
 ### Project Type
 
-API, GUI
+GUI
 
 ### Demo View
 
-![](./034-quizzler-app.jpg)
+![](./084-watermark-app.jpg)
 
 ### Links
 
-- [Live Demo](https://replit.com/@gdbecker/034-Quizzler-App)
+- [Live Demo](https://replit.com/@gdbecker/084-Watermark-App)
 
 ### Tools & Packages
 
 - [Python](https://www.python.org)
 - tkinter
-- requests
-- html
+- os
+- PIL
 - [VS Code](https://code.visualstudio.com)
 
 ### Skills Used
 
 - tkinter class UI
-- OOP
-- API connectivity
 - Methods
 - If statements
 - Dictionaries

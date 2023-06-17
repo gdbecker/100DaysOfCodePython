@@ -1,35 +1,35 @@
-# 034 - Quizzler App
+# 086 - Breakout Game
 
-Quiz GUI app with data from API source
+Classic breakout game with OOP
 
 ### Project Type
 
-API, GUI
+Game
 
 ### Demo View
 
-![](./034-quizzler-app.jpg)
+![](./086-breakout-game.jpg)
 
 ### Links
 
-- [Live Demo](https://replit.com/@gdbecker/034-Quizzler-App)
+- [Live Demo](https://replit.com/@gdbecker/086-Breakout-Game)
 
 ### Tools & Packages
 
 - [Python](https://www.python.org)
-- tkinter
-- requests
-- html
+- turtle
+- random
+- time
 - [VS Code](https://code.visualstudio.com)
 
 ### Skills Used
 
-- tkinter class UI
-- OOP
-- API connectivity
+- Turtle class UI
 - Methods
+- For loops
+- While loops
 - If statements
-- Dictionaries
+- Tuples
 
 ## Author
 

@@ -32,7 +32,7 @@ import ProjectCard from './components/ProjectCard';
             title="Task Manager Web App - Django"
             // demo_url="https://taskmanager-gdbecker.up.railway.app"
             demo_url="https://replit.com/@gdbecker/Task-Manager-Web-App-Django?embed=true"
-            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/06%20-%20Professional/Day%20082%20-%20Task%20Manager%20App%20(Django)"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/06%20-%20Professional/Day%20082%20-%20Task%20Manager%20Web%20App%20(Django)"
             type={["webDev"]}
           />
 
@@ -42,6 +42,70 @@ import ProjectCard from './components/ProjectCard';
             demo_url="https://replit.com/@gdbecker/Tic-Tac-Toe-Game?embed=true"
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/06%20-%20Professional/Day%20083%20-%20Tic%20Tac%20Toe"
             type={["scripting"]}
+          />
+
+          <ProjectCard 
+            img_bg="bg-084-watermark-app bg-project"
+            title="Watermark App"
+            demo_url="https://replit.com/@gdbecker/084-Watermark-App?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/06%20-%20Professional/Day%20084%20-%20Watermark%20App"
+            type={["gui"]}
+          />
+
+          <ProjectCard 
+            img_bg="bg-085-typing-speed-app bg-project"
+            title="Typing Speed App"
+            demo_url="https://replit.com/@gdbecker/085-Typing-Speed-App?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/06%20-%20Professional/Day%20085%20-%20Typing%20Speed%20App"
+            type={["gui"]}
+          />
+
+          <ProjectCard 
+            img_bg="bg-086-breakout-game bg-project"
+            title="Breakout Game"
+            demo_url="https://replit.com/@gdbecker/086-Breakout-Game?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/06%20-%20Professional/Day%20086%20-%20Breakout%20Game"
+            type={["game"]}
+          />
+
+          <ProjectCard 
+            img_bg="bg-087 bg-project"
+            title=""
+            demo_url="?embed=true"
+            code_url=""
+            type={[""]}
+          />
+
+          <ProjectCard 
+            img_bg="bg-088 bg-project"
+            title=""
+            demo_url="?embed=true"
+            code_url=""
+            type={[""]}
+          />
+
+          <ProjectCard 
+            img_bg="bg-088 bg-project"
+            title=""
+            demo_url="?embed=true"
+            code_url=""
+            type={[""]}
+          />
+
+          <ProjectCard 
+            img_bg="bg-089 bg-project"
+            title=""
+            demo_url="?embed=true"
+            code_url=""
+            type={[""]}
+          />
+
+          <ProjectCard 
+            img_bg="bg-090 bg-project"
+            title=""
+            demo_url="?embed=true"
+            code_url=""
+            type={[""]}
           />
 
 
