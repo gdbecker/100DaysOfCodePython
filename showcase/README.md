@@ -33,6 +33,13 @@ Scripting, Web Development, GUI, Games, APIs, Automation, Design, Web Scraping, 
 - colorgram
 - time
 - pandas
+- numpy
+- matplotlib
+- plotly
+- scipy
+- PIL
+- seaborn
+- sklearn
 - csv
 - smtplib
 - datetime

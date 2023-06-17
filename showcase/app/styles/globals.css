@@ -93,6 +93,30 @@
   background-image: url(../../public/071-salaries-by-college-major-analysis.jpg);
 }
 
+.bg-072-programming-languages-analysis {
+  background-image: url(../../public/072-programming-languages-analysis.jpg);
+}
+
+.bg-073-lego-analysis {
+  background-image: url(../../public/073-lego-analysis.jpg);
+}
+
+.bg-074-google-trends-analysis {
+  background-image: url(../../public/074-google-trends-analysis.jpg);
+}
+
+.bg-075-google-play-analysis {
+  background-image: url(../../public/075-google-play-analysis.jpg);
+}
+
+.bg-076-numpy {
+  background-image: url(../../public/076-numpy.jpg);
+}
+
+.bg-077-movie-performance-analysis {
+  background-image: url(../../public/077-movie-performance-analysis.jpg);
+}
+
 /* 04 - Web Foundation */
 .bg-041-044-personal-site-html {
   background-image: url(../../public/041-044-personal-site-html.jpg);

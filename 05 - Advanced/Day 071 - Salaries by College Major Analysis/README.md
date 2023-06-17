@@ -1,6 +1,6 @@
 # 071 - Salaries by College Major Analysis
 
-Analyzing salries by college major from [this Kaggle dataset](https://www.kaggle.com/datasets/darodysylvainobei/payscale-inc-data-on-college-majors).
+Analyzing salaries by college major from [this Kaggle dataset](https://www.kaggle.com/datasets/darodysylvainobei/payscale-inc-data-on-college-majors).
 
 ### Project Type
 
@@ -18,7 +18,7 @@ Data Science
 
 - [Python](https://www.python.org)
 - pandas
-- [Jupyter Notebooks]()
+- [Jupyter Notebooks](https://jupyter.org)
 
 ### Learning Points
 

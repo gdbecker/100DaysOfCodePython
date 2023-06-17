@@ -162,6 +162,54 @@ import ProjectCard from './components/ProjectCard';
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/05%20-%20Advanced/Day%20071%20-%20Salaries%20by%20College%20Major%20Analysis"
             type={["dataScience"]}
           />
+
+          <ProjectCard 
+            img_bg="bg-072-programming-languages-analysis bg-project"
+            title="Programming Languages Analysis"
+            demo_url="https://www.kaggle.com/embed/garrettbecker/programming-languages-analysis?kernelSessionId=133827335"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/05%20-%20Advanced/Day%20072%20-%20Programming%20Languages%20Analysis"
+            type={["dataScience"]}
+          />
+
+          <ProjectCard 
+            img_bg="bg-073-lego-analysis bg-project"
+            title="LEGO Analysis"
+            demo_url="https://www.kaggle.com/embed/garrettbecker/lego-analysis?kernelSessionId=133830597"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/05%20-%20Advanced/Day%20073%20-%20LEGO%20Analysis"
+            type={["dataScience"]}
+          />
+
+          <ProjectCard 
+            img_bg="bg-074-google-trends-analysis bg-project"
+            title="Google Trends Analysis"
+            demo_url="https://www.kaggle.com/embed/garrettbecker/google-trends-analysis?kernelSessionId=133915093"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/05%20-%20Advanced/Day%20074%20-%20Google%20Trends%20Analysis"
+            type={["dataScience"]}
+          />
+
+          <ProjectCard 
+            img_bg="bg-075-google-play-analysis bg-project"
+            title="Google Play Analysis"
+            demo_url="https://www.kaggle.com/embed/garrettbecker/google-play-analysis?kernelSessionId=133915889"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/05%20-%20Advanced/Day%20075%20-%20Google%20Play%20Analysis"
+            type={["dataScience"]}
+          />
+
+          <ProjectCard 
+            img_bg="bg-076-numpy bg-project"
+            title="Numpy Practice"
+            demo_url="https://www.kaggle.com/embed/garrettbecker/numpy?kernelSessionId=133916913"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/05%20-%20Advanced/Day%20076%20-%20NumPy"
+            type={["dataScience"]}
+          />
+
+          <ProjectCard 
+            img_bg="bg-077-movie-performance-analysis bg-project"
+            title="Movie Performance Analysis"
+            demo_url="https://www.kaggle.com/embed/garrettbecker/movie-performance-analysis?kernelSessionId=133917562"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/05%20-%20Advanced/Day%20077%20-%20Movie%20Performance%20Analysis"
+            type={["dataScience"]}
+          />
         </div>
       </section>
 
