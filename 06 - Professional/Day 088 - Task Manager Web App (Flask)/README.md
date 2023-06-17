@@ -1,6 +1,6 @@
-# 087 - Coffee and WiFi Web App V2
+# 088 - TaskManager Web App - Flask
 
-Flask web app to keep track of local cafes and their power and WiFi ratings. Updated from day 062 V1 with database access.
+
 
 ### Project Type
 
@@ -8,11 +8,11 @@ Web Development
 
 ### Demo View
 
-![](./087-coffee-and-wifi-web-app-v2.jpg)
+![](./)
 
 ### Links
 
-- [Live Demo](https://replit.com/@gdbecker/087-Coffee-and-WiFi-Web-App-V2)
+- [Live Demo]()
 
 ### Tools & Packages
 

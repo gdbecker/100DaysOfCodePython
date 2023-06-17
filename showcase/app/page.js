@@ -69,11 +69,11 @@ import ProjectCard from './components/ProjectCard';
           />
 
           <ProjectCard 
-            img_bg="bg-087 bg-project"
-            title=""
-            demo_url="?embed=true"
-            code_url=""
-            type={[""]}
+            img_bg="bg-087-coffee-and-wifi-web-app-v2 bg-project"
+            title="Coffee and WiFi Web App V2"
+            demo_url="https://replit.com/@gdbecker/087-Coffee-and-WiFi-Web-App-V2?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/06%20-%20Professional/Day%20087%20-%20Coffee%20and%20WiFi%20Web%20App%20V2"
+            type={["webDev"]}
           />
 
           <ProjectCard 
