@@ -210,6 +210,30 @@ import ProjectCard from './components/ProjectCard';
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/05%20-%20Advanced/Day%20077%20-%20Movie%20Performance%20Analysis"
             type={["dataScience"]}
           />
+
+          <ProjectCard 
+            img_bg="bg-078-nobel-prize-analysis bg-project"
+            title="Nobel Prize Analysis"
+            demo_url="https://www.kaggle.com/embed/garrettbecker/nobel-prize-analysis?kernelSessionId=133918436"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/05%20-%20Advanced/Day%20078%20-%20Nobel%20Prize%20Analysis"
+            type={["dataScience"]}
+          />
+
+          <ProjectCard 
+            img_bg="bg-079-historical-deaths-analysis bg-project"
+            title="Historical Deaths Analysis"
+            demo_url="https://www.kaggle.com/embed/garrettbecker/historical-deaths-analysis?kernelSessionId=133921531"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/05%20-%20Advanced/Day%20079%20-%20Historical%20Deaths%20Analysis"
+            type={["dataScience"]}
+          />
+
+          <ProjectCard 
+            img_bg="bg-080-real-estate-analysis bg-project"
+            title="Real Estate Analysis"
+            demo_url="https://www.kaggle.com/embed/garrettbecker/real-estate-analysis?kernelSessionId=133922328"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/05%20-%20Advanced/Day%20080%20-%20Real%20Estate%20Analysis"
+            type={["dataScience"]}
+          />
         </div>
       </section>
 

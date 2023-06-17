@@ -23,6 +23,11 @@ Scripting, Web Development, GUI, Games, APIs, Automation, Design, Web Scraping, 
 - flask-sqlalchemy
 - flask-login
 - flask-gravatar
+- Django
+- functools
+- gzip
+- difflib
+- pathlib
 - sqlite3
 - random
 - os
@@ -50,6 +55,7 @@ Scripting, Web Development, GUI, Games, APIs, Automation, Design, Web Scraping, 
 - decouple
 - selenium
 - time
+- fractions
 - [VS Code](https://code.visualstudio.com)
 - [Canva](https://www.canva.com)
 
@@ -85,6 +91,7 @@ Scripting, Web Development, GUI, Games, APIs, Automation, Design, Web Scraping, 
 - Front-end web design
 - Bootstrap framework
 - Flask web development framework
+- Django web development framework
 - Decorators
 - Databases
 - UX design
