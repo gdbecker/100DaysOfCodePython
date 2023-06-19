@@ -6,9 +6,10 @@
 # Import modules
 import requests
 import PyPDF2
+from decouple import config
 
 # Voice RSS API info
-api_key = "00075f6c28f542c59b731b4508467c5b"
+api_key = config("api_key")
 
 # Convert the pdf into plain text
 pdfFileObj = open("text.pdf", "rb")

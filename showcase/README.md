@@ -56,6 +56,7 @@ Scripting, Web Development, GUI, Games, APIs, Automation, Design, Web Scraping, 
 - selenium
 - time
 - fractions
+- PyPDF2
 - [VS Code](https://code.visualstudio.com)
 - [Canva](https://www.canva.com)
 

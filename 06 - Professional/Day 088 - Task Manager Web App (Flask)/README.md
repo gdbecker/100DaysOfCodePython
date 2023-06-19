@@ -1,6 +1,6 @@
 # 088 - TaskManager Web App - Flask
 
-
+Log into your account and manage your to-do list with this handy web app! Same app as day 082's project except built with Flask as the back-end framework.
 
 ### Project Type
 
@@ -8,11 +8,11 @@ Web Development
 
 ### Demo View
 
-![](./)
+![](./088-task-manager-flask.jpg)
 
 ### Links
 
-- [Live Demo]()
+- [Live Demo](https://replit.com/@gdbecker/088-Task-Manager-Web-App-Flask)
 
 ### Tools & Packages
 
@@ -39,6 +39,7 @@ Web Development
 - Front-end web design
 - REST architecture
 - Databases
+- Authentication
 
 ## Author
 

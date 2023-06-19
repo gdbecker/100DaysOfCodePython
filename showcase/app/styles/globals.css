@@ -50,19 +50,45 @@
   background-image: url(../../public/087-coffee-and-wifi-web-app-v2.jpg);
 }
 
-.bg-088- {
-  background-image: url(../../public/088);
+.bg-088-task-manager-flask {
+  background-image: url(../../public/088-task-manager-flask.jpg);
 }
 
-.bg-089- {
-  background-image: url(../../public/089);
+.bg-089-disappearing-writing-app {
+  background-image: url(../../public/089-disappearing-writing-app.jpg);
 }
 
-.bg-090- {
-  background-image: url(../../public/090);
+.bg-090-pdf-to-audio-app {
+  background-image: url(../../public/090-pdf-to-audio-app.jpg);
 }
 
+.bg-091 {
+  background-image: url(../../public/091);
+}
 
+.bg-092 {
+  background-image: url(../../public/092);
+}
+
+.bg-093 {
+  background-image: url(../../public/093);
+}
+
+.bg-094 {
+  background-image: url(../../public/094);
+}
+
+.bg-095 {
+  background-image: url(../../public/095);
+}
+
+.bg-096 {
+  background-image: url(../../public/096);
+}
+
+.bg-097 {
+  background-image: url(../../public/097);
+}
 
 .bg-098-space-missions-analysis {
   background-image: url(../../public/098-space-missions-analysis.jpg);

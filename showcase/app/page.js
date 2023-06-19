@@ -77,7 +77,31 @@ import ProjectCard from './components/ProjectCard';
           />
 
           <ProjectCard 
-            img_bg="bg-088 bg-project"
+            img_bg="bg-088-task-manager-flask bg-project"
+            title="Task Manager Web App - Django"
+            demo_url="https://replit.com/@gdbecker/088-Task-Manager-Web-App-Flask?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/06%20-%20Professional/Day%20088%20-%20Task%20Manager%20Web%20App%20(Flask)"
+            type={["webDev"]}
+          />
+
+          <ProjectCard 
+            img_bg="bg-089-disappearing-writing-app bg-project"
+            title="Disappearing Writing App"
+            demo_url="https://replit.com/@gdbecker/089-Disappearing-Writing-App?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/06%20-%20Professional/Day%20089%20-%20Disappearing%20Writing%20App"
+            type={["gui"]}
+          />
+
+          <ProjectCard 
+            img_bg="bg-090-pdf-to-audio-app bg-project"
+            title="PDF to Audio App"
+            demo_url="https://replit.com/@gdbecker/PDF-to-Audio-App?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/06%20-%20Professional/Day%20090%20-%20PDF%20to%20Audio%20App"
+            type={["api"]}
+          />
+
+          <ProjectCard 
+            img_bg="bg-091 bg-project"
             title=""
             demo_url="?embed=true"
             code_url=""
@@ -85,7 +109,7 @@ import ProjectCard from './components/ProjectCard';
           />
 
           <ProjectCard 
-            img_bg="bg-088 bg-project"
+            img_bg="bg-092 bg-project"
             title=""
             demo_url="?embed=true"
             code_url=""
@@ -93,7 +117,7 @@ import ProjectCard from './components/ProjectCard';
           />
 
           <ProjectCard 
-            img_bg="bg-089 bg-project"
+            img_bg="bg-093 bg-project"
             title=""
             demo_url="?embed=true"
             code_url=""
@@ -101,14 +125,36 @@ import ProjectCard from './components/ProjectCard';
           />
 
           <ProjectCard 
-            img_bg="bg-090 bg-project"
+            img_bg="bg-094 bg-project"
             title=""
             demo_url="?embed=true"
             code_url=""
             type={[""]}
           />
 
+          <ProjectCard 
+            img_bg="bg-095 bg-project"
+            title=""
+            demo_url="?embed=true"
+            code_url=""
+            type={[""]}
+          />
 
+          <ProjectCard 
+            img_bg="bg-096 bg-project"
+            title=""
+            demo_url="?embed=true"
+            code_url=""
+            type={[""]}
+          />
+
+          <ProjectCard 
+            img_bg="bg-097 bg-project"
+            title=""
+            demo_url="?embed=true"
+            code_url=""
+            type={[""]}
+          />
 
           <ProjectCard 
             img_bg="bg-098-space-missions-analysis bg-project"
