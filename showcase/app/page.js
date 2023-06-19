@@ -101,59 +101,59 @@ import ProjectCard from './components/ProjectCard';
           />
 
           <ProjectCard 
-            img_bg="bg-091 bg-project"
-            title=""
-            demo_url="?embed=true"
-            code_url=""
-            type={[""]}
+            img_bg="bg-091-image-color-extractor-app bg-project"
+            title="Image Color Extractor App"
+            demo_url="https://replit.com/@gdbecker/091-Image-Color-Extractor-App?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/06%20-%20Professional/Day%20091%20-%20Image%20Color%20Extractor%20App"
+            type={["webDev"]}
           />
 
           <ProjectCard 
-            img_bg="bg-092 bg-project"
-            title=""
-            demo_url="?embed=true"
-            code_url=""
-            type={[""]}
+            img_bg="bg-092-custom-web-scraper bg-project"
+            title="Custom Web Scraper"
+            demo_url="https://replit.com/@gdbecker/Custom-Web-Scraper?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/06%20-%20Professional/Day%20092%20-%20Custom%20Web%20Scraper"
+            type={["auto", "webScraping"]}
           />
 
           <ProjectCard 
-            img_bg="bg-093 bg-project"
-            title=""
-            demo_url="?embed=true"
-            code_url=""
-            type={[""]}
+            img_bg="bg-093-dinosaur-game-automation bg-project"
+            title="Dinosaur Game Automation"
+            demo_url="https://replit.com/@gdbecker/093-Dinosaur-Game-Automation?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/06%20-%20Professional/Day%20093%20-%20Dinosaur%20Game%20Automation"
+            type={["automation"]}
           />
 
           <ProjectCard 
-            img_bg="bg-094 bg-project"
-            title=""
-            demo_url="?embed=true"
-            code_url=""
-            type={[""]}
+            img_bg="bg-094-space-invaders-game bg-project"
+            title="Space Invaders Game"
+            demo_url="https://replit.com/@gdbecker/094-Space-Invaders-Game?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/06%20-%20Professional/Day%20094%20-%20Space%20Invaders%20Game"
+            type={["game"]}
           />
 
           <ProjectCard 
-            img_bg="bg-095 bg-project"
-            title=""
-            demo_url="?embed=true"
-            code_url=""
-            type={[""]}
+            img_bg="bg-095-nasa-api-service bg-project"
+            title="NASA API Service"
+            demo_url="https://replit.com/@gdbecker/NASA-API-Service?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/06%20-%20Professional/Day%20095%20-%20NASA%20API%20Service"
+            type={["api"]}
           />
 
           <ProjectCard 
-            img_bg="bg-096 bg-project"
-            title=""
-            demo_url="?embed=true"
-            code_url=""
-            type={[""]}
+            img_bg="bg-096-online-shop-web-app bg-project"
+            title="Online Shop Web App"
+            demo_url="https://replit.com/@gdbecker/Online-Shop-Web-App?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/06%20-%20Professional/Day%20096%20-%20Online%20Shop%20Web%20App"
+            type={["webDev"]}
           />
 
           <ProjectCard 
-            img_bg="bg-097 bg-project"
-            title=""
-            demo_url="?embed=true"
-            code_url=""
-            type={[""]}
+            img_bg="bg-097-custom-automation bg-project"
+            title="Custom Automation"
+            demo_url="https://replit.com/@gdbecker/097-Custom-Automation?embed=true"
+            code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/06%20-%20Professional/Day%20097%20-%20Custom%20Automation"
+            type={["auto"]}
           />
 
           <ProjectCard 

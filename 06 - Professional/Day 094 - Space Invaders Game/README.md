@@ -1,6 +1,6 @@
-# 024 - Snake Game V2
+# 094 - Space Invaders Game
 
-Classic Snake game with OOP. Updated from V1 to keep track of the high score.
+Classic space invaders game with OOP.
 
 ### Project Type
 
@@ -8,11 +8,11 @@ Game
 
 ### Demo View
 
-![](./024-snake-game-v2.jpg)
+![](./094-space-invaders-game.jpg)
 
 ### Links
 
-- [Live Demo](https://replit.com/@gdbecker/024-Snake-Game-V2)
+- [Live Demo](https://replit.com/@gdbecker/094-Space-Invaders-Game)
 
 ### Tools & Packages
 

@@ -7,6 +7,7 @@
 from flask import Flask, jsonify, render_template, request
 import requests
 from datetime import datetime, timedelta
+from decouple import config
 
 # Set up Flask app
 app = Flask(__name__)
@@ -16,7 +17,7 @@ def make_bool(val: int) -> bool:
     return bool(int(val))
 
 # NASA API info (for all requests)
-API_KEY = "AhOIqt5t7HO0DC3W0Ijb1KWT4SPzxydKX3UygC1o"
+API_KEY = config("API_KEY")
 
 # Flask routes
 @app.route("/")

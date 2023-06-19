@@ -1,36 +1,33 @@
-# 024 - Snake Game V2
+# 092 - Custom Web Scraper
 
-Classic Snake game with OOP. Updated from V1 to keep track of the high score.
+Web scraper to grab LEGO parts and color data
 
 ### Project Type
 
-Game
+Automation, Web Scraping
 
 ### Demo View
 
-![](./024-snake-game-v2.jpg)
+![](./092-custom-web-scraper.jpg)
 
 ### Links
 
-- [Live Demo](https://replit.com/@gdbecker/024-Snake-Game-V2)
+- [Live Demo](https://replit.com/@gdbecker/Custom-Web-Scraper)
 
 ### Tools & Packages
 
 - [Python](https://www.python.org)
-- turtle
-- random
-- time
+- requests
+- bs4
+- pandas
 - [VS Code](https://code.visualstudio.com)
 
 ### Skills Used
 
-- Turtle class UI
-- Methods
-- For loops
-- While loops
-- If statements
-- Tuples
-- OOP
+- try/except
+- Lists
+- Dictionaries
+- File handling
 
 ## Author
 

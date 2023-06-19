@@ -1,36 +1,32 @@
-# 024 - Snake Game V2
+# 093 - Dinosaur Game Automation
 
-Classic Snake game with OOP. Updated from V1 to keep track of the high score.
+Automates playing the Google dinosaur game
 
 ### Project Type
 
-Game
+Automation
 
 ### Demo View
 
-![](./024-snake-game-v2.jpg)
+![](./093-dinosaur-game-automation.jpg)
 
 ### Links
 
-- [Live Demo](https://replit.com/@gdbecker/024-Snake-Game-V2)
+- [Live Demo](https://replit.com/@gdbecker/093-Dinosaur-Game-Automation)
 
 ### Tools & Packages
 
 - [Python](https://www.python.org)
-- turtle
-- random
+- pyautogui
+- selenium
 - time
 - [VS Code](https://code.visualstudio.com)
 
 ### Skills Used
 
-- Turtle class UI
-- Methods
-- For loops
-- While loops
+- Selenium web driver
 - If statements
-- Tuples
-- OOP
+- While loops
 
 ## Author
 

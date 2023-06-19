@@ -55,8 +55,10 @@ Scripting, Web Development, GUI, Games, APIs, Automation, Design, Web Scraping, 
 - decouple
 - selenium
 - time
+- pyautogui
 - fractions
 - PyPDF2
+- webcolors
 - [VS Code](https://code.visualstudio.com)
 - [Canva](https://www.canva.com)
 
