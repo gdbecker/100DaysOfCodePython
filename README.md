@@ -46,7 +46,6 @@ Scripting, Web Development, GUI, Games, APIs, Automation, Design, Web Scraping, 
 - datetime
 - requests
 - bs4
-- html
 - spotipy
 - decouple
 - selenium
@@ -58,7 +57,7 @@ Scripting, Web Development, GUI, Games, APIs, Automation, Design, Web Scraping, 
 - [VS Code](https://code.visualstudio.com)
 - [Canva](https://www.canva.com)
 
-### Incorporated Skills
+### Skills Practiced
 
 - Print statements
 - User input

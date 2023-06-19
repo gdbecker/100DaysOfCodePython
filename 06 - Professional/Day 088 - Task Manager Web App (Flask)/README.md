@@ -12,7 +12,7 @@ Web Development
 
 ### Links
 
-- [Live Demo](https://replit.com/@gdbecker/088-Task-Manager-Web-App-Flask)
+- [Live Demo](https://replit.com/@gdbecker/088-TaskManager-Web-App-Flask)
 
 ### Tools & Packages
 

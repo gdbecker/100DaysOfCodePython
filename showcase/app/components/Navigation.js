@@ -6,7 +6,7 @@ import Avatar from '../../public/gdbecker.jpeg';
 function Navigation() {
 
   return (
-    <div class="flex h-16 p-10 items-center justify-between overflow-hidden border-grayishBlue border-b-2 bg-lightGray 2xl:px-52">
+    <div class="flex h-16 p-10 items-center justify-between overflow-hidden border-grayishBlue border-b-2 bg-lightGray 2xl:px-36">
       <div className="flex items-center justify-between">
         <a className="flex items-center justify-center" href="/">
           <h1 className="font-sourceSansProBold tracking-wide text-sm text-grayishBlue md:text-lg">100 Days of Code:</h1>

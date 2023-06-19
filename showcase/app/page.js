@@ -3,7 +3,7 @@ import ProjectCard from './components/ProjectCard';
 
  function Home() {
   return (
-    <main className="flex flex-col items-center justify-center w-full h-full p-10 bg-lightGray md:items-start 2xl:px-52">
+    <main className="flex flex-col items-center justify-center w-full h-full p-10 bg-lightGray md:items-start 2xl:px-36">
 
       <div className="flex flex-col pb-10 sm:flex-row sm:flex-wrap sm:items-center">
         <h1 className="text-sm text-center font-sourceSansProRegular">Jump to Section</h1>
@@ -78,8 +78,8 @@ import ProjectCard from './components/ProjectCard';
 
           <ProjectCard 
             img_bg="bg-088-task-manager-flask bg-project"
-            title="Task Manager Web App - Django"
-            demo_url="https://replit.com/@gdbecker/088-Task-Manager-Web-App-Flask?embed=true"
+            title="Task Manager Web App - Flask"
+            demo_url="https://replit.com/@gdbecker/088-TaskManager-Web-App-Flask?embed=true"
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/06%20-%20Professional/Day%20088%20-%20Task%20Manager%20Web%20App%20(Flask)"
             type={["webDev"]}
           />
@@ -121,7 +121,7 @@ import ProjectCard from './components/ProjectCard';
             title="Dinosaur Game Automation"
             demo_url="https://replit.com/@gdbecker/093-Dinosaur-Game-Automation?embed=true"
             code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/06%20-%20Professional/Day%20093%20-%20Dinosaur%20Game%20Automation"
-            type={["automation"]}
+            type={["auto"]}
           />
 
           <ProjectCard 

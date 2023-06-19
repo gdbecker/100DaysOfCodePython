@@ -52,19 +52,23 @@ import { IoChevronBack } from 'react-icons/io5';
   }
 
   return (
-    <main className="flex flex-col w-full min-h-screen p-10 justify-center bg-lightGray 2xl:px-52">
+    <main className="flex flex-col w-full min-h-screen p-10 justify-start bg-lightGray 2xl:px-36">
       <div className="grid grid-cols-2 pb-3 items-end justify-between text-grayishBlue text-lg font-sourceSansProRegular">
         <a href="/" className={getHoverClass(searchParams.type)}><span className="pt-1 pr-2"><IoChevronBack /></span> Back</a>
         <h1 className="font-sourceSansProBold text-right">{searchParams.title}</h1>
       </div>
-      <iframe 
-        src={searchParams.demo_url}
-        height="800" 
-        frameborder="0" 
-        scrolling="auto" 
-        title="Project Demo"
-        className={getShadowClass(searchParams.type)}>
-      </iframe>
+
+      {searchParams.demo_url != "" ? 
+        (<iframe 
+          src={searchParams.demo_url}
+          height="800" 
+          frameborder="0" 
+          scrolling="auto" 
+          title="Project Demo"
+          className={getShadowClass(searchParams.type)}>
+        </iframe>) : (<h1 className="font-sourceSansProBold text-center">No live demo available</h1>)
+      }
+
     </main>
   )
 }
