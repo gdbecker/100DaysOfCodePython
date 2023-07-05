@@ -2,6 +2,10 @@
 
 This is a collection of projects I made through the [100 Days of Code: Python course from Angela Yu](https://www.udemy.com/course/100-days-of-code/). Almost 100 projects are housed here that cover a variety of topics such as console-based scripting, games and other GUI applications, data science analysis, automation, API connectivity and web application development. I had a lot of fun solidifying my Python skills with all of these projects, and learned so much by diving into this 100 day coding challenge. Take a look and explore my showcase site to interact with live demos of my work and more details about each project!
 
+## Links
+
+[Live URL](https://100-days-of-code-python-gdbecker.netlify.app)
+
 ### Project Types Featured
 
 Scripting, Web Development, GUI, Games, APIs, Automation, Design, Web Scraping, Data Science, & Debugging

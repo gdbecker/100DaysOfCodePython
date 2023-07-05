@@ -4,7 +4,7 @@ Showcase site displaying projects I created via the [100 Days of Code: Python co
 
 ## Links
 
-[Live URL](insert)
+[Live URL](https://100-days-of-code-python-gdbecker.netlify.app)
 
 ## Built with
 
