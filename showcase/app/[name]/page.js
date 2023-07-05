@@ -1,5 +1,6 @@
 import React from 'react';
 import { IoChevronBack } from 'react-icons/io5';
+import { FaGithub } from 'react-icons/fa';
 
  function ProjectPage({ searchParams }) { 
 
@@ -53,9 +54,12 @@ import { IoChevronBack } from 'react-icons/io5';
 
   return (
     <main className="flex flex-col w-full min-h-screen p-10 justify-start bg-lightGray 2xl:px-36">
+
+      <h1 className="pb-6 font-sourceSansProBold text-center text-grayishBlue text-xl">{searchParams.title}</h1>
+
       <div className="grid grid-cols-2 pb-3 items-end justify-between text-grayishBlue text-lg font-sourceSansProRegular">
         <a href="/" className={getHoverClass(searchParams.type)}><span className="pt-1 pr-2"><IoChevronBack /></span> Back</a>
-        <h1 className="font-sourceSansProBold text-right">{searchParams.title}</h1>
+        <a href={searchParams.code_url} target="_blank" className={`justify-end ${getHoverClass(searchParams.type)}`}><span className="pt-1 pr-2"><FaGithub /></span> Learn More</a>
       </div>
 
       {searchParams.demo_url != "" ? 

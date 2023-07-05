@@ -3,17 +3,27 @@ import ProjectCard from './components/ProjectCard';
 
  function Home() {
   return (
-    <main className="flex flex-col items-center justify-center w-full h-full p-10 bg-lightGray md:items-start 2xl:px-36">
+    <main className="flex flex-col items-center justify-center w-full h-full p-10 bg-lightGray 2xl:px-36">
 
-      <div className="flex flex-col pb-10 sm:flex-row sm:flex-wrap sm:items-center">
-        <h1 className="text-sm text-center font-sourceSansProRegular">Jump to Section</h1>
-        <a href="#1"><h1 className="px-2 my-2 h-fit text-level1 min-w-max ring-level1 ring-2 rounded-sm font-sourceSansProBold text-sm overflow-hidden sm:mx-2">01 - BEGINNER</h1></a>
-        <a href="#2"><h1 className="px-2 my-2 h-fit text-level2 min-w-max ring-level2 ring-2 rounded-sm font-sourceSansProBold text-sm overflow-hidden sm:mx-2">02 - INTERMEDIATE</h1></a>
-        <a href="#3"><h1 className="px-2 my-2 h-fit text-level3 min-w-max ring-level3 ring-2 rounded-sm font-sourceSansProBold text-sm overflow-hidden sm:mx-2">03 - INTERMEDIATE +</h1></a>
-        <a href="#4"><h1 className="px-2 my-2 h-fit text-level4 min-w-max ring-level4 ring-2 rounded-sm font-sourceSansProBold text-sm overflow-hidden sm:mx-2">04 - WEB FOUNDATION</h1></a>
-        <a href="#5"><h1 className="px-2 my-2 h-fit text-level5 min-w-max ring-level5 ring-2 rounded-sm font-sourceSansProBold text-sm overflow-hidden sm:mx-2">05 - ADVANCED</h1></a>
-        <a href="#6"><h1 className="px-2 my-2 h-fit text-level6 min-w-max ring-level6 ring-2 rounded-sm font-sourceSansProBold text-sm overflow-hidden sm:mx-2">06 - PROFESSIONAL</h1></a>
-      </div>
+      <h1 className="pb-9 text-justify text-grayishBlue leading-7 md:w-[50vw]">
+        This is a collection of projects I made through the <a href="https://www.udemy.com/course/100-days-of-code/" target="_blank" className="hover:text-yellow">100 Days of Code: Python course from Angela Yu</a>. 
+        Almost 100 projects are housed here that cover a variety of topics such as console-based scripting, games and other 
+        GUI applications, data science analysis, automation, API connectivity and web application development. I had a lot of fun 
+        solidifying my Python skills with all of these projects, and learned so much by diving into this 100 day coding challenge. 
+        Take a look and explore each of my projects' Github pages and live demos!
+      </h1>
+
+      <div className="flex flex-col pb-10">
+        <h1 className="pb-2 text-sm text-center font-sourceSansProRegular">Jump to Section</h1>
+        <div className="flex flex-col sm:flex-row sm:flex-wrap sm:items-center">
+          <a href="#1"><h1 className="px-2 my-2 h-fit text-level1 min-w-max ring-level1 ring-2 rounded-sm font-sourceSansProBold text-sm overflow-hidden sm:mx-2">01 - BEGINNER</h1></a>
+          <a href="#2"><h1 className="px-2 my-2 h-fit text-level2 min-w-max ring-level2 ring-2 rounded-sm font-sourceSansProBold text-sm overflow-hidden sm:mx-2">02 - INTERMEDIATE</h1></a>
+          <a href="#3"><h1 className="px-2 my-2 h-fit text-level3 min-w-max ring-level3 ring-2 rounded-sm font-sourceSansProBold text-sm overflow-hidden sm:mx-2">03 - INTERMEDIATE +</h1></a>
+          <a href="#4"><h1 className="px-2 my-2 h-fit text-level4 min-w-max ring-level4 ring-2 rounded-sm font-sourceSansProBold text-sm overflow-hidden sm:mx-2">04 - WEB FOUNDATION</h1></a>
+          <a href="#5"><h1 className="px-2 my-2 h-fit text-level5 min-w-max ring-level5 ring-2 rounded-sm font-sourceSansProBold text-sm overflow-hidden sm:mx-2">05 - ADVANCED</h1></a>
+          <a href="#6"><h1 className="px-2 my-2 h-fit text-level6 min-w-max ring-level6 ring-2 rounded-sm font-sourceSansProBold text-sm overflow-hidden sm:mx-2">06 - PROFESSIONAL</h1></a>
+        </div>
+       </div>
 
 
       <section id="6" className="pt-4 w-full items-center justify-center">

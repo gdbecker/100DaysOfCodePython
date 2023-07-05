@@ -130,6 +130,7 @@ function ProjectCard({ img_bg, title, demo_url, code_url, type }) {
           query: {
             demo_url: `${demo_url}`,
             title: `${title}`,
+            code_url: `${code_url}`,
             type: `${type[0]}`,
           }
         }
@@ -144,7 +145,6 @@ function ProjectCard({ img_bg, title, demo_url, code_url, type }) {
         <div className="flex flex-row items-center justify-between">
           <Link 
             href={getLinkHref(demo_url)}
-            target="_blank"
             className="py-2 text-xl font-sourceSansProBold relative no-underline lg:text-md"><span className={getShadowClass(type[0])}>{title}</span></Link>
         </div>
         <div className="grid grid-cols-2 items-center justify-between py-3 font-sourceSansProRegular text-md lg:text-sm">
