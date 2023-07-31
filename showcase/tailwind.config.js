@@ -36,11 +36,11 @@ module.exports = {
       "design": "hsl(174, 66%, 39%)",
       "designTransparent": "hsla(174, 66%, 39%, 0.7)",
       "level1": "#00735D",
-      "level2": "#008B52",
-      "level3": "#23A244",
-      "level4": "#78B736",
-      "level5": "#BBC830",
-      "level6": "#FFD53D",
+      "level2": "#364B44",
+      "level3": "#98B0A8",
+      "level4": "#6A5D95",
+      "level5": "#1F6A9C",
+      "level6": "#609DD3",
     },
     extend: {
       fontFamily: {
@@ -49,5 +49,7 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require("daisyui"),
+  ],
 }

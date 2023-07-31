@@ -10,11 +10,15 @@
   },
   "dependencies": {
     "autoprefixer": "10.4.14",
+    "firebase": "^10.1.0",
     "next": "13.4.4",
     "postcss": "8.4.24",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-icons": "^4.9.0",
+    "react-icons": "^4.10.1",
     "tailwindcss": "3.3.2"
+  },
+  "devDependencies": {
+    "daisyui": "^3.5.0"
   }
 }
