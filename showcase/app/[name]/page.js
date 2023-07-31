@@ -61,28 +61,42 @@ import { db } from './../services/firebase.config';
     }
   }
 
-  function getShadowClass(type) {
-    if (type == "Scripting") {
-      return "shadow-scripting";
-    } else if (type == "Web Dev") {
-      return "shadow-webDev";
-    } else if (type == "GUI") {
-      return "shadow-gui";
-    } else if (type == "Game") {
-      return "shadow-game";
-    } else if (type == "Data Science") {
-      return "shadow-dataScience";
-    } else if (type == "API") {
-      return "shadow-api";
-    } else if (type == "Automation") {
-      return "shadow-auto";
-    } else if (type == "Debugging") {
-      return "shadow-debugging";
-    } else if (type == "Web Scraping") {
-      return "shadow-webScraping";
-    } else if (type == "Design") {
-      return "shadow-design";
+  function getShadowClass(level) {
+    if (level == "1") {
+      return "shadow-level1" 
+    } else if (level == "2") {
+      return "shadow-level2" 
+    } else if (level == "3") {
+      return "shadow-level3" 
+    } else if (level == "4") {
+      return "shadow-level4" 
+    } else if (level == "5") {
+      return "shadow-level5" 
+    } else if (level == "6") {
+      return "shadow-level6" 
     }
+
+    // if (type == "Scripting") {
+    //   return "shadow-scripting";
+    // } else if (type == "Web Dev") {
+    //   return "shadow-webDev";
+    // } else if (type == "GUI") {
+    //   return "shadow-gui";
+    // } else if (type == "Game") {
+    //   return "shadow-game";
+    // } else if (type == "Data Science") {
+    //   return "shadow-dataScience";
+    // } else if (type == "API") {
+    //   return "shadow-api";
+    // } else if (type == "Automation") {
+    //   return "shadow-auto";
+    // } else if (type == "Debugging") {
+    //   return "shadow-debugging";
+    // } else if (type == "Web Scraping") {
+    //   return "shadow-webScraping";
+    // } else if (type == "Design") {
+    //   return "shadow-design";
+    // }
   }
 
   if (!isLoading) {
@@ -103,7 +117,7 @@ import { db } from './../services/firebase.config';
             frameborder="0" 
             scrolling="auto" 
             title="Project Demo"
-            className={`flex w-full min-h-screen rounded-md ${ getShadowClass(project.type.split(",")) } shadow-[0_0px_2px]`}>
+            className={`flex w-full min-h-screen rounded-md ${ getShadowClass(project.level) } shadow-[0_0px_2px]`}>
           </iframe>) : (<h1 className="font-sourceSansProBold text-center">No live demo available</h1>)
         }
 

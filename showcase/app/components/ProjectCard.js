@@ -4,28 +4,42 @@ import { FaGithub } from 'react-icons/fa';
 
 function ProjectCard({ id, img_bg, title, demo_url, code_url, type, level }) {
 
-  function getOutlineClass(type) {
-    if (type == "Scripting") {
-      return "shadow-scripting";
-    } else if (type == "Web Development") {
-      return "shadow-webDev";
-    } else if (type == "GUI") {
-      return "shadow-gui";
-    } else if (type == "Game") {
-      return "shadow-game";
-    } else if (type == "Data Science") {
-      return "shadow-dataScience";
-    } else if (type == "API") {
-      return "shadow-api";
-    } else if (type == "Automation") {
-      return "shadow-auto";
-    } else if (type == "Debugging") {
-      return "shadow-debugging";
-    } else if (type == "Web Scraping") {
-      return "shadow-webScraping";
-    } else if (type == "Design") {
-      return "shadow-design";
+  function getOutlineClass(level) {
+    if (level == "1") {
+      return "shadow-level1" 
+    } else if (level == "2") {
+      return "shadow-level2" 
+    } else if (level == "3") {
+      return "shadow-level3" 
+    } else if (level == "4") {
+      return "shadow-level4" 
+    } else if (level == "5") {
+      return "shadow-level5" 
+    } else if (level == "6") {
+      return "shadow-level6" 
     }
+
+    // if (type == "Scripting") {
+    //   return "shadow-scripting";
+    // } else if (type == "Web Development") {
+    //   return "shadow-webDev";
+    // } else if (type == "GUI") {
+    //   return "shadow-gui";
+    // } else if (type == "Game") {
+    //   return "shadow-game";
+    // } else if (type == "Data Science") {
+    //   return "shadow-dataScience";
+    // } else if (type == "API") {
+    //   return "shadow-api";
+    // } else if (type == "Automation") {
+    //   return "shadow-auto";
+    // } else if (type == "Debugging") {
+    //   return "shadow-debugging";
+    // } else if (type == "Web Scraping") {
+    //   return "shadow-webScraping";
+    // } else if (type == "Design") {
+    //   return "shadow-design";
+    // }
   }
 
   function getLabel(type) {
@@ -171,19 +185,19 @@ function ProjectCard({ id, img_bg, title, demo_url, code_url, type, level }) {
   }
 
   return (
-    <div className={`flex w-full max-h-fit flex-col rounded-md overflow-hidden bg-white ${ getOutlineClass(type.split(",")[0]) } shadow-[0_0px_4px]`}>
+    <div className={`flex w-full max-h-fit flex-col rounded-md overflow-hidden bg-white ${ getOutlineClass(level) } shadow-[0_0px_4px]`}>
       <div className={`flex flex-row h-44 ${ img_bg }`}>
         <div className="flex flex-row h-fit w-full justify-end">
           <span className={`flex bg-white px-2 py-1 rounded-bl-md border-l-2 border-b-2 ${ getLevelClass(level) } text-sm font-sourceSansProBold lg:text-[0.75rem]`}>{getLevelLabel(level)}</span>
         </div>
       </div>
-      <div className="px-5 py-3 pb-1 text-gray">
+      <div className="flex-auto grid grid-cols-1 px-5 py-3 pb-1 text-gray">
         <div className="flex flex-row items-center justify-between">
           <Link 
             href={getLinkHref(demo_url)}
             className="py-2 text-xl font-sourceSansProBold relative no-underline lg:text-md"><span className={getShadowClass(type.split(",")[0])}>{title}</span></Link>
         </div>
-        <div className="grid grid-cols-2 items-center justify-between py-3 font-sourceSansProRegular text-md lg:text-sm">
+        <div className="grid grid-cols-2 items-end justify-between py-3 font-sourceSansProRegular text-md lg:text-sm">
           <Link href={code_url} target="_blank" className={`flex flex-row project-link text-lg ${ getHoverClass(type.split(",")[0]) }`}><FaGithub /> <p className="text-sm pl-2">Learn More</p></Link>
           <div className="flex flex-col items-end justify-end">
             <div className="flex flex-col items-end">

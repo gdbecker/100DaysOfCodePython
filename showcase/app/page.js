@@ -44,37 +44,37 @@ import { db } from './services/firebase.config';
 
   // Filter by project name search, type, and level
   const filterProjects = (projectName, type, level) => {
-    if (projectName != "" && type != "All" && type != "Filter by Type" && level != "All" && level != "Filter by Level") {
+    if (projectName != "" && type != "Filter by Type" && level != "Filter by Level") {
       var f =  projects.filter(function(p) {
         return p.type.includes(type) && p.level == level && p.title.toLowerCase().includes(projectName.toLowerCase());
       });
 
       setFilteredProjects(f);
-    } else if (type != "All" && type != "Filter by Type" && level != "All" && level != "Filter by Level") {
+    } else if (type != "Filter by Type" && level != "Filter by Level") {
       var f =  projects.filter(function(p) {
         return p.type.includes(type) && p.level == level;
       });
 
       setFilteredProjects(f);
-    } else if (type != "All" && type != "Filter by Type" && projectName != "") {
+    } else if (type != "Filter by Type" && projectName != "") {
       var f =  projects.filter(function(p) {
         return p.type.includes(type) && p.title.toLowerCase().includes(projectName.toLowerCase());
       });
 
       setFilteredProjects(f);
-    } else if (level != "All" && level != "Filter by Level" && projectName != "") {
+    } else if (level != "Filter by Level" && projectName != "") {
       var f =  projects.filter(function(p) {
         return p.level == level && p.title.toLowerCase().includes(projectName.toLowerCase());
       });
 
       setFilteredProjects(f);
-    } else if (type != "All" && type != "Filter by Type") {
+    } else if (type != "Filter by Type") {
       var f =  projects.filter(function(p) {
         return p.type.includes(type);
       });
 
       setFilteredProjects(f);
-    } else if (level != "All" && level != "Filter by Level") {
+    } else if (level != "Filter by Level") {
       var f =  projects.filter(function(p) {
         return p.level == level;
       });
@@ -101,7 +101,7 @@ import { db } from './services/firebase.config';
       return({type: p});
     });
 
-    typeList.unshift({type: "All"})
+    typeList.unshift({type: "Filter by Type"})
 
     setTypes(typeList);
   }
@@ -115,7 +115,7 @@ import { db } from './services/firebase.config';
       return({level: p});
     });
 
-    levelsList.unshift({level: "All"})
+    levelsList.unshift({level: "Filter by Level"})
 
     setLevels(levelsList);
   }
@@ -170,7 +170,7 @@ import { db } from './services/firebase.config';
           <div className="flex flex-row w-full items-center justify-between pl-5 shadow-md rounded-md bg-white md:w-[40%]">
             <h1 className="font-interRegular text-gray"><BiSearch /></h1>
             <input 
-              className="flex w-full p-5 bg-white text-gray text-xs font-interRegular rounded-md focus:outline-none"
+              className="flex w-full p-4 bg-white text-gray text-xs font-interRegular rounded-md focus:outline-none"
               placeholder="Search for a project!"
               id="projectSearch" 
               type="text" 
@@ -179,7 +179,7 @@ import { db } from './services/firebase.config';
             />
           </div>
           <details className="flex dropdown w-[100%] my-2 md:my-0 md:w-[28%] lg:w-[20%] xl:w-[15%]">
-            <summary className="flex flex-row items-center justify-between mb-[2px] btn w-full rounded-md border-0 shadow-md no-animation bg-white text-veryDarkBlue-Light hover:bg-white">
+            <summary className="flex flex-row items-center justify-between h-full mb-[2px] btn w-full rounded-md border-0 shadow-md no-animation bg-white text-veryDarkBlue-Light hover:bg-white">
               <h1 
                 className="flex normal-case text-xs font-interRegular"
               >{levelSelect}</h1>
@@ -202,7 +202,7 @@ import { db } from './services/firebase.config';
             </ul>
           </details>
           <details className="flex dropdown w-[100%] my-0 md:my-0 md:w-[28%] lg:w-[20%] xl:w-[15%]">
-            <summary className="flex flex-row items-center justify-between mb-[2px] btn w-full rounded-md border-0 shadow-md no-animation bg-white text-veryDarkBlue-Light hover:bg-white">
+            <summary className="flex flex-row items-center justify-between h-full mb-[2px] btn w-full rounded-md border-0 shadow-md no-animation bg-white text-veryDarkBlue-Light hover:bg-white">
               <h1 
                 className="flex normal-case text-xs font-interRegular"
               >{typeSelect}</h1>
