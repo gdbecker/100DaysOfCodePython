@@ -1,5 +1,6 @@
 'use client'
 import React, { useState, useEffect } from 'react';
+import LoadingPage from './loading';
 import ProjectCard from './components/ProjectCard';
 import { BiSearch } from 'react-icons/bi'
 import { BiChevronDown } from 'react-icons/bi'
@@ -141,6 +142,12 @@ import { db } from './services/firebase.config';
   useEffect(() => {
     getProjects();
   }, [])
+
+  if (isLoading) {
+    return (
+      <LoadingPage />
+    )
+  }
 
   if (!isLoading) {
     return (

@@ -1,5 +1,6 @@
 'use client'
 import React, { useState, useEffect } from 'react';
+import LoadingPage from '../loading';
 import { usePathname } from 'next/navigation'
 import { IoChevronBack } from 'react-icons/io5';
 import { FaGithub } from 'react-icons/fa';
@@ -97,6 +98,12 @@ import { db } from './../services/firebase.config';
     // } else if (type == "Design") {
     //   return "shadow-design";
     // }
+  }
+
+  if (isLoading) {
+    return (
+      <LoadingPage />
+    )
   }
 
   if (!isLoading) {
