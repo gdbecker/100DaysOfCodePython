@@ -234,7 +234,7 @@ import { db } from './services/firebase.config';
         </div>
 
 
-        <section id="6" className="pt-4 w-full items-center justify-center">
+        <section className="pt-4 w-full items-center justify-center">
           {/* <h1 className="px-2 h-full text-level6 max-w-fit ring-level6 ring-2 rounded-sm font-sourceSansProBold text-sm overflow-hidden">06 - PROFESSIONAL</h1> */}
           <div className="flex flex-col pt-5 pb-10 gap-7 md:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
 
