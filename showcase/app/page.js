@@ -234,22 +234,22 @@ import { db } from './services/firebase.config';
         </div>
 
 
-        {/* <section id="6" className="pt-4 w-full items-center justify-center"> */}
+        <section id="6" className="pt-4 w-full items-center justify-center">
           {/* <h1 className="px-2 h-full text-level6 max-w-fit ring-level6 ring-2 rounded-sm font-sourceSansProBold text-sm overflow-hidden">06 - PROFESSIONAL</h1> */}
-        <div className="flex flex-col pt-5 pb-10 gap-7 md:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+          <div className="flex flex-col pt-5 pb-10 gap-7 md:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
 
-          {filteredProjects.map(({ id, img_bg, title, demo_url, code_url, type, level  }, index) =>
-            <ProjectCard 
-              index={index}
-              id={id}
-              img_bg={img_bg}
-              title={title}
-              demo_url={demo_url}
-              code_url={code_url}
-              type={type}
-              level={level}
-            />
-          )}
+            {filteredProjects.map(({ id, img_bg, title, demo_url, code_url, type, level  }, index) =>
+              <ProjectCard 
+                index={index}
+                id={id}
+                img_bg={img_bg}
+                title={title}
+                demo_url={demo_url}
+                code_url={code_url}
+                type={type}
+                level={level}
+              />
+            )}
 
             {/* <ProjectCard 
               img_bg="bg-081-morse-code-translator bg-project"
@@ -412,8 +412,8 @@ import { db } from './services/firebase.config';
               code_url="https://github.com/gdbecker/100DaysOfCodePython/tree/main/06%20-%20Professional/Day%20100%20-%20Determinants%20of%20Earnings%20Analysis"
               type={["dataScience"]}
             /> */}
-        </div>
-        {/* </section> */}
+          </div>
+        </section>
 
         {/* <section id="5" className="pt-4 w-full items-center justify-center">
           <h1 className="px-2 h-full text-level5 max-w-fit ring-level5 ring-2 rounded-sm font-sourceSansProBold text-sm overflow-hidden">05 - ADVANCED</h1>
