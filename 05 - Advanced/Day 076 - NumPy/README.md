@@ -1,4 +1,4 @@
-# 076 - Numpy
+# 076 - Numpy Practice
 
 Learning to use the Numpy package through a variety of exercises.
 
