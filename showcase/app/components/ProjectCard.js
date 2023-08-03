@@ -49,7 +49,7 @@ function ProjectCard({ id, img_bg, title, demo_url, code_url, type, level }) {
       );
     } else if (type == "Web Development") {
       return (
-        <p className="px-2 h-full text-webDev w-fit my-1 ring-webDev ring-2 rounded-sm font-sourceSansProBold text-sm overflow-hidden lg:text-[0.75rem]">WEB DEV</p>
+        <p className="px-2 h-full text-webDev w-fit my-1 ring-webDev ring-2 rounded-sm font-sourceSansProBold text-sm overflow-hidden lg:text-[0.75rem]">WEB DEVELOPMENT</p>
       );
     } else if (type == "GUI") {
       return (
