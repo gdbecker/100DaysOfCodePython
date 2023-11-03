@@ -4,7 +4,7 @@ This is a collection of projects I made through the [100 Days of Code: Python co
 
 ## Links
 
-[Live URL](https://100-days-of-code-python-gdbecker.netlify.app)
+[Showcase Site URL](https://100-days-of-code-python-gdbecker.netlify.app)
 
 ### Project Types Featured
 
