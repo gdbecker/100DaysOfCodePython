@@ -4,7 +4,7 @@ This is a collection of projects I made through the [100 Days of Code: Python co
 
 ## Links
 
-[Live URL](https://100-days-of-code-python-gdbecker.netlify.app)
+[Projects Showcase Site](https://100-days-of-code-python-gdbecker.netlify.app)
 
 ### Project Types Featured
 
@@ -12,93 +12,93 @@ Scripting, Web Development, GUI, Games, APIs, Automation, Design, Web Scraping, 
 
 ### Tools & Packages Used Throughout
 
+- [Canva](https://www.canva.com)
 - [Python](https://www.python.org)
-- HTML
-- CSS
+- [VS Code](https://code.visualstudio.com)
 - Bootstrap
-- Flask
-- flask-wtf
-- wtforms
-- flask-ckeditor
-- flask-sqlalchemy
-- flask-login
-- flask-gravatar
+- bs4
+- colorgram
+- CSS
+- csv
+- datetime
+- decouple
+- difflib
 - Django
+- Flask
+- flask-ckeditor
+- flask-gravatar
+- flask-login
+- flask-sqlalchemy
+- flask-wtf
+- fractions
 - functools
 - gzip
-- difflib
-- pathlib
-- sqlite3
-- random
-- os
+- HTML
 - math
-- turtle
-- tkinter
-- twilio
-- colorgram
-- time
-- pandas
-- numpy
 - matplotlib
-- plotly
-- scipy
+- numpy
+- os
+- pandas
+- pathlib
 - PIL
-- seaborn
-- sklearn
-- csv
-- smtplib
-- datetime
-- requests
-- bs4
-- spotipy
-- decouple
-- selenium
-- time
+- plotly
 - pyautogui
-- fractions
 - PyPDF2
+- random
+- requests
+- scipy
+- seaborn
+- selenium
+- sklearn
+- smtplib
+- spotipy
+- sqlite3
+- time
+- time
+- tkinter
+- turtle
+- twilio
 - webcolors
-- [VS Code](https://code.visualstudio.com)
-- [Canva](https://www.canva.com)
+- wtforms
 
 ### Skills Practiced
 
-- Print statements
-- User input
+- API connectivity
+- Authentication
+- Bootstrap framework
+- Databases
+- Debugging code
+- Decorators
+- Dictionaries
+- Dictionary comprehension
+- Django web development framework
+- Environment variables
 - f strings
-- If statements
-- try/except
-- For loops
-- While loops
-- Integer casting
+- File handling
+- Flask web development framework
 - Float casting
-- Methods
+- For loops
+- Front-end web design
+- If statements
+- Integer casting
 - List comprehension
 - Lists
-- Dictionary comprehension
-- Dictionaries
-- Tuples
-- Debugging code
+- Methods
 - OOP
-- Turtle class UI
-- tkinter class UI
-- Twilio text messaging library
-- File handling
 - Pandas dataframes
-- smtp email auth
-- API connectivity
-- Environment variables
-- Spotify & Python connection
-- Selenium web driver
-- Front-end web design
-- Bootstrap framework
-- Flask web development framework
-- Django web development framework
-- Decorators
-- Databases
-- UX design
+- Print statements
 - REST architecture
-- Authentication
+- Selenium web driver
+- smtp email auth
+- Spotify & Python connection
+- tkinter class UI
+- try/except
+- Tuples
+- Turtle class UI
+- Twilio text messaging library
+- User input
+- UX design
+- While loops
 
 ## Author
 

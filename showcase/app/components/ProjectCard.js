@@ -18,28 +18,6 @@ function ProjectCard({ id, img_bg, title, demo_url, code_url, type, level }) {
     } else if (level == "6") {
       return "shadow-level6" 
     }
-
-    // if (type == "Scripting") {
-    //   return "shadow-scripting";
-    // } else if (type == "Web Development") {
-    //   return "shadow-webDev";
-    // } else if (type == "GUI") {
-    //   return "shadow-gui";
-    // } else if (type == "Game") {
-    //   return "shadow-game";
-    // } else if (type == "Data Science") {
-    //   return "shadow-dataScience";
-    // } else if (type == "API") {
-    //   return "shadow-api";
-    // } else if (type == "Automation") {
-    //   return "shadow-auto";
-    // } else if (type == "Debugging") {
-    //   return "shadow-debugging";
-    // } else if (type == "Web Scraping") {
-    //   return "shadow-webScraping";
-    // } else if (type == "Design") {
-    //   return "shadow-design";
-    // }
   }
 
   function getLabel(type) {
@@ -141,12 +119,6 @@ function ProjectCard({ id, img_bg, title, demo_url, code_url, type, level }) {
       return (
         {
           pathname: `/${id}` ,
-          // query: {
-          //   demo_url: `${demo_url}`,
-          //   title: `${title}`,
-          //   code_url: `${code_url}`,
-          //   type: `${type[0]}`,
-          // }
         }
       );
     }
@@ -185,7 +157,7 @@ function ProjectCard({ id, img_bg, title, demo_url, code_url, type, level }) {
   }
 
   return (
-    <div className={`flex w-full max-h-fit flex-col rounded-md overflow-hidden bg-white ${ getOutlineClass(level) } shadow-[0_0px_4px]`}>
+    <div className={`flex w-full max-h-fit flex-col rounded-md overflow-hidden bg-white ${ getOutlineClass(level) } shadow-[0_0px_4px]`} x-intersect="$el.classList.add('fade-in-fwd')">
       <div className={`flex flex-row h-44 ${ img_bg }`}>
         <div className="flex flex-row h-fit w-full justify-end">
           <span className={`flex bg-white px-2 py-1 rounded-bl-md border-l-2 border-b-2 ${ getLevelClass(level) } text-sm font-sourceSansProBold lg:text-[0.75rem]`}>{getLevelLabel(level)}</span>
