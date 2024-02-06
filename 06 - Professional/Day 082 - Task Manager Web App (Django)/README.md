@@ -12,7 +12,7 @@ Web Development
 
 ### Links
 
-- [Live Demo](https://replit.com/@gdbecker/082-Task-Manager-Web-App-Django)
+- [Live Demo](https://082-task-manager-web-app-django-gdbecker.replit.app/)
 - [Standalone Repo with Files](https://github.com/gdbecker/TaskManager)
 
 ### Tools & Packages
