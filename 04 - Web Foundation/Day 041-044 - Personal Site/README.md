@@ -16,8 +16,8 @@ Web Development
 
 ### Links
 
-- [Live Demo - HTML Version](https://replit.com/@gdbecker/041-044-Personal-Site-HTML)
-- [Live Demo - CSS Version](https://replit.com/@gdbecker/041-044-Personal-Site-CSS)
+- [Live Demo - HTML Version](https://041-044-personal-site-html-gdbecker.replit.app/)
+- [Live Demo - CSS Version](https://041-044-personal-site-css-gdbecker.replit.app/)
 
 ### Tools & Packages
 
