@@ -12,7 +12,7 @@ Web Development
 
 ### Links
 
-- [Live Demo](https://replit.com/@gdbecker/058-TinDog-Website)
+- [Live Demo](https://058-tin-dog-website-gdbecker.replit.app/)
 
 ### Tools & Packages
 
